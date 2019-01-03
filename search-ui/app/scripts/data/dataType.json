@@ -1,0 +1,76 @@
+[
+  {
+    "@id": "http://vm62.nubes.stfc.ac.uk/collection/cci/dataType",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Collection"
+    ],
+    "http://www.w3.org/2004/02/skos/core#member": [
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#aty"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#aai"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#aod"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#aex"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#sec"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#ch4"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#jch"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#cot"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#ctt"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#iv"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#iwp"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#co2"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#cfl"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#cld_p"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#aer_p"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#cfc"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#ga"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#cer"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#cth"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#lwp"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#ba"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#ctp"
+      }
+    ]
+  }
+]

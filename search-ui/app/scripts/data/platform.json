@@ -1,0 +1,133 @@
+[
+  {
+    "@id": "http://vm62.nubes.stfc.ac.uk/collection/cci/platform",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Collection"
+    ],
+    "http://www.w3.org/2004/02/skos/core#member": [
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#gcomW1"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#spot5"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#noaa14"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#fengyun3B"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#noaa12"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#mtsat1R"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#parasol"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#dmsp"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#spot4"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#gosat"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#jason1"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#multiPlt"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#ers1"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#ers2"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#topexPoseidon"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#scisat"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#noaa15"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#msg1"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#jason2"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#noaa19"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#noaa13"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#orbview2"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#alos"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#metOpA"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#goes"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#trmm"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#msg3"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#noaa16"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#nimbus7"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#gfo"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#odin"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#noaa17"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#noaa"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#landsat"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#icesat"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#noaa18"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#terra"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#aqua"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#envisat"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#coriolis"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#aura"
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "@id": "http://vm62.nubes.stfc.ac.uk/collection/cci/ecv",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Collection"
+    ],
+    "http://www.w3.org/2004/02/skos/core#member": [
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#seaIce"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#cloud"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#aerosol"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#iceSheet"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#landCov"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#seaLevel"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#sst"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#ozone"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#oceanCol"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#fire"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#ghg"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#soilMst"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#glaciers"
+      }
+    ]
+  }
+]

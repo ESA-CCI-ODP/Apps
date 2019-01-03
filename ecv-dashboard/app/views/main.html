@@ -1,0 +1,227 @@
+<div style="max-width: 1200px; width: 1200px; height: 100%; margin-left: auto; margin-right: auto; background-color: white">
+    <img src="../images/logos/ecvDashboardHeader_v1.0.jpg" style="width: 100%"/>
+    <div id="d3-container"></div>
+</div>
+<div id="tooltip" class="hidden">
+    <p>Example Metadata</p>
+</div>
+
+<div id="project-modal" class="modal fade" tabindex="-1" role="dialog">
+    <div id="modal-dialog" class="modal-dialog" ng-class="selectedProject.category">
+        <div class="modal-content project-modal">
+            <div class="modal-header">
+                <a ng-href="{{selectedProject.homepage}}" target="_blank" style="font-family: notesfont;"> <img
+                  src="{{selectedProject.icon}}"  style="height: 40px;padding-right: 10px;">{{selectedProject.project}}</a>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                  aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body">
+                <div id="main-body">
+                    <div class="row">
+                        <div class="col-md-1 col-xs-1" ng-show="false">
+                            <a ng-href="{{selectedProject.homepage}}" target="_blank">
+                                <img class="ecv-logo" src="{{selectedProject.icon}}"/>
+                            </a>
+                        </div>
+                        <div class="col-md-12 col-xs-12">
+                            <span class="modal-small-font"> <b>{{selectedProject.abstract}} </b></span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-4 col-xs-4 ">
+                            <div style="padding-top: 30px">
+                                <div ng-repeat="dataset in selectedProject.datasets" class="timeline-label" title="{{dataset.title}}" style="padding-top: 8px" ng-click="setSelectedDataset(dataset)">{{trimDatasetTitle(dataset.title, 1)}}</div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-xs-4">
+                            <div id="project-d3-container"></div>
+                        </div>
+                        <div class="col-md-4 col-xs-4 dot-divide" style="margin-top: 30px; border-left: groove;" ng-hide="selectedDataset">
+                            <a ng-href="{{selectedProject.homepage}}" target="_blank">
+                                <img src="{{selectedProject.fullicon}}" style="width: 90%"/>
+                            </a>
+                            <br>
+                            <img src="{{selectedProject.partnersicon}}" style="width: 100%"/>
+                        </div>
+                        <div class="col-md-4 col-xs-4 dot-divide" style="margin-top: 25px; border-left: groove; text-align: justify" 
+                             ng-show="selectedDataset">
+                            <h6>
+                                <a ng-href="{{selectedDataset.datasetHomepage}}" target="_blank">{{selectedDataset.title}}</a>
+                            </h6>
+                            <div class="dataset-img-container">
+                                <a target="_blank" ng-if="selectedDataset.sampleImage!=='Value not found'" 
+                                   ng-href="{{selectedDataset.sampleImage}}">
+                                    <img style="max-height: 200px; max-width: 100%" ng-src="{{selectedDataset.sampleImage}}" 
+                                         fallback-src="../images/img-not-found.png">
+                                </a>
+                            </div>
+
+                            <div class="search-result row" ng-show="selectedDataset">
+                                <div class="col-xs-6 col-sm-6 col-md-6" style="text-align: left">
+                                    <h6>
+                                        <i class="glyphicon glyphicon-home"></i>
+                                        <a ng-href="{{selectedDataset.datasetHomepage}}" target="_blank">Dataset Information</a>
+                                        
+                                    </h6>
+                                    <h6>
+                                        <i class="glyphicon glyphicon-file"></i>
+                                        <a ng-href="{{selectedDataset.productUserGuide}}" target="_blank">Product Guide</a>
+                                    </h6>
+                                    <h6>
+                                        <i class="glyphicon glyphicon-download"></i>
+                                        <a ng-href="{{selectedDataset.ftpDownload}}" target="_blank">FTP Download</a>
+                                    </h6>
+                                </div>
+                                <div class="col-xs-6 col-sm-6 col-md-6" style="text-align: left">
+                                    <h6>
+                                        <i class="glyphicon glyphicon-calendar" title="Start date"></i>
+                                        <b>Start date: </b>{{selectedDataset.startDate | date: 'dd MMM yyyy'}}
+                                    </h6>
+                                    <h6>
+                                        <i class="glyphicon glyphicon-calendar" title="End date"></i>
+                                        <b>End date: </b>{{selectedDataset.endDate | date: 'dd MMM yyyy'}}
+                                    </h6>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-12" style="text-align: left">
+                                    <h6 ng-show="selectedDataset.esgfId" style="margin-top: 0px">
+                                        <i ng-show="selectedDataset.esgfExpanded" class="glyphicon glyphicon-minus-sign"></i>
+                                        <i ng-hide="selectedDataset.esgfExpanded" class="glyphicon glyphicon-plus-sign"></i>
+                                        <a class="clickable" 
+                                           ng-click="selectedDataset.esgfExpanded = !selectedDataset.esgfExpanded; 
+                                                     esgf.onExpandCSWResult(selectedDataset); 
+                                                     toggleExpansionBox(selectedDataset.internalId + '-esgf', selectedDataset)">
+                                            Additional Download Options</a>
+                                        <span class="glyphicon glyphicon-question-sign" bs-tooltip 
+                                              title="Additional download methods for datasets published to ESGF"></span>
+                                    </h6>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-12">
+                                    <br>
+                                    <span class="modal-small-font">{{selectedDataset.abstract}}</span> <br>
+                                    <span class="modal-small-font"><b>{{selectedDataset.statement}}</b></span>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="esgf-results-container">
+                    <!-- use ng-attr-style as a fix for IE: https://github.com/angular/angular.js/issues/2186 -->
+                    <div id="{{selectedDataset.internalId}}-esgf" ng-attr-style="display: {{selectedDataset.esgfExpanded ? 'block' : 'none'}}">
+                        <div>
+                            <br>
+                            Additional Download Options:
+                            <br><br>
+                        </div>
+                        <img src="../images/default.gif" ng-hide="selectedDataset.esgfResults"/>
+                        <div ng-repeat="esgfResult in selectedDataset.esgfResults.response.docs track by $index">
+                            <article class="search-result" style="margin-top: -20px;">
+                                <div class="meta-search">
+                                    <div class="row">
+                                        <div class="col-md-1 col-sm-1">
+                                            <b>{{$index + esgf.start + 1}}</b>
+                                        </div>
+                                        <div class="col-md-11 col-sm-11">
+                                            <strong> {{esgfResult.instance_id}}</strong>
+                                            <br>
+                                            <b>Total:</b> {{esgfResult.number_of_files}}
+                                            <br>
+                                            [ <a ng-click="esgfResult.filesExpanded = !esgfResult.filesExpanded; 
+                                                           fetchFilesForResult(esgfResult, selectedDataset.esgfStart, true); 
+                                                           toggleExpansionBox(esgfResult.instance_id + '-files')"
+                                                 class="clickable question ui-link">{{esgfResult.filesExpanded ? 'Hide' : 'Show'}} Files</a> ]
+                                            <span class="glyphicon glyphicon-question-sign" bs-tooltip 
+                                                  title="Allows download of individual files by HTTP or OPeNDAP">&nbsp;</span>
+                                            [ <a ng-href="{{esgf.createThreddsURL(esgfResult.url)}}" target="_blank">THREDDS Catalog</a> ]
+                                            <span class="glyphicon glyphicon-question-sign" bs-tooltip 
+                                                  title="Provides metadata and data download via various protocols">&nbsp;</span>
+                                            <span ng-show="esgfResult.opendapUrl">[ <a ng-href="{{esgf.createOpendapURL(esgfResult.opendapUrl)}}" 
+                                                             target="_blank">OPeNDAP</a> ]</span>
+                                            <span ng-show="esgfResult.opendapUrl" class="glyphicon glyphicon-question-sign" bs-tooltip 
+                                                  title="Access a form for downloading a subset of the dataset using OPeNDAP">&nbsp;</span>
+                                            [ <a ng-href="{{esgf.createWgetURL(esgfResult.id)}}" target="_blank">Download Script</a> ]
+                                            <span class="glyphicon glyphicon-question-sign" bs-tooltip 
+                                                  title="Provides a script for download of the full dataset using wget">&nbsp;</span>
+                                            <span ng-show="esgfResult.wmsUrl">[ <a ng-href="{{esgf.createPeepURL(esgfResult.wmsUrl)}}" target="popup" 
+                                                                                   ng-click="openPeepURL(esgfResult.wmsUrl);">WMS visualisation</a> ]</span>
+                                            <span ng-show="esgfResult.wmsUrl" class="glyphicon glyphicon-question-sign" bs-tooltip 
+                                                  title="View the dataset through the CCI portal visualisation tool">&nbsp;</span>
+                                            <span ng-show="esgfResult.wmsUrl">[ <a ng-href="{{esgf.stripPipeURL(esgfResult.wmsUrl)}}" target="_blank">WMS</a> ]</span>
+                                            <span ng-show="esgfResult.wmsUrl" class="glyphicon glyphicon-question-sign" bs-tooltip 
+                                                  title="Web Mapping Service: Use this endpoint to visualise the data via external WMS compatible software">&nbsp;</span>
+                                            <span ng-show="esgfResult.wcsUrl">[ <a ng-href="{{esgf.stripPipeURL(esgfResult.wcsUrl)}}" target="_blank">WCS</a> ]</span>
+                                            <span ng-show="esgfResult.wcsUrl" class="glyphicon glyphicon-question-sign" bs-tooltip 
+                                                  title="Web Coverage Service: Use this endpoint to export the data to an external WCS client"></span>
+
+                                            <div id="{{esgfResult.instance_id}}-files" ng-show="esgfResult.filesExpanded">
+                                                <img src="../images/default.gif" ng-hide="esgfResult.docFiles"/>
+                                                <div class="row">
+                                                    <div class="col-md-4 pull-right" ng-show="esgfResult.docFiles">
+                                                        <div class="btn-group pull-right">
+                                                            <button class="btn btn-default" ng-click="esgf.previousESGF(esgfResult)"
+                                                                    ng-disabled="previousDisabled(esgfResult)">
+                                                                <i class="glyphicon glyphicon-arrow-left" style="color: black !important"></i>
+                                                                Previous
+                                                            </button>
+                                                            <span class="btn btn-default">{{esgfResult.startPosition + 1}} - {{getForNextResults(esgfResult)}}</span>
+                                                            <button class="btn btn-default" ng-click="esgf.nextESGF(esgfResult)"
+                                                                    ng-disabled="nextDisabled(esgfResult)">
+                                                                Next
+                                                                <i class="glyphicon glyphicon-arrow-right" style="color: black !important"></i>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div ng-repeat="file in esgfResult.docFiles track by $index" ng-class-even="'result-even'">
+                                                    <div class="row">
+                                                        <div class="col-md-1">
+                                                          <b>{{esgfResult.startPosition + $index + 1}}</b>
+                                                        </div>
+                                                        <div class="col-md-8">
+                                                            <b>{{file.title}}</b>
+                                                            <span class="glyphicon glyphicon-question-sign" bs-tooltip 
+                                                                  title="Data are available via the Earth System Grid Federation (ESGF) under this identifier"></span><br>
+                                                            <b>Checksum: </b>{{file.checksum[0]}}<br>
+                                                            <b>Size: </b>{{file.size}}<br>
+                                                            <b>Tracking Id: </b>{{file.tracking_id[0]}}<br>
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            [ <a ng-href="{{esgf.stripPipeURL(file.fileUrl)}}" target="_blank">HTTP</a> ]<br>
+                                                            [ <a ng-href="{{esgf.stripPipeURL(file.opendapUrl)}}" target="_blank">OPeNDAP</a> ]
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <span class="clearfix borda"></span>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default btn-close" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div id="loading-overlay" class="overlay" ng-show="showLoading">
+    <div class="loading" style="text-align: center; margin-top: 50vh; /* align vertical */">
+        <div class="whirly"></div>
+        <br><br>
+        <h2>{{status}}</h2>
+    </div>
+    <div style="position:relative; width:267px; height:25px; overflow:hidden"></div>
+</div>
+
+<script>
+</script>

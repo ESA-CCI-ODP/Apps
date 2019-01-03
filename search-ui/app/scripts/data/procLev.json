@@ -1,0 +1,46 @@
+[
+  {
+    "@id": "http://vm62.nubes.stfc.ac.uk/collection/cci/procLev",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Collection"
+    ],
+    "http://www.w3.org/2004/02/skos/core#member": [
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#level3U"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#level3"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#level3C"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#level3S"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#level2P"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#level2"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#level0"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#ind"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#level1A"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#level1B"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#level1C"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#level4"
+      }
+    ]
+  }
+]

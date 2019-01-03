@@ -1,0 +1,203 @@
+.clickable{
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: reykjavik;
+  src: url(fonts/ReykjavikOneOT-AGauge.ttf);
+}
+
+@font-face {
+  font-family: notesfont;
+  src: url(fonts/NotesEsa-Bold.ttf);
+}
+
+.selected-rect {
+  fill: rgba(199, 199, 199, 1) !important;
+  stroke: rgba(229, 229, 229, 1) !important;
+}
+
+/* BLUE - atmospheric  */
+.atmospheric .modal-header{
+  background: rgba(4, 120, 176, 1)
+}
+.atmospheric .modal-footer{
+  background: rgba(4, 120, 176, 1)
+}
+.atmospheric .btn-close {
+  color: #6595DC;
+}
+
+.aerosol {
+  fill: rgba(4, 120, 176, 0.5) !important;
+  stroke: rgba(4, 120, 176, 1);
+}
+
+.cloud {
+  fill: rgba(10, 152, 221, 0.5) !important;
+  stroke: rgba(10, 152, 221, 1);
+}
+
+
+.ghg {
+  fill: rgba(85, 186, 235, 0.5) !important;
+  stroke: rgba(85, 186, 235, 1);
+}
+
+.ozone {
+  fill: rgba(130, 205, 241, 0.5) !important;
+  stroke: rgba(130, 205, 241, 1);
+}
+
+/* ORANGE - land teams */
+
+.land-teams .modal-header{
+  background: rgba(195, 118, 21, 1);
+}
+
+.land-teams .modal-footer{
+  background: rgba(195, 118, 21, 1);
+}
+
+.land-teams .btn-close {
+  color: rgba(221, 132, 20, 1);
+}
+
+.fire {
+  fill: rgba(221, 132, 20, 0.5) !important;
+  stroke: rgba(221, 132, 20, 1);
+}
+
+.is-antarctica {
+  /*fill: rgba(74.9, 45.5, 2.4, 0.5) !important;
+  stroke: rgba(74.9, 45.5, 2.4, 1);*/
+  fill: rgba(240, 160, 24, 0.5) !important;
+  stroke: rgba(240, 160, 24, 1);
+}
+
+.is-greenland {
+  fill: rgba(249, 168, 28, 0.5) !important;
+  stroke: rgba(241, 178, 69, 1);
+}
+
+.land-cover {
+  fill: rgba(251, 178, 69, 0.5) !important;
+  stroke: rgba(251, 178, 69, 1);
+}
+
+.soil-moisture {
+  fill: rgba(255, 197, 111, 0.5) !important;
+  stroke: rgba(255, 197, 111, 1);
+}
+
+.glaciers {
+  fill: rgba(255, 227, 131, 0.5) !important;
+  stroke: rgba(255, 227, 131, 1);
+}
+
+/* LIGHTER BLUE - ocean teams */
+
+.ocean-teams .modal-header{
+  background: rgba(53, 121, 91, 1);
+}
+
+.ocean-teams .modal-footer{
+  background: rgba(53, 121, 91, 1);
+}
+
+.ocean-teams .btn-close {
+  color: rgba(53, 121, 91, 1);
+}
+
+.ocean-colour {
+  fill: rgba(0, 138, 79, 0.5) !important;
+  stroke: rgba(0, 138, 79, 1);
+}
+
+.sea-ice {
+  fill: rgba(0, 178, 102, 0.5) !important;
+  stroke: rgba(0, 178, 102, 1);
+}
+
+.sea-level {
+  fill: rgba(41, 183, 122, 0.5) !important;
+  stroke: rgba(41, 183, 122, 1);
+}
+
+.sst {
+  fill: rgba(77, 198, 146, 0.5) !important;
+  stroke: rgba(77, 198, 146, 1);
+}
+
+.dashboard {
+  background-color: #2C89B5 !important;
+  padding-bottom: 60px !important;
+  min-height: 100vh;
+}
+
+.dashboard h4 {
+  color: white !important;
+  text-align: center;
+}
+
+#d3-container svg {
+  border-radius: 5px;
+}
+
+#d3-container rect {
+  stroke-width: 1;
+  cursor:pointer;
+}
+
+#project-d3-container rect{
+  cursor:pointer;
+}
+
+#d3-container .timeline-label, #project-d3-container .timeline-label {
+  font-size: 14px;
+  font-weight: 600;
+  fill: #3E3C5D;
+}
+
+.tick {
+  font-weight: 600;
+  fill: #3E3C5D;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #D6D6D6;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  font-family: sans-serif;
+  font-size: 10px;
+}
+
+.timeline-label {
+  font-family: notesfont;
+  font-size: 12px;
+  min-width: 100px !important;
+  cursor:pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.timeline-label:hover {
+  color: rgba(252, 225, 100, 1) !important;
+}
+
+
+#timeline2 .axis {
+  transform: translate(0px, 40px);
+  -ms-transform: translate(0px, 40px); /* IE 9 */
+  -webkit-transform: translate(0px, 40px); /* Safari and Chrome */
+  -o-transform: translate(0px, 40px); /* Opera */
+  -moz-transform: translate(0px, 40px); /* Firefox */
+}
+
+
+

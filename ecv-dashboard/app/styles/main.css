@@ -1,0 +1,273 @@
+/**
+*  ECV Dashboard stylesheet
+*
+*
+**/
+
+.modal-body{
+  max-height: 300vh!important;
+  overflow: auto;
+}
+
+#scroll-box{
+  direction:rtl;
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: 80vh;
+}
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+  width: 1px;
+}
+
+#project-d3-container {
+  direction:ltr;
+}
+
+.dataset{
+  stroke-width:1;
+  height: 18px;
+}
+
+.sub-header {
+  margin-top: 5px;
+  color: #FFFFFF;
+  background-color: #6595DC;
+  padding: 2px;
+  font-size: 12px;
+  font-weight: 700;
+  height: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.modal-header a, .modal-footer a{
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  color: white
+}
+
+/*
+.modal-dialog .btn  {
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  border-radius: 0 !important;
+  color: #6595DC;
+  font-weight: 600 !important;
+}
+*/
+
+.modal-footer .btn  {
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  border-radius: 0 !important;
+  color: #6595DC;
+  font-weight: 600 !important;
+}
+
+text.timeline-label:hover {
+  fill: rgba(252, 225, 100, 1) !important;
+}
+
+.dataset-img-container {
+    text-align: center !important;
+}
+
+.result-even {
+    background-color: rgba(150, 150, 150, 0.08);
+}
+
+rect:hover {
+  fill: rgba(252, 225, 100, 0.5) !important;
+  stroke-width:1  !important;
+  stroke: rgb(252, 239, 25) !important;
+}
+
+#tooltip {
+  position: absolute;
+  width: 200px;
+  height: auto;
+  padding: 2px;
+  border: 1px;
+  background-color: white;
+  border-color: #000066;
+  -webkit-border-radius:5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  pointer-events: none;
+}
+
+#tooltip.hidden {
+  display: none;
+}
+
+#tooltip p {
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+body {
+  padding: 0;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 10px;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+svg{
+  background: #FFFFFF;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+.ecv-sidemenu{
+  width: 80vw !important;
+  min-width: 80vw !important;
+  max-width: 80vw !important;
+}
+
+.dashboard-container{
+  background-color: rgb(230, 230, 230) !important;
+  background-image: url("../images/background-img2.png");
+  background-repeat: repeat-x;
+}
+
+
+
+.coloredDiv {
+  height:20px; width:20px; float:left;
+}
+
+.project-modal .modal-dialog{
+  width: 100vw !important;
+}
+
+@media screen and (min-width: 768px) {
+  .modal-dialog{
+    width: 90vw !important;
+  }
+}
+
+.overlay {
+  position: absolute;
+  left: 0 !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  right: 0 !important;
+  background: transparent;
+  opacity: 0.35;
+  filter: alpha(opacity=80);
+}
+#loading {
+  width: 50px;
+  height: 57px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -28px 0 0 -25px;
+}
+.ecv-logo{
+  width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .ecv-logo{
+    width: 100px !important;
+  }
+}
+
+.svg-container {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%; /* aspect ratio */
+  vertical-align: top;
+  overflow: hidden;
+}
+.svg-content-responsive {
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+
+.modal-header .close {
+  color: #FFFFFF !important;
+  font-weight: 900;
+  opacity: 1;
+}
+
+.modal-small-font {
+  font-size: 13px !important;
+  font: normal normal 1.125em Roboto,Arial,Verdana,sans-serif;
+}

@@ -1,0 +1,117 @@
+/* SET THE colour of each ECV team*/
+/* BLUE - atmospheric  */
+#aerosol{
+  fill: rgba(4, 120, 176,0.5);
+  stroke:rgba(4, 120, 176,1);
+}
+#cloud{
+  fill: rgba(10, 152, 221 ,0.5);
+  stroke:rgba(10, 152, 221 ,1);
+}
+#ghg{
+  fill: rgba(85, 186, 235,0.5);
+  stroke:rgba(85, 186, 235,1);
+}
+#glaciers{
+  fill: rgba(130, 205, 241 ,0.5);
+  stroke:rgba(130, 205, 241 ,1);
+}
+
+/* ORANGE - land teams */
+
+#is-greenland{
+  fill: rgba(58.8, 35.3, 0,0.5);
+  stroke: rgba(58.8, 35.3, 0,1);
+}
+#is-antarctica{
+  fill: rgba(74.9, 45.5, 2.4,0.5);
+  stroke: rgba(74.9, 45.5, 2.4,1);
+}
+#land-cover{
+  fill: rgba(241, 152, 20, 0.5);
+  stroke: rgba(241, 152, 20 ,1);
+}
+#ozone{
+  fill: rgba(255, 197, 111,0.5);
+  stroke: rgba(255, 197, 111,1);
+}
+#soil-moisture {
+  fill: rgba(251, 178, 69,0.5);
+  stroke: rgba(251, 178, 69,1);
+}
+#fire{
+  fill: rgba(255, 227, 131,0.5);
+  stroke: rgba(255, 227, 131,1);
+}
+
+/* LIGHTER BLUE - ocean teams */
+
+#ocean-colour{
+  fill: rgba(50, 193, 209 ,0.5);
+  stroke: rgba(50, 193, 209 ,1);
+}
+
+#sea-ice {
+  fill: rgba(0, 90, 98 ,0.5);
+  stroke: rgba(0, 90, 98 ,1);
+}
+#sea-level{
+  fill: rgba(0, 116, 127,0.5);
+  stroke:rgba(0, 116, 127,1);
+}
+#sst{
+  fill: rgba(20, 163, 189 ,0.5);
+  stroke: rgba(20, 163, 189 ,1);
+}
+
+
+.dashboard{
+  background-color: #7DA786 !important;
+  padding-bottom: 60px !important;
+  min-height: 100vh;
+}
+.dashboard h4{
+  color: white !important;
+}
+
+#d3-container svg {
+}
+
+#d3-container rect {
+  height: 20px;
+  stroke-width:1;
+}
+
+#d3-container .timeline-label, #project-d3-container .timeline-label {
+  font-size: 14px;
+  font-weight: 600;
+  fill: #141414;
+}
+
+.tick{
+  font-weight: 600;
+  fill: #3E3C5D;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: black;
+  shape-rendering: crispEdges;
+}
+.axis text {
+  font-family: sans-serif;
+  font-size: 10px;
+}
+.timeline-label {
+  font-family: sans-serif;
+  font-size: 12px;
+  min-width: 100px !important;
+}
+#timeline2 .axis {
+  transform: translate(0px,40px);
+  -ms-transform: translate(0px,40px); /* IE 9 */
+  -webkit-transform: translate(0px,40px); /* Safari and Chrome */
+  -o-transform: translate(0px,40px); /* Opera */
+  -moz-transform: translate(0px,40px); /* Firefox */
+}

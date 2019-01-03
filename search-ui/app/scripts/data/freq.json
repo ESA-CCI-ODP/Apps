@@ -1,0 +1,34 @@
+[
+  {
+    "@id": "http://vm62.nubes.stfc.ac.uk/collection/cci/freq",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Collection"
+    ],
+    "http://www.w3.org/2004/02/skos/core#member": [
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#mo"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#fx"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#monClim"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#6hr"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#subhr"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#day"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#yr"
+      },
+      {
+        "@id": "http://vm62.nubes.stfc.ac.uk/cci#3hr"
+      }
+    ]
+  }
+]

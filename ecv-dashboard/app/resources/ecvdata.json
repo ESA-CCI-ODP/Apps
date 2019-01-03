@@ -1,0 +1,4093 @@
+{
+  "projects" : [
+    {
+    "label" : "",
+    "project" : "Aerosol",
+    "abstract" : "The aerosol_cci project aims at producing a set of global aerosol ECV products for one reference year from a set of European satellite instruments with substantially different characteristics, including 3 multi-spectral instruments with 10 km horizontal resolution, 2 products with 50 km horizontal resolution, a stratospheric extinction profile project, one or more merged products and a global 'climatology' of aerosol type probability.",
+    "homepage" : "http://www.esa-aerosol-cci.org/",
+    "guideURL" : "http://www.esa-aerosol-cci.org/?q=webfm_send/534",
+    "logoURL" : "../images/logos/aerosol.gif",
+    "datasets" : [{
+      "identifier" : {
+        "__prefix" : "dc",
+        "__text" : "bb8e8548-5de0-46b1-be37-0509f589894b"
+      },
+      "date" : {
+        "__prefix" : "dc",
+        "__text" : "2016-01-06T01:07:13"
+      },
+      "title" : {
+        "__prefix" : "dc",
+        "__text" : "ESA Aerosol Climate Change Initiative (Aerosol CCI): Level 2 aerosol products from ATSR2 (SU algorithm), Version 4.2"
+      },
+      "type" : {
+        "__prefix" : "dc",
+        "__text" : "dataset"
+      },
+      "subject" : [{
+        "__prefix" : "dc",
+        "__text" : "ESACCI"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "orthoimagery"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "imageryBaseMapsEarthCover"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "environment"
+      }
+      ],
+      "abstract" : {
+        "__prefix" : "dct",
+        "__text" : "The ESA Climate Change Initiative Aerosol project has produced a number of global aerosol Essential Climate Variable (ECV) products from a set of European satellite instruments with different characteristics. \n\nThis dataset comprises the Level 2 aerosol products from ATSR-2, using the Swansea University (SU) algorithm, version 4.2. \n\nThe data are stored as vectors depending on the dimension \"pixel_number\".\nThey include a range of aerosol variables, on a 10x10 km2 sinusoidal grid, and in NetCDF version 3 format. \n\nThe variables included are: Latitude, Longitude, Aerosol Optical Depth  (AOD), Angstrom exponent, Per-pixel uncertainty estimates, Aerosol mixture fractions, atmospherically corrected surface reflectance, cloud fraction, land/ocean flag, time of measurement, viewing geometry. \n\n\nFor further details about these data products please see the linked documentation."
+      },
+      "description" : {
+        "__prefix" : "dc",
+        "__text" : "The ESA Climate Change Initiative Aerosol project has produced a number of global aerosol Essential Climate Variable (ECV) products from a set of European satellite instruments with different characteristics. \n\nThis dataset comprises the Level 2 aerosol products from ATSR-2, using the Swansea University (SU) algorithm, version 4.2. \n\nThe data are stored as vectors depending on the dimension \"pixel_number\".\nThey include a range of aerosol variables, on a 10x10 km2 sinusoidal grid, and in NetCDF version 3 format. \n\nThe variables included are: Latitude, Longitude, Aerosol Optical Depth  (AOD), Angstrom exponent, Per-pixel uncertainty estimates, Aerosol mixture fractions, atmospherically corrected surface reflectance, cloud fraction, land/ocean flag, time of measurement, viewing geometry. \n\n\nFor further details about these data products please see the linked documentation."
+      },
+      "rights" : {
+        "__prefix" : "dc",
+        "__text" : "otherRestrictions"
+      },
+      "language" : {
+        "__prefix" : "dc",
+        "__text" : "eng"
+      },
+      "source" : {
+        "__prefix" : "dc",
+        "__text" : "Data were processed by the ESA CCI Aerosol project team and supplied to CEDA in the context of the ESA CCI Open Data Portal Project."
+      },
+      "relation" : {
+        "__prefix" : "dc",
+        "__text" : "8e1662bfe93d4720adfcfd8925862bad"
+      },
+      "BoundingBox" : {
+        "LowerCorner" : {
+          "__prefix" : "ows",
+          "__text" : "180.0 -90.0"
+        },
+        "UpperCorner" : {
+          "__prefix" : "ows",
+          "__text" : "-180.0 90.0"
+        },
+        "_crs" : "urn:ogc:def:crs:::urn:ogc:def:crs:EPSG::27700",
+        "__prefix" : "ows"
+      },
+      "TemporalExtent" : {
+        "StartDate" : {
+          "__prefix" : "ows",
+          "__text" : "1995-06-01T00:00:00"
+        },
+        "EndDate" : {
+          "__prefix" : "ows",
+          "__text" : "2003-06-04T23:59:59"
+        },
+        "__prefix" : "ows"
+      },
+      "URI" : [{
+        "_name" : "Dataset Homepage",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://catalogue.ceda.ac.uk/uuid/57b63f8d9e6f478aaf8cd35e7a6f1f44"
+      }, {
+        "_name" : "DOWNLOAD",
+        "_description" : "Download Data",
+        "_function" : "download",
+        "__prefix" : "dc",
+        "__text" : "http://browse.ceda.ac.uk/browse/neodc/esacci_aerosol/data/ATSR2_SU/L2/v4.2"
+      }, {
+        "_name" : "ESA CCI Aerosol Products Description",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-aerosol-cci.org/?q=products%20description"
+      }, {
+        "_name" : "ESA CCI Aerosol Products Overview",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-aerosol-cci.org/?q=products"
+      }, {
+        "_name" : "The ESA Aerosol CCI Project",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-aerosol-cci.org/"
+      }, {
+        "_name" : "Aerosol CCI paper in AMT",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://dx.doi.org/10.5194/amt-6-1919-2013"
+      }, {
+        "_name" : "ESA CCI Programme Website",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://cci.esa.int/"
+      }
+      ],
+      "_xmlns:geonet" : "http://www.fao.org/geonetwork",
+      "_xmlns:dc" : "http://purl.org/dc/elements/1.1/",
+      "_xmlns:dct" : "http://purl.org/dc/terms/",
+      "_xmlns:ows" : "http://www.opengis.net/ows",
+      "_xmlns:gml" : "http://www.opengis.net/gml/3.2",
+      "__prefix" : "csw",
+      "times" : [{
+        "starting_time" : 801964800000,
+        "ending_time" : 1054771199000
+      }
+      ],
+      "label" : "Dataset #1"
+    }, {
+      "identifier" : {
+        "__prefix" : "dc",
+        "__text" : "99b1edf1-cc6a-4e13-99c4-cc4f80e36ccd"
+      },
+      "date" : {
+        "__prefix" : "dc",
+        "__text" : "2016-01-06T01:07:23"
+      },
+      "title" : {
+        "__prefix" : "dc",
+        "__text" : "ESA Aerosol Climate Change Initiative (Aerosol CCI): aerosol monthly images (MS UAVI algorithm), Version 1.4.7"
+      },
+      "type" : {
+        "__prefix" : "dc",
+        "__text" : "dataset"
+      },
+      "subject" : [{
+        "__prefix" : "dc",
+        "__text" : "ESACCI"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "orthoimagery"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "imageryBaseMapsEarthCover"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "environment"
+      }
+      ],
+      "abstract" : {
+        "__prefix" : "dct",
+        "__text" : "The ESA Climate Change Initiative Aerosol project has produced a number of global aerosol Essential Climate Variable (ECV) products from a set of European satellite instruments with different characteristics. \n\nThis dataset comprises monthly images of Absorbing Aerosol Index (AAI), using the Multi-Sensor UAVI algorithm, Version 1.4.7. \n\nFor further details about these data products please see the linked documentation."
+      },
+      "description" : {
+        "__prefix" : "dc",
+        "__text" : "The ESA Climate Change Initiative Aerosol project has produced a number of global aerosol Essential Climate Variable (ECV) products from a set of European satellite instruments with different characteristics. \n\nThis dataset comprises monthly images of Absorbing Aerosol Index (AAI), using the Multi-Sensor UAVI algorithm, Version 1.4.7. \n\nFor further details about these data products please see the linked documentation."
+      },
+      "rights" : {
+        "__prefix" : "dc",
+        "__text" : "otherRestrictions"
+      },
+      "language" : {
+        "__prefix" : "dc",
+        "__text" : "eng"
+      },
+      "source" : {
+        "__prefix" : "dc",
+        "__text" : "Data were processed by the ESA CCI Aerosol project team and supplied to CEDA in the context of the ESA CCI Open Data Portal Project."
+      },
+      "relation" : {
+        "__prefix" : "dc",
+        "__text" : "8e1662bfe93d4720adfcfd8925862bad"
+      },
+      "BoundingBox" : {
+        "LowerCorner" : {
+          "__prefix" : "ows",
+          "__text" : "180.0 -90.0"
+        },
+        "UpperCorner" : {
+          "__prefix" : "ows",
+          "__text" : "-180.0 90.0"
+        },
+        "_crs" : "urn:ogc:def:crs:::urn:ogc:def:crs:EPSG::27700",
+        "__prefix" : "ows"
+      },
+      "TemporalExtent" : {
+        "StartDate" : {
+          "__prefix" : "ows",
+          "__text" : "1978-01-11T00:00:00"
+        },
+        "EndDate" : {
+          "__prefix" : "ows",
+          "__text" : "2012-12-31T23:59:59"
+        },
+        "__prefix" : "ows"
+      },
+      "URI" : [{
+        "_name" : "Dataset Homepage",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://catalogue.ceda.ac.uk/uuid/188641a64d634827b2a40aff009a702b"
+      }, {
+        "_name" : "DOWNLOAD",
+        "_description" : "Download Data",
+        "_function" : "download",
+        "__prefix" : "dc",
+        "__text" : "http://browse.ceda.ac.uk/browse/neodc/esacci_aerosol/data/MS_UVAI/IMAGES_MONTHLY/v1.4.7"
+      }, {
+        "_name" : "ESA CCI Aerosol Products Description",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-aerosol-cci.org/?q=products%20description"
+      }, {
+        "_name" : "ESA CCI Aerosol Products Overview",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-aerosol-cci.org/?q=products"
+      }, {
+        "_name" : "The ESA Aerosol CCI Project",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-aerosol-cci.org/"
+      }, {
+        "_name" : "Aerosol CCI paper in AMT",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://dx.doi.org/10.5194/amt-6-1919-2013"
+      }, {
+        "_name" : "ESA CCI Programme Website",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://cci.esa.int/"
+      }
+      ],
+      "_xmlns:geonet" : "http://www.fao.org/geonetwork",
+      "_xmlns:dc" : "http://purl.org/dc/elements/1.1/",
+      "_xmlns:dct" : "http://purl.org/dc/terms/",
+      "_xmlns:ows" : "http://www.opengis.net/ows",
+      "_xmlns:gml" : "http://www.opengis.net/gml/3.2",
+      "__prefix" : "csw",
+      "times" : [{
+        "starting_time" : 253324800000,
+        "ending_time" : 1356998399000
+      }
+      ],
+      "label" : "Dataset #2"
+    }, {
+      "identifier" : {
+        "__prefix" : "dc",
+        "__text" : "2634dc1c-b65e-4096-abc4-d9a57dab8205"
+      },
+      "date" : {
+        "__prefix" : "dc",
+        "__text" : "2016-01-06T01:07:24"
+      },
+      "title" : {
+        "__prefix" : "dc",
+        "__text" : "ESA Aerosol Climate Change Initiative (Aerosol CCI): aerosol climatology images from MS UAVI, Version 1.4.7"
+      },
+      "type" : {
+        "__prefix" : "dc",
+        "__text" : "dataset"
+      },
+      "subject" : [{
+        "__prefix" : "dc",
+        "__text" : "ESACCI"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "orthoimagery"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "imageryBaseMapsEarthCover"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "environment"
+      }
+      ],
+      "abstract" : {
+        "__prefix" : "dct",
+        "__text" : "The ESA Climate Change Initiative Aerosol project has produced a number of global aerosol Essential Climate Variable (ECV) products from a set of European satellite instruments with different characteristics. \n\nThis dataset comprises images of Absorbing Aerosol Index (AAI) climatology, using the Multi-Sensor UAVI algorithm, Version 1.4.7. \n\nFor further details about these data products please see the linked documentation."
+      },
+      "description" : {
+        "__prefix" : "dc",
+        "__text" : "The ESA Climate Change Initiative Aerosol project has produced a number of global aerosol Essential Climate Variable (ECV) products from a set of European satellite instruments with different characteristics. \n\nThis dataset comprises images of Absorbing Aerosol Index (AAI) climatology, using the Multi-Sensor UAVI algorithm, Version 1.4.7. \n\nFor further details about these data products please see the linked documentation."
+      },
+      "rights" : {
+        "__prefix" : "dc",
+        "__text" : "otherRestrictions"
+      },
+      "language" : {
+        "__prefix" : "dc",
+        "__text" : "eng"
+      },
+      "source" : {
+        "__prefix" : "dc",
+        "__text" : "Data were processed by the ESA CCI Aerosol project team and supplied to CEDA in the context of the ESA CCI Open Data Portal Project."
+      },
+      "relation" : {
+        "__prefix" : "dc",
+        "__text" : "8e1662bfe93d4720adfcfd8925862bad"
+      },
+      "BoundingBox" : {
+        "LowerCorner" : {
+          "__prefix" : "ows",
+          "__text" : "180.0 -90.0"
+        },
+        "UpperCorner" : {
+          "__prefix" : "ows",
+          "__text" : "-180.0 90.0"
+        },
+        "_crs" : "urn:ogc:def:crs:::urn:ogc:def:crs:EPSG::27700",
+        "__prefix" : "ows"
+      },
+      "TemporalExtent" : {
+        "StartDate" : {
+          "__prefix" : "ows",
+          "__text" : "Present"
+        },
+        "EndDate" : {
+          "__prefix" : "ows",
+          "__text" : "Present"
+        },
+        "__prefix" : "ows"
+      },
+      "URI" : [{
+        "_name" : "Dataset Homepage",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://catalogue.ceda.ac.uk/uuid/1657cead89a343ab9b95b1983f07a1a1"
+      }, {
+        "_name" : "DOWNLOAD",
+        "_description" : "Download Data",
+        "_function" : "download",
+        "__prefix" : "dc",
+        "__text" : "http://browse.ceda.ac.uk/browse/neodc/esacci_aerosol/data/MS_UVAI/IMAGES_CLIMATOLOGY/v1.4.7"
+      }, {
+        "_name" : "ESA CCI Aerosol Products Description",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-aerosol-cci.org/?q=products%20description"
+      }, {
+        "_name" : "ESA CCI Aerosol Products Overview",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-aerosol-cci.org/?q=products"
+      }, {
+        "_name" : "The ESA Aerosol CCI Project",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-aerosol-cci.org/"
+      }, {
+        "_name" : "Aerosol CCI paper in AMT",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://dx.doi.org/10.5194/amt-6-1919-2013"
+      }, {
+        "_name" : "ESA CCI Programme Website",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://cci.esa.int/"
+      }
+      ],
+      "_xmlns:geonet" : "http://www.fao.org/geonetwork",
+      "_xmlns:dc" : "http://purl.org/dc/elements/1.1/",
+      "_xmlns:dct" : "http://purl.org/dc/terms/",
+      "_xmlns:ows" : "http://www.opengis.net/ows",
+      "_xmlns:gml" : "http://www.opengis.net/gml/3.2",
+      "__prefix" : "csw",
+      "times" : [{
+        "starting_time" : null,
+        "ending_time" : null
+      }
+      ],
+      "label" : "Dataset #3"
+    }, {
+      "identifier" : {
+        "__prefix" : "dc",
+        "__text" : "1d0a5067-6755-4ee1-b707-946a716ca2b4"
+      },
+      "date" : {
+        "__prefix" : "dc",
+        "__text" : "2016-01-06T01:07:28"
+      },
+      "title" : {
+        "__prefix" : "dc",
+        "__text" : "ESA Aerosol Climate Change Initiative (Aerosol CCI): Level 2 aerosol products from AATSR (SU Algorithm), Version 4.2"
+      },
+      "type" : {
+        "__prefix" : "dc",
+        "__text" : "dataset"
+      },
+      "subject" : [{
+        "__prefix" : "dc",
+        "__text" : "ESACCI"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "orthoimagery"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "imageryBaseMapsEarthCover"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "environment"
+      }
+      ],
+      "abstract" : {
+        "__prefix" : "dct",
+        "__text" : "The ESA Climate Change Initiative Aerosol project has produced a number of global aerosol Essential Climate Variable (ECV) products from a set of European satellite instruments with different characteristics. \n\nThis dataset comprises the Level 2 aerosol products from AATSR, using the Swansea University (SU) algorithm, version 4.2. \n\nThe data are stored as vectors depending on the dimension \"pixel_number\".\nThey include a range of aerosol variables, on a 10x10 km2 sinusoidal grid, and in NetCDF version 3 format. \n\nThe variables included are: Latitude, Longitude, Aerosol Optical Depth  (AOD), Angstrom exponent, Per-pixel uncertainty estimates, Aerosol mixture fractions, atmospherically corrected surface reflectance, cloud fraction, land/ocean flag, time of measurement, viewing geometry. \n\n\nFor further details about these data products please see the linked documentation."
+      },
+      "description" : {
+        "__prefix" : "dc",
+        "__text" : "The ESA Climate Change Initiative Aerosol project has produced a number of global aerosol Essential Climate Variable (ECV) products from a set of European satellite instruments with different characteristics. \n\nThis dataset comprises the Level 2 aerosol products from AATSR, using the Swansea University (SU) algorithm, version 4.2. \n\nThe data are stored as vectors depending on the dimension \"pixel_number\".\nThey include a range of aerosol variables, on a 10x10 km2 sinusoidal grid, and in NetCDF version 3 format. \n\nThe variables included are: Latitude, Longitude, Aerosol Optical Depth  (AOD), Angstrom exponent, Per-pixel uncertainty estimates, Aerosol mixture fractions, atmospherically corrected surface reflectance, cloud fraction, land/ocean flag, time of measurement, viewing geometry. \n\n\nFor further details about these data products please see the linked documentation."
+      },
+      "rights" : {
+        "__prefix" : "dc",
+        "__text" : "otherRestrictions"
+      },
+      "language" : {
+        "__prefix" : "dc",
+        "__text" : "eng"
+      },
+      "source" : {
+        "__prefix" : "dc",
+        "__text" : "Data were processed by the ESA CCI Aerosol project team and supplied to CEDA in the context of the ESA CCI Open Data Portal Project."
+      },
+      "relation" : {
+        "__prefix" : "dc",
+        "__text" : "8e1662bfe93d4720adfcfd8925862bad"
+      },
+      "BoundingBox" : {
+        "LowerCorner" : {
+          "__prefix" : "ows",
+          "__text" : "180.0 -90.0"
+        },
+        "UpperCorner" : {
+          "__prefix" : "ows",
+          "__text" : "-180.0 90.0"
+        },
+        "_crs" : "urn:ogc:def:crs:::urn:ogc:def:crs:EPSG::27700",
+        "__prefix" : "ows"
+      },
+      "TemporalExtent" : {
+        "StartDate" : {
+          "__prefix" : "ows",
+          "__text" : "2002-07-24T00:00:00"
+        },
+        "EndDate" : {
+          "__prefix" : "ows",
+          "__text" : "2012-04-08T23:59:59"
+        },
+        "__prefix" : "ows"
+      },
+      "URI" : [{
+        "_name" : "Dataset Homepage",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://catalogue.ceda.ac.uk/uuid/c1d5e11760e94c85a738ff22c36ef4b9"
+      }, {
+        "_name" : "DOWNLOAD",
+        "_description" : "Download Data",
+        "_function" : "download",
+        "__prefix" : "dc",
+        "__text" : "http://browse.ceda.ac.uk/browse/neodc/esacci_aerosol/data/AATSR_SU/L2/v4.2"
+      }, {
+        "_name" : "ESA CCI Aerosol Products Description",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-aerosol-cci.org/?q=products%20description"
+      }, {
+        "_name" : "ESA CCI Aerosol Products Overview",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-aerosol-cci.org/?q=products"
+      }, {
+        "_name" : "The ESA Aerosol CCI Project",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-aerosol-cci.org/"
+      }, {
+        "_name" : "Aerosol CCI paper in AMT",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://dx.doi.org/10.5194/amt-6-1919-2013"
+      }, {
+        "_name" : "ESA CCI Programme Website",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://cci.esa.int/"
+      }
+      ],
+      "_xmlns:geonet" : "http://www.fao.org/geonetwork",
+      "_xmlns:dc" : "http://purl.org/dc/elements/1.1/",
+      "_xmlns:dct" : "http://purl.org/dc/terms/",
+      "_xmlns:ows" : "http://www.opengis.net/ows",
+      "_xmlns:gml" : "http://www.opengis.net/gml/3.2",
+      "__prefix" : "csw",
+      "times" : [{
+        "starting_time" : 1027468800000,
+        "ending_time" : 1333929599000
+      }
+      ],
+      "label" : "Dataset #4"
+    }, {
+      "identifier" : {
+        "__prefix" : "dc",
+        "__text" : "c2f35e8e-e77f-4358-ad7e-e51db9f2cde5"
+      },
+      "date" : {
+        "__prefix" : "dc",
+        "__text" : "2016-01-06T01:07:04"
+      },
+      "title" : {
+        "__prefix" : "dc",
+        "__text" : "ESA Aerosol Climate Change Initiative (Aerosol CCI): Level 3 aerosol climatology products (MS UAVI algorithm), Version 1.4.7"
+      },
+      "type" : {
+        "__prefix" : "dc",
+        "__text" : "dataset"
+      },
+      "subject" : [{
+        "__prefix" : "dc",
+        "__text" : "CLIPC"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "ESACCI"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "orthoimagery"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "imageryBaseMapsEarthCover"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "environment"
+      }
+      ],
+      "abstract" : {
+        "__prefix" : "dct",
+        "__text" : "The ESA Climate Change Initiative Aerosol project has produced a number of global aerosol Essential Climate Variable (ECV) products from a set of European satellite instruments with different characteristics. \n\nThis dataset comprises monthly Absorbing Aerosol Index (AAI) climatology products, using the Multi-Sensor UAVI algorithm, Version 1.4.7. \n\nFor further details about these data products please see the linked documentation."
+      },
+      "description" : {
+        "__prefix" : "dc",
+        "__text" : "The ESA Climate Change Initiative Aerosol project has produced a number of global aerosol Essential Climate Variable (ECV) products from a set of European satellite instruments with different characteristics. \n\nThis dataset comprises monthly Absorbing Aerosol Index (AAI) climatology products, using the Multi-Sensor UAVI algorithm, Version 1.4.7. \n\nFor further details about these data products please see the linked documentation."
+      },
+      "rights" : {
+        "__prefix" : "dc",
+        "__text" : "otherRestrictions"
+      },
+      "language" : {
+        "__prefix" : "dc",
+        "__text" : "eng"
+      },
+      "source" : {
+        "__prefix" : "dc",
+        "__text" : "Data were processed by the ESA CCI Aerosol project team and supplied to CEDA in the context of the ESA CCI Open Data Portal Project."
+      },
+      "relation" : {
+        "__prefix" : "dc",
+        "__text" : "8e1662bfe93d4720adfcfd8925862bad"
+      },
+      "BoundingBox" : {
+        "LowerCorner" : {
+          "__prefix" : "ows",
+          "__text" : "180.0 -90.0"
+        },
+        "UpperCorner" : {
+          "__prefix" : "ows",
+          "__text" : "-180.0 90.0"
+        },
+        "_crs" : "urn:ogc:def:crs:::urn:ogc:def:crs:EPSG::27700",
+        "__prefix" : "ows"
+      },
+      "TemporalExtent" : {
+        "StartDate" : {
+          "__prefix" : "ows",
+          "__text" : "Present"
+        },
+        "EndDate" : {
+          "__prefix" : "ows",
+          "__text" : "Present"
+        },
+        "__prefix" : "ows"
+      },
+      "URI" : [{
+        "_name" : "Dataset Homepage",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://catalogue.ceda.ac.uk/uuid/4724ecae7b104fbfb678e3aa7a630553"
+      }, {
+        "_name" : "DOWNLOAD",
+        "_description" : "Download Data",
+        "_function" : "download",
+        "__prefix" : "dc",
+        "__text" : "http://browse.ceda.ac.uk/browse/neodc/esacci_aerosol/data/MS_UVAI/L3_CLIMATOLOGY/v1.4.7"
+      }, {
+        "_name" : "ESA CCI Aerosol Products Description",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-aerosol-cci.org/?q=products%20description"
+      }, {
+        "_name" : "ESA CCI Aerosol Products Overview",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-aerosol-cci.org/?q=products"
+      }, {
+        "_name" : "The ESA Aerosol CCI Project",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-aerosol-cci.org/"
+      }, {
+        "_name" : "Aerosol CCI paper in AMT",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://dx.doi.org/10.5194/amt-6-1919-2013"
+      }, {
+        "_name" : "ESA CCI Programme Website",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://cci.esa.int/"
+      }
+      ],
+      "_xmlns:geonet" : "http://www.fao.org/geonetwork",
+      "_xmlns:dc" : "http://purl.org/dc/elements/1.1/",
+      "_xmlns:dct" : "http://purl.org/dc/terms/",
+      "_xmlns:ows" : "http://www.opengis.net/ows",
+      "_xmlns:gml" : "http://www.opengis.net/gml/3.2",
+      "__prefix" : "csw",
+      "times" : [{
+        "starting_time" : null,
+        "ending_time" : null
+      }
+      ],
+      "label" : "Dataset #5"
+    }, {
+      "identifier" : {
+        "__prefix" : "dc",
+        "__text" : "09cbb096-dc13-48e0-afec-343fdbd2bb10"
+      },
+      "date" : {
+        "__prefix" : "dc",
+        "__text" : "2016-01-06T01:07:06"
+      },
+      "title" : {
+        "__prefix" : "dc",
+        "__text" : "ESA Aerosol Climate Change Initiative (Aerosol CCI): Level 3 aerosol monthly products from ATSR2 (SU algorithm), Version 4.2"
+      },
+      "type" : {
+        "__prefix" : "dc",
+        "__text" : "dataset"
+      },
+      "subject" : [{
+        "__prefix" : "dc",
+        "__text" : "CLIPC"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "ESACCI"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "orthoimagery"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "imageryBaseMapsEarthCover"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "environment"
+      }
+      ],
+      "abstract" : {
+        "__prefix" : "dct",
+        "__text" : "The ESA Climate Change Initiative Aerosol project has produced a number of global aerosol Essential Climate Variable (ECV) products from a set of European satellite instruments with different characteristics. \n\nThis dataset comprises the Level 3 aerosol monthly products from ATSR-2, using the Swansea University (SU) algorithm, version 4.2. \n\nThe data are stored as monthly averages and standard deviations of a range of aerosol variables, on global 1 degree x 1 degree latitutude/longitude grids, and in NetCDF format.\n\nThe variables included are: Aerosol Optical Depth  (AOD), AOD per pixel uncertainty, Angstrom, surface reflectance, fine mode AOD, dust AOD, absorbing AOD, cloud_fraction, view geometry and surface type. \nFor further details about these data products please see the linked documentation."
+      },
+      "description" : {
+        "__prefix" : "dc",
+        "__text" : "The ESA Climate Change Initiative Aerosol project has produced a number of global aerosol Essential Climate Variable (ECV) products from a set of European satellite instruments with different characteristics. \n\nThis dataset comprises the Level 3 aerosol monthly products from ATSR-2, using the Swansea University (SU) algorithm, version 4.2. \n\nThe data are stored as monthly averages and standard deviations of a range of aerosol variables, on global 1 degree x 1 degree latitutude/longitude grids, and in NetCDF format.\n\nThe variables included are: Aerosol Optical Depth  (AOD), AOD per pixel uncertainty, Angstrom, surface reflectance, fine mode AOD, dust AOD, absorbing AOD, cloud_fraction, view geometry and surface type. \nFor further details about these data products please see the linked documentation."
+      },
+      "rights" : {
+        "__prefix" : "dc",
+        "__text" : "otherRestrictions"
+      },
+      "language" : {
+        "__prefix" : "dc",
+        "__text" : "eng"
+      },
+      "source" : {
+        "__prefix" : "dc",
+        "__text" : "Data were processed by the ESA CCI Aerosol project team and supplied to CEDA in the context of the ESA CCI Open Data Portal Project."
+      },
+      "relation" : {
+        "__prefix" : "dc",
+        "__text" : "8e1662bfe93d4720adfcfd8925862bad"
+      },
+      "BoundingBox" : {
+        "LowerCorner" : {
+          "__prefix" : "ows",
+          "__text" : "180.0 -90.0"
+        },
+        "UpperCorner" : {
+          "__prefix" : "ows",
+          "__text" : "-180.0 90.0"
+        },
+        "_crs" : "urn:ogc:def:crs:::urn:ogc:def:crs:EPSG::27700",
+        "__prefix" : "ows"
+      },
+      "TemporalExtent" : {
+        "StartDate" : {
+          "__prefix" : "ows",
+          "__text" : "1995-06-01T00:00:00"
+        },
+        "EndDate" : {
+          "__prefix" : "ows",
+          "__text" : "2003-06-04T23:59:59"
+        },
+        "__prefix" : "ows"
+      },
+      "URI" : [{
+        "_name" : "Dataset Homepage",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://catalogue.ceda.ac.uk/uuid/62fae7fa0c33421db2fef0d65e374779"
+      }, {
+        "_name" : "DOWNLOAD",
+        "_description" : "Download Data",
+        "_function" : "download",
+        "__prefix" : "dc",
+        "__text" : "http://browse.ceda.ac.uk/browse/neodc/esacci_aerosol/data/ATSR2_SU//L3_MONTHLY//v4.2"
+      }, {
+        "_name" : "ESA CCI Aerosol Products Description",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-aerosol-cci.org/?q=products%20description"
+      }, {
+        "_name" : "ESA CCI Aerosol Products Overview",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-aerosol-cci.org/?q=products"
+      }, {
+        "_name" : "The ESA Aerosol CCI Project",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-aerosol-cci.org/"
+      }, {
+        "_name" : "Aerosol CCI paper in AMT",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://dx.doi.org/10.5194/amt-6-1919-2013"
+      }, {
+        "_name" : "ESA CCI Programme Website",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://cci.esa.int/"
+      }
+      ],
+      "_xmlns:geonet" : "http://www.fao.org/geonetwork",
+      "_xmlns:dc" : "http://purl.org/dc/elements/1.1/",
+      "_xmlns:dct" : "http://purl.org/dc/terms/",
+      "_xmlns:ows" : "http://www.opengis.net/ows",
+      "_xmlns:gml" : "http://www.opengis.net/gml/3.2",
+      "__prefix" : "csw",
+      "times" : [{
+        "starting_time" : 801964800000,
+        "ending_time" : 1054771199000
+      }
+      ],
+      "label" : "Dataset #6"
+    }, {
+      "identifier" : {
+        "__prefix" : "dc",
+        "__text" : "9232de09-cf10-45c3-b29d-c36048715063"
+      },
+      "date" : {
+        "__prefix" : "dc",
+        "__text" : "2016-01-06T01:07:07"
+      },
+      "title" : {
+        "__prefix" : "dc",
+        "__text" : "ESA Aerosol Climate Change Initiative (Aerosol CCI): Level 3 aerosol daily products from AATSR (SU algorithm), Version 4.2"
+      },
+      "type" : {
+        "__prefix" : "dc",
+        "__text" : "dataset"
+      },
+      "subject" : [{
+        "__prefix" : "dc",
+        "__text" : "CLIPC"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "ESACCI"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "orthoimagery"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "imageryBaseMapsEarthCover"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "environment"
+      }
+      ],
+      "abstract" : {
+        "__prefix" : "dct",
+        "__text" : "The ESA Climate Change Initiative Aerosol project has produced a number of global aerosol Essential Climate Variable (ECV) products from a set of European satellite instruments with different characteristics. \n\nThis dataset comprises the Level 3 aerosol daily products from AATSR, using the Swansea University (SU) algorithm, version 4.2. \n\nThe data are stored as daily means and standard deviations of a range of aerosol variables, on global 1 degree x 1 degree latitutude/longitude grids, and in NetCDF format.\n\nThe variables included are: Aerosol Optical Depth  (AOD), AOD per pixel uncertainty, Angstrom, surface reflectance, fine mode AOD, dust AOD, absorbing AOD, cloud_fraction, view geometry and surface type.\n\nFor further details about these data products please see the linked documentation."
+      },
+      "description" : {
+        "__prefix" : "dc",
+        "__text" : "The ESA Climate Change Initiative Aerosol project has produced a number of global aerosol Essential Climate Variable (ECV) products from a set of European satellite instruments with different characteristics. \n\nThis dataset comprises the Level 3 aerosol daily products from AATSR, using the Swansea University (SU) algorithm, version 4.2. \n\nThe data are stored as daily means and standard deviations of a range of aerosol variables, on global 1 degree x 1 degree latitutude/longitude grids, and in NetCDF format.\n\nThe variables included are: Aerosol Optical Depth  (AOD), AOD per pixel uncertainty, Angstrom, surface reflectance, fine mode AOD, dust AOD, absorbing AOD, cloud_fraction, view geometry and surface type.\n\nFor further details about these data products please see the linked documentation."
+      },
+      "rights" : {
+        "__prefix" : "dc",
+        "__text" : "otherRestrictions"
+      },
+      "language" : {
+        "__prefix" : "dc",
+        "__text" : "eng"
+      },
+      "source" : {
+        "__prefix" : "dc",
+        "__text" : "Data were processed by the ESA CCI Aerosol project team and supplied to CEDA in the context of the ESA CCI Open Data Portal Project."
+      },
+      "relation" : {
+        "__prefix" : "dc",
+        "__text" : "8e1662bfe93d4720adfcfd8925862bad"
+      },
+      "BoundingBox" : {
+        "LowerCorner" : {
+          "__prefix" : "ows",
+          "__text" : "180.0 -90.0"
+        },
+        "UpperCorner" : {
+          "__prefix" : "ows",
+          "__text" : "-180.0 90.0"
+        },
+        "_crs" : "urn:ogc:def:crs:::urn:ogc:def:crs:EPSG::27700",
+        "__prefix" : "ows"
+      },
+      "TemporalExtent" : {
+        "StartDate" : {
+          "__prefix" : "ows",
+          "__text" : "2002-07-24T00:00:00"
+        },
+        "EndDate" : {
+          "__prefix" : "ows",
+          "__text" : "2012-04-08T23:59:59"
+        },
+        "__prefix" : "ows"
+      },
+      "URI" : [{
+        "_name" : "Dataset Homepage",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://catalogue.ceda.ac.uk/uuid/1e3e5f0f0f53409b838e5dbfe99a3b01"
+      }, {
+        "_name" : "DOWNLOAD",
+        "_description" : "Download Data",
+        "_function" : "download",
+        "__prefix" : "dc",
+        "__text" : "http://browse.ceda.ac.uk/browse/neodc/esacci_aerosol/data/AATSR_SU/L3_DAILY/v4.2"
+      }, {
+        "_name" : "ESA CCI Aerosol Products Description",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-aerosol-cci.org/?q=products%20description"
+      }, {
+        "_name" : "ESA CCI Aerosol Products Overview",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-aerosol-cci.org/?q=products"
+      }, {
+        "_name" : "The ESA Aerosol CCI Project",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-aerosol-cci.org/"
+      }, {
+        "_name" : "Aerosol CCI paper in AMT",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://dx.doi.org/10.5194/amt-6-1919-2013"
+      }, {
+        "_name" : "ESA CCI Programme Website",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://cci.esa.int/"
+      }
+      ],
+      "_xmlns:geonet" : "http://www.fao.org/geonetwork",
+      "_xmlns:dc" : "http://purl.org/dc/elements/1.1/",
+      "_xmlns:dct" : "http://purl.org/dc/terms/",
+      "_xmlns:ows" : "http://www.opengis.net/ows",
+      "_xmlns:gml" : "http://www.opengis.net/gml/3.2",
+      "__prefix" : "csw",
+      "times" : [{
+        "starting_time" : 1027468800000,
+        "ending_time" : 1333929599000
+      }
+      ],
+      "label" : "Dataset #7"
+    }, {
+      "identifier" : {
+        "__prefix" : "dc",
+        "__text" : "ebe44e4c-a6a2-4ec5-b2fb-cfac7ea5bea7"
+      },
+      "date" : {
+        "__prefix" : "dc",
+        "__text" : "2016-01-06T01:07:13"
+      },
+      "title" : {
+        "__prefix" : "dc",
+        "__text" : "ESA Aerosol Climate Change Initiative (Aerosol CCI): Level 3 aerosol monthly products from GOMOS (AERGOM algorithm), Version 2.2"
+      },
+      "type" : {
+        "__prefix" : "dc",
+        "__text" : "dataset"
+      },
+      "subject" : [{
+        "__prefix" : "dc",
+        "__text" : "CLIPC"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "ESACCI"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "orthoimagery"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "imageryBaseMapsEarthCover"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "environment"
+      }
+      ],
+      "abstract" : {
+        "__prefix" : "dct",
+        "__text" : "The ESA Climate Change Initiative Aerosol project has produced a number of global aerosol Essential Climate Variable (ECV) products from a set of European satellite instruments with different characteristics. \n\nThis dataset comprises the Level 3 aerosol monthly products from GOMOS, using the AERGOM algorithm, version 2.2 and was produced by BIRA (Belgian Institute for Space Aeronomy). \n\nThe data are stored as monthly averages and standard deviations of a range of aerosol variables, on global 2.5 degree x 10 degree latitutude/longitude grids, and in NetCDF format. The horizontal resolution is 0.5km. \n\nThe variables included are: Stratospheric Aerosol Optical Depth (AOD), Angstrom coefficient, extinction profile. \n\n\nFor further details about these data products please see the linked documentation."
+      },
+      "description" : {
+        "__prefix" : "dc",
+        "__text" : "The ESA Climate Change Initiative Aerosol project has produced a number of global aerosol Essential Climate Variable (ECV) products from a set of European satellite instruments with different characteristics. \n\nThis dataset comprises the Level 3 aerosol monthly products from GOMOS, using the AERGOM algorithm, version 2.2 and was produced by BIRA (Belgian Institute for Space Aeronomy). \n\nThe data are stored as monthly averages and standard deviations of a range of aerosol variables, on global 2.5 degree x 10 degree latitutude/longitude grids, and in NetCDF format. The horizontal resolution is 0.5km. \n\nThe variables included are: Stratospheric Aerosol Optical Depth (AOD), Angstrom coefficient, extinction profile. \n\n\nFor further details about these data products please see the linked documentation."
+      },
+      "rights" : {
+        "__prefix" : "dc",
+        "__text" : "otherRestrictions"
+      },
+      "language" : {
+        "__prefix" : "dc",
+        "__text" : "eng"
+      },
+      "source" : {
+        "__prefix" : "dc",
+        "__text" : "Data were processed by the ESA CCI Aerosol project team and supplied to CEDA in the context of the ESA CCI Open Data Portal Project."
+      },
+      "relation" : {
+        "__prefix" : "dc",
+        "__text" : "8e1662bfe93d4720adfcfd8925862bad"
+      },
+      "BoundingBox" : {
+        "LowerCorner" : {
+          "__prefix" : "ows",
+          "__text" : "180.0 -90.0"
+        },
+        "UpperCorner" : {
+          "__prefix" : "ows",
+          "__text" : "-180.0 90.0"
+        },
+        "_crs" : "urn:ogc:def:crs:::urn:ogc:def:crs:EPSG::27700",
+        "__prefix" : "ows"
+      },
+      "TemporalExtent" : {
+        "StartDate" : {
+          "__prefix" : "ows",
+          "__text" : "2008-01-01T00:00:00"
+        },
+        "EndDate" : {
+          "__prefix" : "ows",
+          "__text" : "2008-12-31T23:59:59"
+        },
+        "__prefix" : "ows"
+      },
+      "URI" : [{
+        "_name" : "Dataset Homepage",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://catalogue.ceda.ac.uk/uuid/67a411e3fa24477eab54500519af4514"
+      }, {
+        "_name" : "DOWNLOAD",
+        "_description" : "Download Data",
+        "_function" : "download",
+        "__prefix" : "dc",
+        "__text" : "http://browse.ceda.ac.uk/browse/neodc/esacci_aerosol/data/GOMOS_AERGOM/L3_MONTHLY/v2.1"
+      }, {
+        "_name" : "ESA CCI Aerosol Products Description",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-aerosol-cci.org/?q=products%20description"
+      }, {
+        "_name" : "ESA CCI Aerosol Products Overview",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-aerosol-cci.org/?q=products"
+      }, {
+        "_name" : "The ESA Aerosol CCI Project",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-aerosol-cci.org/"
+      }, {
+        "_name" : "Aerosol CCI paper in AMT",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://dx.doi.org/10.5194/amt-6-1919-2013"
+      }, {
+        "_name" : "ESA CCI Programme Website",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://cci.esa.int/"
+      }
+      ],
+      "_xmlns:geonet" : "http://www.fao.org/geonetwork",
+      "_xmlns:dc" : "http://purl.org/dc/elements/1.1/",
+      "_xmlns:dct" : "http://purl.org/dc/terms/",
+      "_xmlns:ows" : "http://www.opengis.net/ows",
+      "_xmlns:gml" : "http://www.opengis.net/gml/3.2",
+      "__prefix" : "csw",
+      "times" : [{
+        "starting_time" : 1199145600000,
+        "ending_time" : 1230767999000
+      }
+      ],
+      "label" : "Dataset #8"
+    }, {
+      "identifier" : {
+        "__prefix" : "dc",
+        "__text" : "50ba2013-4726-4e51-9231-394ff300664b"
+      },
+      "date" : {
+        "__prefix" : "dc",
+        "__text" : "2016-01-06T01:07:21"
+      },
+      "title" : {
+        "__prefix" : "dc",
+        "__text" : "ESA Aerosol Climate Change Initiative (Aerosol CCI): Level 3 aerosol monthly images (MS UAVI algorithm), Version 1.4.7"
+      },
+      "type" : {
+        "__prefix" : "dc",
+        "__text" : "dataset"
+      },
+      "subject" : [{
+        "__prefix" : "dc",
+        "__text" : "CLIPC"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "ESACCI"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "orthoimagery"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "imageryBaseMapsEarthCover"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "environment"
+      }
+      ],
+      "abstract" : {
+        "__prefix" : "dct",
+        "__text" : "The ESA Climate Change Initiative Aerosol project has produced a number of global aerosol Essential Climate Variable (ECV) products from a set of European satellite instruments with different characteristics. \n\nThis dataset comprises images of Absorbing Aerosol Index (AAI) monthly products, using the Multi-Sensor UAVI algorithm, Version 1.4.7. \n\nFor further details about these data products please see the linked documentation."
+      },
+      "description" : {
+        "__prefix" : "dc",
+        "__text" : "The ESA Climate Change Initiative Aerosol project has produced a number of global aerosol Essential Climate Variable (ECV) products from a set of European satellite instruments with different characteristics. \n\nThis dataset comprises images of Absorbing Aerosol Index (AAI) monthly products, using the Multi-Sensor UAVI algorithm, Version 1.4.7. \n\nFor further details about these data products please see the linked documentation."
+      },
+      "rights" : {
+        "__prefix" : "dc",
+        "__text" : "otherRestrictions"
+      },
+      "language" : {
+        "__prefix" : "dc",
+        "__text" : "eng"
+      },
+      "source" : {
+        "__prefix" : "dc",
+        "__text" : "Data were processed by the ESA CCI Aerosol project team and supplied to CEDA in the context of the ESA CCI Open Data Portal Project."
+      },
+      "relation" : {
+        "__prefix" : "dc",
+        "__text" : "8e1662bfe93d4720adfcfd8925862bad"
+      },
+      "BoundingBox" : {
+        "LowerCorner" : {
+          "__prefix" : "ows",
+          "__text" : "180.0 -90.0"
+        },
+        "UpperCorner" : {
+          "__prefix" : "ows",
+          "__text" : "-180.0 90.0"
+        },
+        "_crs" : "urn:ogc:def:crs:::urn:ogc:def:crs:EPSG::27700",
+        "__prefix" : "ows"
+      },
+      "TemporalExtent" : {
+        "StartDate" : {
+          "__prefix" : "ows",
+          "__text" : "1978-01-11T00:00:00"
+        },
+        "EndDate" : {
+          "__prefix" : "ows",
+          "__text" : "2012-12-31T23:59:59"
+        },
+        "__prefix" : "ows"
+      },
+      "URI" : [{
+        "_name" : "Dataset Homepage",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://catalogue.ceda.ac.uk/uuid/337661f6cb6a438ea305869ae00463fb"
+      }, {
+        "_name" : "DOWNLOAD",
+        "_description" : "Download Data",
+        "_function" : "download",
+        "__prefix" : "dc",
+        "__text" : "http://browse.ceda.ac.uk/browse/neodc/esacci_aerosol/data/MS_UVAI/L3_MONTHLY/v1.4.7"
+      }, {
+        "_name" : "ESA CCI Aerosol Products Description",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-aerosol-cci.org/?q=products%20description"
+      }, {
+        "_name" : "ESA CCI Aerosol Products Overview",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-aerosol-cci.org/?q=products"
+      }, {
+        "_name" : "The ESA Aerosol CCI Project",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-aerosol-cci.org/"
+      }, {
+        "_name" : "Aerosol CCI paper in AMT",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://dx.doi.org/10.5194/amt-6-1919-2013"
+      }, {
+        "_name" : "ESA CCI Programme Website",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://cci.esa.int/"
+      }
+      ],
+      "_xmlns:geonet" : "http://www.fao.org/geonetwork",
+      "_xmlns:dc" : "http://purl.org/dc/elements/1.1/",
+      "_xmlns:dct" : "http://purl.org/dc/terms/",
+      "_xmlns:ows" : "http://www.opengis.net/ows",
+      "_xmlns:gml" : "http://www.opengis.net/gml/3.2",
+      "__prefix" : "csw",
+      "times" : [{
+        "starting_time" : 253324800000,
+        "ending_time" : 1356998399000
+      }
+      ],
+      "label" : "Dataset #9"
+    }, {
+      "identifier" : {
+        "__prefix" : "dc",
+        "__text" : "596703c2-e1f7-47bc-b2ff-97b9e21a0f00"
+      },
+      "date" : {
+        "__prefix" : "dc",
+        "__text" : "2016-01-06T01:07:22"
+      },
+      "title" : {
+        "__prefix" : "dc",
+        "__text" : "ESA Aerosol Climate Change Initiative (Aerosol CCI): Level 3 aerosol daily products (MS UAVI algorithm), Version 1.4.7"
+      },
+      "type" : {
+        "__prefix" : "dc",
+        "__text" : "dataset"
+      },
+      "subject" : [{
+        "__prefix" : "dc",
+        "__text" : "CLIPC"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "ESACCI"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "orthoimagery"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "imageryBaseMapsEarthCover"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "environment"
+      }
+      ],
+      "abstract" : {
+        "__prefix" : "dct",
+        "__text" : "The ESA Climate Change Initiative Aerosol project has produced a number of global aerosol Essential Climate Variable (ECV) products from a set of European satellite instruments with different characteristics. \n\nThis dataset comprises daily Level 3 Absorbing Aerosol Index (AAI) products, using the Multi-Sensor UAVI algorithm, Version 1.4.7. \n\nFor further details about these data products please see the linked documentation."
+      },
+      "description" : {
+        "__prefix" : "dc",
+        "__text" : "The ESA Climate Change Initiative Aerosol project has produced a number of global aerosol Essential Climate Variable (ECV) products from a set of European satellite instruments with different characteristics. \n\nThis dataset comprises daily Level 3 Absorbing Aerosol Index (AAI) products, using the Multi-Sensor UAVI algorithm, Version 1.4.7. \n\nFor further details about these data products please see the linked documentation."
+      },
+      "rights" : {
+        "__prefix" : "dc",
+        "__text" : "otherRestrictions"
+      },
+      "language" : {
+        "__prefix" : "dc",
+        "__text" : "eng"
+      },
+      "source" : {
+        "__prefix" : "dc",
+        "__text" : "Data were processed by the ESA CCI Aerosol project team and supplied to CEDA in the context of the ESA CCI Open Data Portal Project."
+      },
+      "relation" : {
+        "__prefix" : "dc",
+        "__text" : "8e1662bfe93d4720adfcfd8925862bad"
+      },
+      "BoundingBox" : {
+        "LowerCorner" : {
+          "__prefix" : "ows",
+          "__text" : "180.0 -90.0"
+        },
+        "UpperCorner" : {
+          "__prefix" : "ows",
+          "__text" : "-180.0 90.0"
+        },
+        "_crs" : "urn:ogc:def:crs:::urn:ogc:def:crs:EPSG::27700",
+        "__prefix" : "ows"
+      },
+      "TemporalExtent" : {
+        "StartDate" : {
+          "__prefix" : "ows",
+          "__text" : "1978-01-11T00:00:00"
+        },
+        "EndDate" : {
+          "__prefix" : "ows",
+          "__text" : "2012-12-31T23:59:59"
+        },
+        "__prefix" : "ows"
+      },
+      "URI" : [{
+        "_name" : "Dataset Homepage",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://catalogue.ceda.ac.uk/uuid/f15aa17184884515a860a92634aa73ff"
+      }, {
+        "_name" : "DOWNLOAD",
+        "_description" : "Download Data",
+        "_function" : "download",
+        "__prefix" : "dc",
+        "__text" : "http://browse.ceda.ac.uk/browse/neodc/esacci_aerosol/data/MS_UVAI/L3_DAILY/v1.4.7"
+      }, {
+        "_name" : "ESA CCI Aerosol Products Description",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-aerosol-cci.org/?q=products%20description"
+      }, {
+        "_name" : "ESA CCI Aerosol Products Overview",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-aerosol-cci.org/?q=products"
+      }, {
+        "_name" : "The ESA Aerosol CCI Project",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-aerosol-cci.org/"
+      }, {
+        "_name" : "Aerosol CCI paper in AMT",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://dx.doi.org/10.5194/amt-6-1919-2013"
+      }, {
+        "_name" : "ESA CCI Programme Website",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://cci.esa.int/"
+      }
+      ],
+      "_xmlns:geonet" : "http://www.fao.org/geonetwork",
+      "_xmlns:dc" : "http://purl.org/dc/elements/1.1/",
+      "_xmlns:dct" : "http://purl.org/dc/terms/",
+      "_xmlns:ows" : "http://www.opengis.net/ows",
+      "_xmlns:gml" : "http://www.opengis.net/gml/3.2",
+      "__prefix" : "csw",
+      "times" : [{
+        "starting_time" : 253324800000,
+        "ending_time" : 1356998399000
+      }
+      ],
+      "label" : "Dataset #10"
+    }, {
+      "identifier" : {
+        "__prefix" : "dc",
+        "__text" : "1b8e2582-6410-4590-85db-6fa8c39f8312"
+      },
+      "date" : {
+        "__prefix" : "dc",
+        "__text" : "2016-01-06T01:07:25"
+      },
+      "title" : {
+        "__prefix" : "dc",
+        "__text" : "ESA Aerosol Climate Change Initiative (Aerosol CCI): Level 3 aerosol daily products from ATSR2 (SU algorithm), Version 4.2"
+      },
+      "type" : {
+        "__prefix" : "dc",
+        "__text" : "dataset"
+      },
+      "subject" : [{
+        "__prefix" : "dc",
+        "__text" : "CLIPC"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "ESACCI"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "orthoimagery"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "imageryBaseMapsEarthCover"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "environment"
+      }
+      ],
+      "abstract" : {
+        "__prefix" : "dct",
+        "__text" : "The ESA Climate Change Initiative Aerosol project has produced a number of global aerosol Essential Climate Variable (ECV) products from a set of European satellite instruments with different characteristics. \n\nThis dataset comprises the Level 3 aerosol daily products from ATSR-2, using the Swansea University (SU) algorithm, version 4.2. \n\nThe data are stored as daily means and standard deviations of a range of aerosol variables, on global 1 degree x 1 degree latitutude/longitude grids, and in NetCDF format.\n\nThe variables included are: Aerosol Optical Depth  (AOD), AOD per pixel uncertainty, Angstrom, surface reflectance, fine mode AOD, dust AOD, absorbing AOD, cloud_fraction, view geometry and surface type.\n\nFor further details about these data products please see the linked documentation."
+      },
+      "description" : {
+        "__prefix" : "dc",
+        "__text" : "The ESA Climate Change Initiative Aerosol project has produced a number of global aerosol Essential Climate Variable (ECV) products from a set of European satellite instruments with different characteristics. \n\nThis dataset comprises the Level 3 aerosol daily products from ATSR-2, using the Swansea University (SU) algorithm, version 4.2. \n\nThe data are stored as daily means and standard deviations of a range of aerosol variables, on global 1 degree x 1 degree latitutude/longitude grids, and in NetCDF format.\n\nThe variables included are: Aerosol Optical Depth  (AOD), AOD per pixel uncertainty, Angstrom, surface reflectance, fine mode AOD, dust AOD, absorbing AOD, cloud_fraction, view geometry and surface type.\n\nFor further details about these data products please see the linked documentation."
+      },
+      "rights" : {
+        "__prefix" : "dc",
+        "__text" : "otherRestrictions"
+      },
+      "language" : {
+        "__prefix" : "dc",
+        "__text" : "eng"
+      },
+      "source" : {
+        "__prefix" : "dc",
+        "__text" : "Data were processed by the ESA CCI Aerosol project team and supplied to CEDA in the context of the ESA CCI Open Data Portal Project."
+      },
+      "relation" : {
+        "__prefix" : "dc",
+        "__text" : "8e1662bfe93d4720adfcfd8925862bad"
+      },
+      "BoundingBox" : {
+        "LowerCorner" : {
+          "__prefix" : "ows",
+          "__text" : "180.0 -90.0"
+        },
+        "UpperCorner" : {
+          "__prefix" : "ows",
+          "__text" : "-180.0 90.0"
+        },
+        "_crs" : "urn:ogc:def:crs:::urn:ogc:def:crs:EPSG::27700",
+        "__prefix" : "ows"
+      },
+      "TemporalExtent" : {
+        "StartDate" : {
+          "__prefix" : "ows",
+          "__text" : "1995-06-01T00:00:00"
+        },
+        "EndDate" : {
+          "__prefix" : "ows",
+          "__text" : "2003-06-04T23:59:59"
+        },
+        "__prefix" : "ows"
+      },
+      "URI" : [{
+        "_name" : "Dataset Homepage",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://catalogue.ceda.ac.uk/uuid/54bff8b538ac441b80f3e35059f11f0f"
+      }, {
+        "_name" : "DOWNLOAD",
+        "_description" : "Download Data",
+        "_function" : "download",
+        "__prefix" : "dc",
+        "__text" : "http://browse.ceda.ac.uk/browse/neodc/esacci_aerosol/data/ATSR2_SU/L3_DAILY/v4.2"
+      }, {
+        "_name" : "ESA CCI Aerosol Products Description",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-aerosol-cci.org/?q=products%20description"
+      }, {
+        "_name" : "ESA CCI Aerosol Products Overview",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-aerosol-cci.org/?q=products"
+      }, {
+        "_name" : "The ESA Aerosol CCI Project",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-aerosol-cci.org/"
+      }, {
+        "_name" : "Aerosol CCI paper in AMT",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://dx.doi.org/10.5194/amt-6-1919-2013"
+      }, {
+        "_name" : "ESA CCI Programme Website",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://cci.esa.int/"
+      }
+      ],
+      "_xmlns:geonet" : "http://www.fao.org/geonetwork",
+      "_xmlns:dc" : "http://purl.org/dc/elements/1.1/",
+      "_xmlns:dct" : "http://purl.org/dc/terms/",
+      "_xmlns:ows" : "http://www.opengis.net/ows",
+      "_xmlns:gml" : "http://www.opengis.net/gml/3.2",
+      "__prefix" : "csw",
+      "times" : [{
+        "starting_time" : 801964800000,
+        "ending_time" : 1054771199000
+      }
+      ],
+      "label" : "Dataset #11"
+    }, {
+      "identifier" : {
+        "__prefix" : "dc",
+        "__text" : "526f5f86-85b1-4c51-b6f9-9979f9b456e6"
+      },
+      "date" : {
+        "__prefix" : "dc",
+        "__text" : "2016-01-06T01:07:25"
+      },
+      "title" : {
+        "__prefix" : "dc",
+        "__text" : "ESA Aerosol Climate Change Initiative (Aerosol CCI): Level 3 aerosol monthly products from AATSR (SU algorithm), Version 4.2"
+      },
+      "type" : {
+        "__prefix" : "dc",
+        "__text" : "dataset"
+      },
+      "subject" : [{
+        "__prefix" : "dc",
+        "__text" : "CLIPC"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "ESACCI"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "orthoimagery"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "imageryBaseMapsEarthCover"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "environment"
+      }
+      ],
+      "abstract" : {
+        "__prefix" : "dct",
+        "__text" : "The ESA Climate Change Initiative Aerosol project has produced a number of global aerosol Essential Climate Variable (ECV) products from a set of European satellite instruments with different characteristics. \n\nThis dataset comprises the Level 3 aerosol monthly products from AATSR, using the Swansea University (SU) algorithm, version 4.2. \n\nThe data are stored as monthly averages and standard deviations of a range of aerosol variables, on global 1 degree x 1 degree latitutude/longitude grids, and in NetCDF format.\n\nThe variables included are: Aerosol Optical Depth  (AOD), AOD per pixel uncertainty, Angstrom, surface reflectance, fine mode AOD, dust AOD, absorbing AOD, cloud_fraction, view geometry and surface type. \n\nFor further details about these data products please see the linked documentation."
+      },
+      "description" : {
+        "__prefix" : "dc",
+        "__text" : "The ESA Climate Change Initiative Aerosol project has produced a number of global aerosol Essential Climate Variable (ECV) products from a set of European satellite instruments with different characteristics. \n\nThis dataset comprises the Level 3 aerosol monthly products from AATSR, using the Swansea University (SU) algorithm, version 4.2. \n\nThe data are stored as monthly averages and standard deviations of a range of aerosol variables, on global 1 degree x 1 degree latitutude/longitude grids, and in NetCDF format.\n\nThe variables included are: Aerosol Optical Depth  (AOD), AOD per pixel uncertainty, Angstrom, surface reflectance, fine mode AOD, dust AOD, absorbing AOD, cloud_fraction, view geometry and surface type. \n\nFor further details about these data products please see the linked documentation."
+      },
+      "rights" : {
+        "__prefix" : "dc",
+        "__text" : "otherRestrictions"
+      },
+      "language" : {
+        "__prefix" : "dc",
+        "__text" : "eng"
+      },
+      "source" : {
+        "__prefix" : "dc",
+        "__text" : "Data were processed by the ESA CCI Aerosol project team and supplied to CEDA in the context of the ESA CCI Open Data Portal Project."
+      },
+      "relation" : {
+        "__prefix" : "dc",
+        "__text" : "8e1662bfe93d4720adfcfd8925862bad"
+      },
+      "BoundingBox" : {
+        "LowerCorner" : {
+          "__prefix" : "ows",
+          "__text" : "180.0 -90.0"
+        },
+        "UpperCorner" : {
+          "__prefix" : "ows",
+          "__text" : "-180.0 90.0"
+        },
+        "_crs" : "urn:ogc:def:crs:::urn:ogc:def:crs:EPSG::27700",
+        "__prefix" : "ows"
+      },
+      "TemporalExtent" : {
+        "StartDate" : {
+          "__prefix" : "ows",
+          "__text" : "2002-07-24T00:00:00"
+        },
+        "EndDate" : {
+          "__prefix" : "ows",
+          "__text" : "2012-04-08T23:59:59"
+        },
+        "__prefix" : "ows"
+      },
+      "URI" : [{
+        "_name" : "Dataset Homepage",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://catalogue.ceda.ac.uk/uuid/696aa71b351842a1b6a65d1f930c2600"
+      }, {
+        "_name" : "DOWNLOAD",
+        "_description" : "Download Data",
+        "_function" : "download",
+        "__prefix" : "dc",
+        "__text" : "http://browse.ceda.ac.uk/browse/neodc/esacci_aerosol/data/AATSR_SU/L3_MONTHLY/v4.2"
+      }, {
+        "_name" : "ESA CCI Aerosol Products Description",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-aerosol-cci.org/?q=products%20description"
+      }, {
+        "_name" : "ESA CCI Aerosol Products Overview",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-aerosol-cci.org/?q=products"
+      }, {
+        "_name" : "The ESA Aerosol CCI Project",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-aerosol-cci.org/"
+      }, {
+        "_name" : "Aerosol CCI paper in AMT",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://dx.doi.org/10.5194/amt-6-1919-2013"
+      }, {
+        "_name" : "ESA CCI Programme Website",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://cci.esa.int/"
+      }
+      ],
+      "_xmlns:geonet" : "http://www.fao.org/geonetwork",
+      "_xmlns:dc" : "http://purl.org/dc/elements/1.1/",
+      "_xmlns:dct" : "http://purl.org/dc/terms/",
+      "_xmlns:ows" : "http://www.opengis.net/ows",
+      "_xmlns:gml" : "http://www.opengis.net/gml/3.2",
+      "__prefix" : "csw",
+      "times" : [{
+        "starting_time" : 1027468800000,
+        "ending_time" : 1333929599000
+      }
+      ],
+      "label" : "Dataset #12"
+    }
+    ],
+    "times" : [{
+      "starting_time" : 253324800000,
+      "ending_time" : 1356998399000
+    }
+    ]
+  },
+    {
+    "label" : "",
+    "project" : "Ocean colour",
+    "abstract" : "The Ocean Colour CCI (OC_CCI) project focuses on the Ocean Colour ECV encompassing water-leaving radiance in the visible domain, derived chlorophyll and inherent optical properties and will utilise data archives of from ESA’s MERIS and NASA’s SeaWiFS, MODIS and possibly CZCS (after careful evaluation) sensors archives. It is also looking at the feasibility of using OCM-2 and VIIRS data as a \"gap filler\" before the launch of Sentinel-3.",
+    "homepage" : "http://www.esa-oceancolour-cci.org/",
+    "guideURL" : "http://www.esa-oceancolour-cci.org/?q=webfm_send/496",
+    "logoURL" : "../images/logos/oceancolour.gif",
+    "datasets" : [{
+      "identifier" : {
+        "__prefix" : "dc",
+        "__text" : "97619e24-6cf8-4bb9-a7d7-a2a589e4e176"
+      },
+      "date" : {
+        "__prefix" : "dc",
+        "__text" : "2016-01-06T01:07:20"
+      },
+      "title" : {
+        "__prefix" : "dc",
+        "__text" : "ESA Ocean Colour Climate Change Initiative (Ocean Colour CCI): Daily global attenuation coefficient for downwelling irradiance (Kd490) gridded on a geographic projection, Version 1.0"
+      },
+      "type" : {
+        "__prefix" : "dc",
+        "__text" : "dataset"
+      },
+      "subject" : [{
+        "__prefix" : "dc",
+        "__text" : "ESACCI"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "orthoimagery"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "imageryBaseMapsEarthCover"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "environment"
+      }
+      ],
+      "abstract" : {
+        "__prefix" : "dct",
+        "__text" : "The ESA Ocean Colour CCI project has produced global level 3 binned multi-sensor time-series of satellite ocean-colour data with a particular focus for use in climate studies.\n\nThis dataset contains the Version 1.0 Kd490 attenuation coefficient (m-1) for downwelling irradiance product on a geographic projection at approximately 4 km spatial resolution and at a daily time resolution. It is computed from the Ocean Colour CCI Version 1 inherent optical properties dataset at 490 nm and the solar zenith angle.   Note, this dataset is also contained within the 'All Products' dataset.\n\nThis data product is on a geographic grid projection, which is a direct conversion of latitude and longitude coordinates to a rectangular grid, typically a fixed multiplier of 360x180. The netCDF files follow the CF convention for this projection with a resolution of 8640x4320.   (A separate dataset is also available for data on a sinusoidal projection)."
+      },
+      "description" : {
+        "__prefix" : "dc",
+        "__text" : "The ESA Ocean Colour CCI project has produced global level 3 binned multi-sensor time-series of satellite ocean-colour data with a particular focus for use in climate studies.\n\nThis dataset contains the Version 1.0 Kd490 attenuation coefficient (m-1) for downwelling irradiance product on a geographic projection at approximately 4 km spatial resolution and at a daily time resolution. It is computed from the Ocean Colour CCI Version 1 inherent optical properties dataset at 490 nm and the solar zenith angle.   Note, this dataset is also contained within the 'All Products' dataset.\n\nThis data product is on a geographic grid projection, which is a direct conversion of latitude and longitude coordinates to a rectangular grid, typically a fixed multiplier of 360x180. The netCDF files follow the CF convention for this projection with a resolution of 8640x4320.   (A separate dataset is also available for data on a sinusoidal projection)."
+      },
+      "rights" : {
+        "__prefix" : "dc",
+        "__text" : "otherRestrictions"
+      },
+      "language" : {
+        "__prefix" : "dc",
+        "__text" : "eng"
+      },
+      "source" : {
+        "__prefix" : "dc",
+        "__text" : "This data has been produced by the ESA Ocean Colour CCI project and provided to CEDA in the context of the ESA CCI Open Data Portal project"
+      },
+      "relation" : {
+        "__prefix" : "dc",
+        "__text" : "f1a4a1d1208244c682603502d554bc12"
+      },
+      "BoundingBox" : {
+        "LowerCorner" : {
+          "__prefix" : "ows",
+          "__text" : "180.0 -90.0"
+        },
+        "UpperCorner" : {
+          "__prefix" : "ows",
+          "__text" : "-180.0 90.0"
+        },
+        "_crs" : "urn:ogc:def:crs:::urn:ogc:def:crs:EPSG::27700",
+        "__prefix" : "ows"
+      },
+      "TemporalExtent" : {
+        "StartDate" : {
+          "__prefix" : "ows",
+          "__text" : "1997-09-04T00:00:00"
+        },
+        "EndDate" : {
+          "__prefix" : "ows",
+          "__text" : "2012-07-31T23:59:59"
+        },
+        "__prefix" : "ows"
+      },
+      "URI" : [{
+        "_name" : "Dataset Homepage",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://catalogue.ceda.ac.uk/uuid/06e4e74e2cb24ec582cdce05e2ff1c87"
+      }, {
+        "_name" : "DOWNLOAD",
+        "_description" : "Download Data",
+        "_function" : "download",
+        "__prefix" : "dc",
+        "__text" : "http://browse.ceda.ac.uk/browse/neodc/esacci_oc/data/v1-release/geographic/netcdf/kd/daily/v1.0"
+      }, {
+        "_name" : "ESA Ocean Colour CCI website",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-oceancolour-cci.org/"
+      }, {
+        "_name" : "ESA Ocean Colour CCI Product User Guide, Version 1.0",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://browse.ceda.ac.uk/browse/neodc/esacci_oc/docs/CCI-OC-PUG-v1.0.1.pdf"
+      }, {
+        "_name" : "Lavender, S. et al, 'The Ocean Colour Climate Change Initiative',Ocean Challenge, Vol.21, No.1, 2015",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-oceancolour-cci.org/?q=webfm_send/531"
+      }, {
+        "_name" : "ESA's Climate Change Initiative (CCI) website",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://cci.esa.int/"
+      }
+      ],
+      "_xmlns:geonet" : "http://www.fao.org/geonetwork",
+      "_xmlns:dc" : "http://purl.org/dc/elements/1.1/",
+      "_xmlns:dct" : "http://purl.org/dc/terms/",
+      "_xmlns:ows" : "http://www.opengis.net/ows",
+      "_xmlns:gml" : "http://www.opengis.net/gml/3.2",
+      "__prefix" : "csw",
+      "times" : [{
+        "starting_time" : 873331200000,
+        "ending_time" : 1343779199000
+      }
+      ],
+      "label" : "Dataset #1"
+    }, {
+      "identifier" : {
+        "__prefix" : "dc",
+        "__text" : "5d6ff836-1e3c-4ab2-a426-188e1d75f890"
+      },
+      "date" : {
+        "__prefix" : "dc",
+        "__text" : "2016-01-06T01:07:08"
+      },
+      "title" : {
+        "__prefix" : "dc",
+        "__text" : "ESA Ocean Colour Climate Change Initiative (Ocean Colour CCI): Daily global chlorophyll-a data products gridded on a sinusoidal projection, Version 1.0"
+      },
+      "type" : {
+        "__prefix" : "dc",
+        "__text" : "dataset"
+      },
+      "subject" : [{
+        "__prefix" : "dc",
+        "__text" : "ESACCI"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "orthoimagery"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "imageryBaseMapsEarthCover"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "environment"
+      }
+      ],
+      "abstract" : {
+        "__prefix" : "dct",
+        "__text" : "The ESA Ocean Colour CCI project has produced global level 3 binned multi-sensor time-series of satellite ocean-colour data with a particular focus for use in climate studies.\n\nThis dataset contains their Version 1.0 chlorophyll-a product (in mg/m3) on a sinusoidal projection at 4 km spatial resolution and at a daily time resolution.   Note, this dataset is also included in the 'All Products' dataset.\n\nThis data product is on a sinusoidal equal-area grid projection, matching the NASA standard level 3 binned projection. The default number of latitude rows is 4320, which results in a vertical bin cell size of approximately 4 km. The number of longitude columns varies according to the latitude, which permits the equal area property. Unlike the NASA format, where the bin cells that do not contain any data are omitted, the CCI format retains all cells and simply marks empty cells with a NetCDF fill value. (A separate dataset is also available for data on a geographic projection.)"
+      },
+      "description" : {
+        "__prefix" : "dc",
+        "__text" : "The ESA Ocean Colour CCI project has produced global level 3 binned multi-sensor time-series of satellite ocean-colour data with a particular focus for use in climate studies.\n\nThis dataset contains their Version 1.0 chlorophyll-a product (in mg/m3) on a sinusoidal projection at 4 km spatial resolution and at a daily time resolution.   Note, this dataset is also included in the 'All Products' dataset.\n\nThis data product is on a sinusoidal equal-area grid projection, matching the NASA standard level 3 binned projection. The default number of latitude rows is 4320, which results in a vertical bin cell size of approximately 4 km. The number of longitude columns varies according to the latitude, which permits the equal area property. Unlike the NASA format, where the bin cells that do not contain any data are omitted, the CCI format retains all cells and simply marks empty cells with a NetCDF fill value. (A separate dataset is also available for data on a geographic projection.)"
+      },
+      "rights" : {
+        "__prefix" : "dc",
+        "__text" : "otherRestrictions"
+      },
+      "language" : {
+        "__prefix" : "dc",
+        "__text" : "eng"
+      },
+      "source" : {
+        "__prefix" : "dc",
+        "__text" : "This data has been produced by the ESA Ocean Colour CCI project and provided to CEDA in the context of the ESA CCI Open Data Portal project"
+      },
+      "relation" : {
+        "__prefix" : "dc",
+        "__text" : "f1a4a1d1208244c682603502d554bc12"
+      },
+      "BoundingBox" : {
+        "LowerCorner" : {
+          "__prefix" : "ows",
+          "__text" : "180.0 -90.0"
+        },
+        "UpperCorner" : {
+          "__prefix" : "ows",
+          "__text" : "-180.0 90.0"
+        },
+        "_crs" : "urn:ogc:def:crs:::urn:ogc:def:crs:EPSG::27700",
+        "__prefix" : "ows"
+      },
+      "TemporalExtent" : {
+        "StartDate" : {
+          "__prefix" : "ows",
+          "__text" : "1997-09-04T00:00:00"
+        },
+        "EndDate" : {
+          "__prefix" : "ows",
+          "__text" : "2012-07-31T23:59:59"
+        },
+        "__prefix" : "ows"
+      },
+      "URI" : [{
+        "_name" : "Dataset Homepage",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://catalogue.ceda.ac.uk/uuid/f7d1890865bb47b383a013cd9fede042"
+      }, {
+        "_name" : "DOWNLOAD",
+        "_description" : "Download Data",
+        "_function" : "download",
+        "__prefix" : "dc",
+        "__text" : "http://browse.ceda.ac.uk/browse/neodc/esacci_oc/data/v1-release/sinusoidal/netcdf/chlor_a/daily/v1.0"
+      }, {
+        "_name" : "ESA Ocean Colour CCI website",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-oceancolour-cci.org/"
+      }, {
+        "_name" : "ESA's Climate Change Initiative (CCI) website",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://cci.esa.int/"
+      }, {
+        "_name" : "Lavender, S. et al, 'The Ocean Colour Climate Change Initiative',Ocean Challenge, Vol.21, No.1, 2015",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-oceancolour-cci.org/?q=webfm_send/531"
+      }, {
+        "_name" : "ESA Ocean Colour CCI Product User Guide, Version 1.0",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://browse.ceda.ac.uk/browse/neodc/esacci_oc/docs/CCI-OC-PUG-v1.0.1.pdf"
+      }
+      ],
+      "_xmlns:geonet" : "http://www.fao.org/geonetwork",
+      "_xmlns:dc" : "http://purl.org/dc/elements/1.1/",
+      "_xmlns:dct" : "http://purl.org/dc/terms/",
+      "_xmlns:ows" : "http://www.opengis.net/ows",
+      "_xmlns:gml" : "http://www.opengis.net/gml/3.2",
+      "__prefix" : "csw",
+      "times" : [{
+        "starting_time" : 873331200000,
+        "ending_time" : 1343779199000
+      }
+      ],
+      "label" : "Dataset #2"
+    }, {
+      "identifier" : {
+        "__prefix" : "dc",
+        "__text" : "1785edfb-fb8a-43b5-9383-edb335698856"
+      },
+      "date" : {
+        "__prefix" : "dc",
+        "__text" : "2016-01-06T01:07:09"
+      },
+      "title" : {
+        "__prefix" : "dc",
+        "__text" : "ESA Ocean Colour Climate Change Initiative (Ocean Colour CCI): Monthly global ocean colour data products gridded on a sinusoidal projection (All Products), Version 1.0"
+      },
+      "type" : {
+        "__prefix" : "dc",
+        "__text" : "dataset"
+      },
+      "subject" : [{
+        "__prefix" : "dc",
+        "__text" : "ESACCI"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "orthoimagery"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "imageryBaseMapsEarthCover"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "environment"
+      }
+      ],
+      "abstract" : {
+        "__prefix" : "dct",
+        "__text" : "The ESA Ocean Colour CCI project has produced global level 3 binned multi-sensor time-series of satellite ocean-colour data with a particular focus for use in climate studies.\n\nThis dataset contains all their Version 1.0 generated ocean colour products on a sinusoidal projection at 4 km spatial resolution and at a monthly time resolution.\n\nData products being produced include: phytoplankton chlorophyll-a concentration; remote-sensing reflectance at six wavelengths; total absorption and backscattering coefficients; phytoplankton absorption coefficient and absorption coefficients for dissolved and detrital material; and the diffuse attenuation coefficient for downwelling irradiance for light of wavelength 490nm. Information on uncertainties is also provided.\n\nThis data product is on a sinusoidal equal-area grid projection, matching the NASA standard level 3 binned projection. The default number of latitude rows is 4320, which results in a vertical bin cell size of approximately 4 km. The number of longitude columns varies according to the latitude, which permits the equal area property. Unlike the NASA format, where the bin cells that do not contain any data are omitted, the CCI format retains all cells and simply marks empty cells with a NetCDF fill value.   (A separate dataset is also available for data on a geographic projection.)"
+      },
+      "description" : {
+        "__prefix" : "dc",
+        "__text" : "The ESA Ocean Colour CCI project has produced global level 3 binned multi-sensor time-series of satellite ocean-colour data with a particular focus for use in climate studies.\n\nThis dataset contains all their Version 1.0 generated ocean colour products on a sinusoidal projection at 4 km spatial resolution and at a monthly time resolution.\n\nData products being produced include: phytoplankton chlorophyll-a concentration; remote-sensing reflectance at six wavelengths; total absorption and backscattering coefficients; phytoplankton absorption coefficient and absorption coefficients for dissolved and detrital material; and the diffuse attenuation coefficient for downwelling irradiance for light of wavelength 490nm. Information on uncertainties is also provided.\n\nThis data product is on a sinusoidal equal-area grid projection, matching the NASA standard level 3 binned projection. The default number of latitude rows is 4320, which results in a vertical bin cell size of approximately 4 km. The number of longitude columns varies according to the latitude, which permits the equal area property. Unlike the NASA format, where the bin cells that do not contain any data are omitted, the CCI format retains all cells and simply marks empty cells with a NetCDF fill value.   (A separate dataset is also available for data on a geographic projection.)"
+      },
+      "rights" : {
+        "__prefix" : "dc",
+        "__text" : "otherRestrictions"
+      },
+      "language" : {
+        "__prefix" : "dc",
+        "__text" : "eng"
+      },
+      "source" : {
+        "__prefix" : "dc",
+        "__text" : "This data has been produced by the ESA Ocean Colour CCI project and provided to CEDA in the context of the ESA CCI Open Data Portal project"
+      },
+      "relation" : {
+        "__prefix" : "dc",
+        "__text" : "f1a4a1d1208244c682603502d554bc12"
+      },
+      "BoundingBox" : {
+        "LowerCorner" : {
+          "__prefix" : "ows",
+          "__text" : "180.0 -90.0"
+        },
+        "UpperCorner" : {
+          "__prefix" : "ows",
+          "__text" : "-180.0 90.0"
+        },
+        "_crs" : "urn:ogc:def:crs:::urn:ogc:def:crs:EPSG::27700",
+        "__prefix" : "ows"
+      },
+      "TemporalExtent" : {
+        "StartDate" : {
+          "__prefix" : "ows",
+          "__text" : "1997-09-04T00:00:00"
+        },
+        "EndDate" : {
+          "__prefix" : "ows",
+          "__text" : "2012-07-31T23:59:59"
+        },
+        "__prefix" : "ows"
+      },
+      "URI" : [{
+        "_name" : "Dataset Homepage",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://catalogue.ceda.ac.uk/uuid/be3edba3aefd42ebbebea241a71d608e"
+      }, {
+        "_name" : "DOWNLOAD",
+        "_description" : "Download Data",
+        "_function" : "download",
+        "__prefix" : "dc",
+        "__text" : "http://browse.ceda.ac.uk/browse/neodc/esacci_oc/data/v1-release/sinusoidal/netcdf/all_products/monthly/v1.0"
+      }, {
+        "_name" : "ESA Ocean Colour CCI website",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-oceancolour-cci.org/"
+      }, {
+        "_name" : "ESA's Climate Change Initiative (CCI) website",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://cci.esa.int/"
+      }, {
+        "_name" : "Lavender, S. et al, 'The Ocean Colour Climate Change Initiative',Ocean Challenge, Vol.21, No.1, 2015",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-oceancolour-cci.org/?q=webfm_send/531"
+      }, {
+        "_name" : "ESA Ocean Colour CCI Product User Guide, Version 1.0",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://browse.ceda.ac.uk/browse/neodc/esacci_oc/docs/CCI-OC-PUG-v1.0.1.pdf"
+      }
+      ],
+      "_xmlns:geonet" : "http://www.fao.org/geonetwork",
+      "_xmlns:dc" : "http://purl.org/dc/elements/1.1/",
+      "_xmlns:dct" : "http://purl.org/dc/terms/",
+      "_xmlns:ows" : "http://www.opengis.net/ows",
+      "_xmlns:gml" : "http://www.opengis.net/gml/3.2",
+      "__prefix" : "csw",
+      "times" : [{
+        "starting_time" : 873331200000,
+        "ending_time" : 1343779199000
+      }
+      ],
+      "label" : "Dataset #3"
+    }, {
+      "identifier" : {
+        "__prefix" : "dc",
+        "__text" : "2b4c3d34-5b45-4fe1-923e-283fc755a4dc"
+      },
+      "date" : {
+        "__prefix" : "dc",
+        "__text" : "2016-01-06T01:07:10"
+      },
+      "title" : {
+        "__prefix" : "dc",
+        "__text" : "ESA Ocean Colour Climate Change Initiative (Ocean Colour CCI): Daily global ocean colour data products gridded on a sinusoidal projection (All Products), Version 1.0"
+      },
+      "type" : {
+        "__prefix" : "dc",
+        "__text" : "dataset"
+      },
+      "subject" : [{
+        "__prefix" : "dc",
+        "__text" : "ESACCI"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "orthoimagery"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "imageryBaseMapsEarthCover"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "environment"
+      }
+      ],
+      "abstract" : {
+        "__prefix" : "dct",
+        "__text" : "The ESA Ocean Colour CCI project has produced global level 3 binned multi-sensor time-series of satellite ocean-colour data with a particular focus for use in climate studies.\n\nThis dataset contains all their Version 1.0 generated ocean colour products on a sinusoidal projection at 4 km spatial resolution and at a daily time resolution.\n\nData products being produced include: phytoplankton chlorophyll-a concentration; remote-sensing reflectance at six wavelengths; total absorption and backscattering coefficients; phytoplankton absorption coefficient and absorption coefficients for dissolved and detrital material; and the diffuse attenuation coefficient for downwelling irradiance for light of wavelength 490nm. Information on uncertainties is also provided.\n\nThis data product is on a sinusoidal equal-area grid projection, matching the NASA standard level 3 binned projection. The default number of latitude rows is 4320, which results in a vertical bin cell size of approximately 4 km. The number of longitude columns varies according to the latitude, which permits the equal area property. Unlike the NASA format, where the bin cells that do not contain any data are omitted, the CCI format retains all cells and simply marks empty cells with a NetCDF fill value. (A separate dataset is also available for data on a geographic projection.)"
+      },
+      "description" : {
+        "__prefix" : "dc",
+        "__text" : "The ESA Ocean Colour CCI project has produced global level 3 binned multi-sensor time-series of satellite ocean-colour data with a particular focus for use in climate studies.\n\nThis dataset contains all their Version 1.0 generated ocean colour products on a sinusoidal projection at 4 km spatial resolution and at a daily time resolution.\n\nData products being produced include: phytoplankton chlorophyll-a concentration; remote-sensing reflectance at six wavelengths; total absorption and backscattering coefficients; phytoplankton absorption coefficient and absorption coefficients for dissolved and detrital material; and the diffuse attenuation coefficient for downwelling irradiance for light of wavelength 490nm. Information on uncertainties is also provided.\n\nThis data product is on a sinusoidal equal-area grid projection, matching the NASA standard level 3 binned projection. The default number of latitude rows is 4320, which results in a vertical bin cell size of approximately 4 km. The number of longitude columns varies according to the latitude, which permits the equal area property. Unlike the NASA format, where the bin cells that do not contain any data are omitted, the CCI format retains all cells and simply marks empty cells with a NetCDF fill value. (A separate dataset is also available for data on a geographic projection.)"
+      },
+      "rights" : {
+        "__prefix" : "dc",
+        "__text" : "otherRestrictions"
+      },
+      "language" : {
+        "__prefix" : "dc",
+        "__text" : "eng"
+      },
+      "source" : {
+        "__prefix" : "dc",
+        "__text" : "This data has been produced by the ESA Ocean Colour CCI project and provided to CEDA in the context of the ESA CCI Open Data Portal project"
+      },
+      "relation" : {
+        "__prefix" : "dc",
+        "__text" : "f1a4a1d1208244c682603502d554bc12"
+      },
+      "BoundingBox" : {
+        "LowerCorner" : {
+          "__prefix" : "ows",
+          "__text" : "180.0 -90.0"
+        },
+        "UpperCorner" : {
+          "__prefix" : "ows",
+          "__text" : "-180.0 90.0"
+        },
+        "_crs" : "urn:ogc:def:crs:::urn:ogc:def:crs:EPSG::27700",
+        "__prefix" : "ows"
+      },
+      "TemporalExtent" : {
+        "StartDate" : {
+          "__prefix" : "ows",
+          "__text" : "1997-09-04T00:00:00"
+        },
+        "EndDate" : {
+          "__prefix" : "ows",
+          "__text" : "2012-07-31T23:59:59"
+        },
+        "__prefix" : "ows"
+      },
+      "URI" : [{
+        "_name" : "Dataset Homepage",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://catalogue.ceda.ac.uk/uuid/a70b70e7635342cdaa4451c17fd4bd87"
+      }, {
+        "_name" : "DOWNLOAD",
+        "_description" : "Download Data",
+        "_function" : "download",
+        "__prefix" : "dc",
+        "__text" : "http://browse.ceda.ac.uk/browse/neodc/esacci_oc/data/v1-release/sinusoidal/netcdf/all_products/daily/v1.0"
+      }, {
+        "_name" : "ESA Ocean Colour CCI website",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-oceancolour-cci.org/"
+      }, {
+        "_name" : "ESA Ocean Colour CCI Product User Guide, Version 1.0",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://browse.ceda.ac.uk/browse/neodc/esacci_oc/docs/CCI-OC-PUG-v1.0.1.pdf"
+      }, {
+        "_name" : "Lavender, S. et al, 'The Ocean Colour Climate Change Initiative',Ocean Challenge, Vol.21, No.1, 2015",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-oceancolour-cci.org/?q=webfm_send/531"
+      }, {
+        "_name" : "ESA's Climate Change Initiative (CCI) website",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://cci.esa.int/"
+      }
+      ],
+      "_xmlns:geonet" : "http://www.fao.org/geonetwork",
+      "_xmlns:dc" : "http://purl.org/dc/elements/1.1/",
+      "_xmlns:dct" : "http://purl.org/dc/terms/",
+      "_xmlns:ows" : "http://www.opengis.net/ows",
+      "_xmlns:gml" : "http://www.opengis.net/gml/3.2",
+      "__prefix" : "csw",
+      "times" : [{
+        "starting_time" : 873331200000,
+        "ending_time" : 1343779199000
+      }
+      ],
+      "label" : "Dataset #4"
+    }, {
+      "identifier" : {
+        "__prefix" : "dc",
+        "__text" : "5c7f6a34-412c-4bf4-a40b-31eaf900efac"
+      },
+      "date" : {
+        "__prefix" : "dc",
+        "__text" : "2016-01-06T01:07:14"
+      },
+      "title" : {
+        "__prefix" : "dc",
+        "__text" : "ESA Ocean Colour Climate Change Initiative (Ocean Colour CCI): Daily global remote sensing reflectance gridded on a sinusoidal projection, Version 1.0"
+      },
+      "type" : {
+        "__prefix" : "dc",
+        "__text" : "dataset"
+      },
+      "subject" : [{
+        "__prefix" : "dc",
+        "__text" : "ESACCI"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "orthoimagery"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "imageryBaseMapsEarthCover"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "environment"
+      }
+      ],
+      "abstract" : {
+        "__prefix" : "dct",
+        "__text" : "The ESA Ocean Colour CCI project has produced global level 3 binned multi-sensor time-series of satellite ocean-colour data with a particular focus for use in climate studies.\n\nThis dataset contains the Version 1.0 Remote Sensing Reflectance product on a sinusoidal projection at approximately 4 km spatial resolution and at a daily time resolution.  Values for remote sensing reflectance at the sea surface are provided for the standard SeaWiFS wavelengths (412, 443, 490, 510, 555, 670nm) with pixel-by-pixel uncertainty estimates for each wavelength. These are merged products based on SeaWiFS, MERIS and Aqua-MODIS data.    Note, this dataset is also contained within the 'All Products' dataset.\n\nThis data product is on a sinusoidal equal-area grid projection, matching the NASA standard level 3 binned projection. The default number of latitude rows is 4320, which results in a vertical bin cell size of approximately 4 km. The number of longitude columns varies according to the latitude, which permits the equal area property. Unlike the NASA format, where the bin cells that do not contain any data are omitted, the CCI format retains all cells and simply marks empty cells with a NetCDF fill value. (A separate dataset is also available for data on a geographic projection)."
+      },
+      "description" : {
+        "__prefix" : "dc",
+        "__text" : "The ESA Ocean Colour CCI project has produced global level 3 binned multi-sensor time-series of satellite ocean-colour data with a particular focus for use in climate studies.\n\nThis dataset contains the Version 1.0 Remote Sensing Reflectance product on a sinusoidal projection at approximately 4 km spatial resolution and at a daily time resolution.  Values for remote sensing reflectance at the sea surface are provided for the standard SeaWiFS wavelengths (412, 443, 490, 510, 555, 670nm) with pixel-by-pixel uncertainty estimates for each wavelength. These are merged products based on SeaWiFS, MERIS and Aqua-MODIS data.    Note, this dataset is also contained within the 'All Products' dataset.\n\nThis data product is on a sinusoidal equal-area grid projection, matching the NASA standard level 3 binned projection. The default number of latitude rows is 4320, which results in a vertical bin cell size of approximately 4 km. The number of longitude columns varies according to the latitude, which permits the equal area property. Unlike the NASA format, where the bin cells that do not contain any data are omitted, the CCI format retains all cells and simply marks empty cells with a NetCDF fill value. (A separate dataset is also available for data on a geographic projection)."
+      },
+      "rights" : {
+        "__prefix" : "dc",
+        "__text" : "otherRestrictions"
+      },
+      "language" : {
+        "__prefix" : "dc",
+        "__text" : "eng"
+      },
+      "source" : {
+        "__prefix" : "dc",
+        "__text" : "This data has been produced by the ESA Ocean Colour CCI project and provided to CEDA in the context of the ESA CCI Open Data Portal project"
+      },
+      "relation" : {
+        "__prefix" : "dc",
+        "__text" : "f1a4a1d1208244c682603502d554bc12"
+      },
+      "BoundingBox" : {
+        "LowerCorner" : {
+          "__prefix" : "ows",
+          "__text" : "180.0 -90.0"
+        },
+        "UpperCorner" : {
+          "__prefix" : "ows",
+          "__text" : "-180.0 90.0"
+        },
+        "_crs" : "urn:ogc:def:crs:::urn:ogc:def:crs:EPSG::27700",
+        "__prefix" : "ows"
+      },
+      "TemporalExtent" : {
+        "StartDate" : {
+          "__prefix" : "ows",
+          "__text" : "1997-09-04T00:00:00"
+        },
+        "EndDate" : {
+          "__prefix" : "ows",
+          "__text" : "2012-07-31T23:59:59"
+        },
+        "__prefix" : "ows"
+      },
+      "URI" : [{
+        "_name" : "Dataset Homepage",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://catalogue.ceda.ac.uk/uuid/a456b6c4c290453d8bb436e45e616f78"
+      }, {
+        "_name" : "DOWNLOAD",
+        "_description" : "Download Data",
+        "_function" : "download",
+        "__prefix" : "dc",
+        "__text" : "http://browse.ceda.ac.uk/browse/neodc/esacci_oc/data/v1-release/sinusoidal/netcdf/rrs/daily/v1.0"
+      }, {
+        "_name" : "ESA Ocean Colour CCI website",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-oceancolour-cci.org/"
+      }, {
+        "_name" : "ESA Ocean Colour CCI Product User Guide, Version 1.0",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://browse.ceda.ac.uk/browse/neodc/esacci_oc/docs/CCI-OC-PUG-v1.0.1.pdf"
+      }, {
+        "_name" : "Lavender, S. et al, 'The Ocean Colour Climate Change Initiative',Ocean Challenge, Vol.21, No.1, 2015",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-oceancolour-cci.org/?q=webfm_send/531"
+      }, {
+        "_name" : "ESA's Climate Change Initiative (CCI) website",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://cci.esa.int/"
+      }
+      ],
+      "_xmlns:geonet" : "http://www.fao.org/geonetwork",
+      "_xmlns:dc" : "http://purl.org/dc/elements/1.1/",
+      "_xmlns:dct" : "http://purl.org/dc/terms/",
+      "_xmlns:ows" : "http://www.opengis.net/ows",
+      "_xmlns:gml" : "http://www.opengis.net/gml/3.2",
+      "__prefix" : "csw",
+      "times" : [{
+        "starting_time" : 873331200000,
+        "ending_time" : 1343779199000
+      }
+      ],
+      "label" : "Dataset #5"
+    }, {
+      "identifier" : {
+        "__prefix" : "dc",
+        "__text" : "556058e8-44c5-42a6-9646-dad01695b114"
+      },
+      "date" : {
+        "__prefix" : "dc",
+        "__text" : "2016-01-06T01:07:26"
+      },
+      "title" : {
+        "__prefix" : "dc",
+        "__text" : "ESA Ocean Colour Climate Change Initiative (Ocean Colour CCI): 8-day global ocean colour data products gridded on a sinusoidal projection (All Products), Version 1.0"
+      },
+      "type" : {
+        "__prefix" : "dc",
+        "__text" : "dataset"
+      },
+      "subject" : [{
+        "__prefix" : "dc",
+        "__text" : "ESACCI"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "orthoimagery"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "imageryBaseMapsEarthCover"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "environment"
+      }
+      ],
+      "abstract" : {
+        "__prefix" : "dct",
+        "__text" : "The ESA Ocean Colour CCI project has produced global level 3 binned multi-sensor time-series of satellite ocean-colour data with a particular focus for use in climate studies.\n\nThis dataset contains all their Version 1.0 generated ocean colour products on a sinusoidal projection at 4 km spatial resolution and at an 8-day time resolution.\n\nData products being produced include: phytoplankton chlorophyll-a concentration; remote-sensing reflectance at six wavelengths; total absorption and backscattering coefficients; phytoplankton absorption coefficient and absorption coefficients for dissolved and detrital material; and the diffuse attenuation coefficient for downwelling irradiance for light of wavelength 490nm. Information on uncertainties is also provided.\n\nThis data product is on a sinusoidal equal-area grid projection, matching the NASA standard level 3 binned projection. The default number of latitude rows is 4320, which results in a vertical bin cell size of approximately 4 km. The number of longitude columns varies according to the latitude, which permits the equal area property. Unlike the NASA format, where the bin cells that do not contain any data are omitted, the CCI format retains all cells and simply marks empty cells with a NetCDF fill value. (A separate dataset is also available for data on a sinusoidal projection.)"
+      },
+      "description" : {
+        "__prefix" : "dc",
+        "__text" : "The ESA Ocean Colour CCI project has produced global level 3 binned multi-sensor time-series of satellite ocean-colour data with a particular focus for use in climate studies.\n\nThis dataset contains all their Version 1.0 generated ocean colour products on a sinusoidal projection at 4 km spatial resolution and at an 8-day time resolution.\n\nData products being produced include: phytoplankton chlorophyll-a concentration; remote-sensing reflectance at six wavelengths; total absorption and backscattering coefficients; phytoplankton absorption coefficient and absorption coefficients for dissolved and detrital material; and the diffuse attenuation coefficient for downwelling irradiance for light of wavelength 490nm. Information on uncertainties is also provided.\n\nThis data product is on a sinusoidal equal-area grid projection, matching the NASA standard level 3 binned projection. The default number of latitude rows is 4320, which results in a vertical bin cell size of approximately 4 km. The number of longitude columns varies according to the latitude, which permits the equal area property. Unlike the NASA format, where the bin cells that do not contain any data are omitted, the CCI format retains all cells and simply marks empty cells with a NetCDF fill value. (A separate dataset is also available for data on a sinusoidal projection.)"
+      },
+      "rights" : {
+        "__prefix" : "dc",
+        "__text" : "otherRestrictions"
+      },
+      "language" : {
+        "__prefix" : "dc",
+        "__text" : "eng"
+      },
+      "source" : {
+        "__prefix" : "dc",
+        "__text" : "This data has been produced by the ESA Ocean Colour CCI project and provided to CEDA in the context of the ESA CCI Open Data Portal project"
+      },
+      "relation" : {
+        "__prefix" : "dc",
+        "__text" : "f1a4a1d1208244c682603502d554bc12"
+      },
+      "BoundingBox" : {
+        "LowerCorner" : {
+          "__prefix" : "ows",
+          "__text" : "180.0 -90.0"
+        },
+        "UpperCorner" : {
+          "__prefix" : "ows",
+          "__text" : "-180.0 90.0"
+        },
+        "_crs" : "urn:ogc:def:crs:::urn:ogc:def:crs:EPSG::27700",
+        "__prefix" : "ows"
+      },
+      "TemporalExtent" : {
+        "StartDate" : {
+          "__prefix" : "ows",
+          "__text" : "1997-09-04T00:00:00"
+        },
+        "EndDate" : {
+          "__prefix" : "ows",
+          "__text" : "2012-07-31T23:59:59"
+        },
+        "__prefix" : "ows"
+      },
+      "URI" : [{
+        "_name" : "Dataset Homepage",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://catalogue.ceda.ac.uk/uuid/ea0729b565014b08b5d5b5efe499edba"
+      }, {
+        "_name" : "DOWNLOAD",
+        "_description" : "Download Data",
+        "_function" : "download",
+        "__prefix" : "dc",
+        "__text" : "http://browse.ceda.ac.uk/browse/neodc/esacci_oc/data/v1-release/sinusoidal/netcdf/all_products/8day/v1.0"
+      }, {
+        "_name" : "ESA Ocean Colour CCI website",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-oceancolour-cci.org/"
+      }, {
+        "_name" : "ESA's Climate Change Initiative (CCI) website",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://cci.esa.int/"
+      }, {
+        "_name" : "Lavender, S. et al, 'The Ocean Colour Climate Change Initiative',Ocean Challenge, Vol.21, No.1, 2015",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-oceancolour-cci.org/?q=webfm_send/531"
+      }, {
+        "_name" : "ESA Ocean Colour CCI Product User Guide, Version 1.0",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://browse.ceda.ac.uk/browse/neodc/esacci_oc/docs/CCI-OC-PUG-v1.0.1.pdf"
+      }
+      ],
+      "_xmlns:geonet" : "http://www.fao.org/geonetwork",
+      "_xmlns:dc" : "http://purl.org/dc/elements/1.1/",
+      "_xmlns:dct" : "http://purl.org/dc/terms/",
+      "_xmlns:ows" : "http://www.opengis.net/ows",
+      "_xmlns:gml" : "http://www.opengis.net/gml/3.2",
+      "__prefix" : "csw",
+      "times" : [{
+        "starting_time" : 873331200000,
+        "ending_time" : 1343779199000
+      }
+      ],
+      "label" : "Dataset #6"
+    }, {
+      "identifier" : {
+        "__prefix" : "dc",
+        "__text" : "615918b6-1ef8-41c0-a6bf-94a863a09944"
+      },
+      "date" : {
+        "__prefix" : "dc",
+        "__text" : "2016-01-06T01:07:29"
+      },
+      "title" : {
+        "__prefix" : "dc",
+        "__text" : "ESA Ocean Colour Climate Change Initiative (Ocean Colour CCI): Daily global attenuation coefficient for downwelling irradiance (Kd490) gridded on a sinusoidal projection, Version 1.0"
+      },
+      "type" : {
+        "__prefix" : "dc",
+        "__text" : "dataset"
+      },
+      "subject" : [{
+        "__prefix" : "dc",
+        "__text" : "ESACCI"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "orthoimagery"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "imageryBaseMapsEarthCover"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "environment"
+      }
+      ],
+      "abstract" : {
+        "__prefix" : "dct",
+        "__text" : "The ESA Ocean Colour CCI project has produced global level 3 binned multi-sensor time-series of satellite ocean-colour data with a particular focus for use in climate studies.\n\nThis dataset contains the Version 1.0 Kd490 attenuation coefficient (m-1) for downwelling irradiance product on a sinusoidal projection at approximately 4 km spatial resolution and at a daily time resolution. It is computed from the Ocean Colour CCI Version 1 inherent optical properties dataset at 490 nm and the solar zenith angle.   Note, this dataset is also contained within the 'All Products' dataset.\n\nThis data product is on a sinusoidal equal-area grid projection, matching the NASA standard level 3 binned projection. The default number of latitude rows is 4320, which results in a vertical bin cell size of approximately 4 km. The number of longitude columns varies according to the latitude, which permits the equal area property. Unlike the NASA format, where the bin cells that do not contain any data are omitted, the CCI format retains all cells and simply marks empty cells with a NetCDF fill value. (A separate dataset is also available for data on a geographic projection)."
+      },
+      "description" : {
+        "__prefix" : "dc",
+        "__text" : "The ESA Ocean Colour CCI project has produced global level 3 binned multi-sensor time-series of satellite ocean-colour data with a particular focus for use in climate studies.\n\nThis dataset contains the Version 1.0 Kd490 attenuation coefficient (m-1) for downwelling irradiance product on a sinusoidal projection at approximately 4 km spatial resolution and at a daily time resolution. It is computed from the Ocean Colour CCI Version 1 inherent optical properties dataset at 490 nm and the solar zenith angle.   Note, this dataset is also contained within the 'All Products' dataset.\n\nThis data product is on a sinusoidal equal-area grid projection, matching the NASA standard level 3 binned projection. The default number of latitude rows is 4320, which results in a vertical bin cell size of approximately 4 km. The number of longitude columns varies according to the latitude, which permits the equal area property. Unlike the NASA format, where the bin cells that do not contain any data are omitted, the CCI format retains all cells and simply marks empty cells with a NetCDF fill value. (A separate dataset is also available for data on a geographic projection)."
+      },
+      "rights" : {
+        "__prefix" : "dc",
+        "__text" : "otherRestrictions"
+      },
+      "language" : {
+        "__prefix" : "dc",
+        "__text" : "eng"
+      },
+      "source" : {
+        "__prefix" : "dc",
+        "__text" : "This data has been produced by the ESA Ocean Colour CCI project and provided to CEDA in the context of the ESA CCI Open Data Portal project"
+      },
+      "relation" : {
+        "__prefix" : "dc",
+        "__text" : "f1a4a1d1208244c682603502d554bc12"
+      },
+      "BoundingBox" : {
+        "LowerCorner" : {
+          "__prefix" : "ows",
+          "__text" : "180.0 -90.0"
+        },
+        "UpperCorner" : {
+          "__prefix" : "ows",
+          "__text" : "-180.0 90.0"
+        },
+        "_crs" : "urn:ogc:def:crs:::urn:ogc:def:crs:EPSG::27700",
+        "__prefix" : "ows"
+      },
+      "TemporalExtent" : {
+        "StartDate" : {
+          "__prefix" : "ows",
+          "__text" : "1997-09-04T00:00:00"
+        },
+        "EndDate" : {
+          "__prefix" : "ows",
+          "__text" : "2012-07-31T23:59:59"
+        },
+        "__prefix" : "ows"
+      },
+      "URI" : [{
+        "_name" : "Dataset Homepage",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://catalogue.ceda.ac.uk/uuid/5ce3092e823a403dad8122ff8ec93612"
+      }, {
+        "_name" : "DOWNLOAD",
+        "_description" : "Download Data",
+        "_function" : "download",
+        "__prefix" : "dc",
+        "__text" : "http://browse.ceda.ac.uk/browse/neodc/esacci_oc/data/v1-release/sinusoidal/netcdf/kd/daily/v1.0"
+      }, {
+        "_name" : "ESA Ocean Colour CCI website",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-oceancolour-cci.org/"
+      }, {
+        "_name" : "ESA's Climate Change Initiative (CCI) website",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://cci.esa.int/"
+      }, {
+        "_name" : "Lavender, S. et al, 'The Ocean Colour Climate Change Initiative',Ocean Challenge, Vol.21, No.1, 2015",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-oceancolour-cci.org/?q=webfm_send/531"
+      }, {
+        "_name" : "ESA Ocean Colour CCI Product User Guide, Version 1.0",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://browse.ceda.ac.uk/browse/neodc/esacci_oc/docs/CCI-OC-PUG-v1.0.1.pdf"
+      }
+      ],
+      "_xmlns:geonet" : "http://www.fao.org/geonetwork",
+      "_xmlns:dc" : "http://purl.org/dc/elements/1.1/",
+      "_xmlns:dct" : "http://purl.org/dc/terms/",
+      "_xmlns:ows" : "http://www.opengis.net/ows",
+      "_xmlns:gml" : "http://www.opengis.net/gml/3.2",
+      "__prefix" : "csw",
+      "times" : [{
+        "starting_time" : 873331200000,
+        "ending_time" : 1343779199000
+      }
+      ],
+      "label" : "Dataset #7"
+    }, {
+      "identifier" : {
+        "__prefix" : "dc",
+        "__text" : "12245390-23cc-4049-a22f-069d42e63577"
+      },
+      "date" : {
+        "__prefix" : "dc",
+        "__text" : "2016-01-06T01:07:15"
+      },
+      "title" : {
+        "__prefix" : "dc",
+        "__text" : "ESA Ocean Colour Climate Change Initiative (Ocean Colour CCI): Monthly global ocean colour data products gridded on a geographic projection (All Products), Version 1.0"
+      },
+      "type" : {
+        "__prefix" : "dc",
+        "__text" : "dataset"
+      },
+      "subject" : [{
+        "__prefix" : "dc",
+        "__text" : "CLIPC"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "ESACCI"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "orthoimagery"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "imageryBaseMapsEarthCover"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "environment"
+      }
+      ],
+      "abstract" : {
+        "__prefix" : "dct",
+        "__text" : "The ESA Ocean Colour CCI project has produced global level 3 binned multi-sensor time-series of satellite ocean-colour data with a particular focus for use in climate studies.\n\nThis dataset contains all their Version 1.0 generated ocean colour products on a geographic projection at 4 km spatial resolution and at a monthly time resolution.\n\nData products being produced include: phytoplankton chlorophyll-a concentration; remote-sensing reflectance at six wavelengths; total absorption and backscattering coefficients; phytoplankton absorption coefficient and absorption coefficients for dissolved and detrital material; and the diffuse attenuation coefficient for downwelling irradiance for light of wavelength 490nm. Information on uncertainties is also provided.\n\nThis data product is on a geographic grid projection, which is a direct conversion of latitude and longitude coordinates to a rectangular grid, typically a fixed multiplier of 360x180. The netCDF files follow the CF convention for this projection with a resolution of 8640x4320.   (A separate dataset is also available for data on a sinusoidal projection.)"
+      },
+      "description" : {
+        "__prefix" : "dc",
+        "__text" : "The ESA Ocean Colour CCI project has produced global level 3 binned multi-sensor time-series of satellite ocean-colour data with a particular focus for use in climate studies.\n\nThis dataset contains all their Version 1.0 generated ocean colour products on a geographic projection at 4 km spatial resolution and at a monthly time resolution.\n\nData products being produced include: phytoplankton chlorophyll-a concentration; remote-sensing reflectance at six wavelengths; total absorption and backscattering coefficients; phytoplankton absorption coefficient and absorption coefficients for dissolved and detrital material; and the diffuse attenuation coefficient for downwelling irradiance for light of wavelength 490nm. Information on uncertainties is also provided.\n\nThis data product is on a geographic grid projection, which is a direct conversion of latitude and longitude coordinates to a rectangular grid, typically a fixed multiplier of 360x180. The netCDF files follow the CF convention for this projection with a resolution of 8640x4320.   (A separate dataset is also available for data on a sinusoidal projection.)"
+      },
+      "rights" : {
+        "__prefix" : "dc",
+        "__text" : "otherRestrictions"
+      },
+      "language" : {
+        "__prefix" : "dc",
+        "__text" : "eng"
+      },
+      "source" : {
+        "__prefix" : "dc",
+        "__text" : "This data has been produced by the ESA Ocean Colour CCI project and provided to CEDA in the context of the ESA CCI Open Data Portal project"
+      },
+      "relation" : {
+        "__prefix" : "dc",
+        "__text" : "f1a4a1d1208244c682603502d554bc12"
+      },
+      "BoundingBox" : {
+        "LowerCorner" : {
+          "__prefix" : "ows",
+          "__text" : "180.0 -90.0"
+        },
+        "UpperCorner" : {
+          "__prefix" : "ows",
+          "__text" : "-180.0 90.0"
+        },
+        "_crs" : "urn:ogc:def:crs:::urn:ogc:def:crs:EPSG::27700",
+        "__prefix" : "ows"
+      },
+      "TemporalExtent" : {
+        "StartDate" : {
+          "__prefix" : "ows",
+          "__text" : "1997-09-04T00:00:00"
+        },
+        "EndDate" : {
+          "__prefix" : "ows",
+          "__text" : "2012-07-31T23:59:59"
+        },
+        "__prefix" : "ows"
+      },
+      "URI" : [{
+        "_name" : "Dataset Homepage",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://catalogue.ceda.ac.uk/uuid/47e646778ba44138846306789e3a3054"
+      }, {
+        "_name" : "DOWNLOAD",
+        "_description" : "Download Data",
+        "_function" : "download",
+        "__prefix" : "dc",
+        "__text" : "http://browse.ceda.ac.uk/browse/neodc/esacci_oc/data/v1-release/geographic/netcdf/all_products/monthly/v1.0"
+      }, {
+        "_name" : "ESA Ocean Colour CCI website",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-oceancolour-cci.org/"
+      }, {
+        "_name" : "ESA Ocean Colour CCI Product User Guide, Version 1.0",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://browse.ceda.ac.uk/browse/neodc/esacci_oc/docs/CCI-OC-PUG-v1.0.1.pdf"
+      }, {
+        "_name" : "Lavender, S. et al, 'The Ocean Colour Climate Change Initiative',Ocean Challenge, Vol.21, No.1, 2015",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-oceancolour-cci.org/?q=webfm_send/531"
+      }, {
+        "_name" : "ESA's Climate Change Initiative (CCI) website",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://cci.esa.int/"
+      }
+      ],
+      "_xmlns:geonet" : "http://www.fao.org/geonetwork",
+      "_xmlns:dc" : "http://purl.org/dc/elements/1.1/",
+      "_xmlns:dct" : "http://purl.org/dc/terms/",
+      "_xmlns:ows" : "http://www.opengis.net/ows",
+      "_xmlns:gml" : "http://www.opengis.net/gml/3.2",
+      "__prefix" : "csw",
+      "times" : [{
+        "starting_time" : 873331200000,
+        "ending_time" : 1343779199000
+      }
+      ],
+      "label" : "Dataset #8"
+    }, {
+      "identifier" : {
+        "__prefix" : "dc",
+        "__text" : "0291f3c7-c85d-4490-b480-081552244bf8"
+      },
+      "date" : {
+        "__prefix" : "dc",
+        "__text" : "2016-01-06T01:07:16"
+      },
+      "title" : {
+        "__prefix" : "dc",
+        "__text" : "ESA Ocean Colour Climate Change Initiative (Ocean Colour CCI): Daily global remote sensing reflectance gridded on a geographic projection, Version 1.0"
+      },
+      "type" : {
+        "__prefix" : "dc",
+        "__text" : "dataset"
+      },
+      "subject" : [{
+        "__prefix" : "dc",
+        "__text" : "CLIPC"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "ESACCI"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "orthoimagery"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "imageryBaseMapsEarthCover"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "environment"
+      }
+      ],
+      "abstract" : {
+        "__prefix" : "dct",
+        "__text" : "The ESA Ocean Colour CCI project has produced global level 3 binned multi-sensor time-series of satellite ocean-colour data with a particular focus for use in climate studies.\n\nThis dataset contains the Version 1.0 Remote Sensing Reflectance product on a geographic projection at approximately 4 km spatial resolution and at a daily time resolution.  Values for remote sensing reflectance at the sea surface are provided for the standard SeaWiFS wavelengths (412, 443, 490, 510, 555, 670nm) with pixel-by-pixel uncertainty estimates for each wavelength. These are merged products based on SeaWiFS, MERIS and Aqua-MODIS data.    Note, this dataset is also contained within the 'All Products' dataset.\n\nThis data product is on a geographic grid projection, which is a direct conversion of latitude and longitude coordinates to a rectangular grid, typically a fixed multiplier of 360x180. The netCDF files follow the CF convention for this projection with a resolution of 8640x4320.   (A separate dataset is also available for data on a sinusoidal projection)."
+      },
+      "description" : {
+        "__prefix" : "dc",
+        "__text" : "The ESA Ocean Colour CCI project has produced global level 3 binned multi-sensor time-series of satellite ocean-colour data with a particular focus for use in climate studies.\n\nThis dataset contains the Version 1.0 Remote Sensing Reflectance product on a geographic projection at approximately 4 km spatial resolution and at a daily time resolution.  Values for remote sensing reflectance at the sea surface are provided for the standard SeaWiFS wavelengths (412, 443, 490, 510, 555, 670nm) with pixel-by-pixel uncertainty estimates for each wavelength. These are merged products based on SeaWiFS, MERIS and Aqua-MODIS data.    Note, this dataset is also contained within the 'All Products' dataset.\n\nThis data product is on a geographic grid projection, which is a direct conversion of latitude and longitude coordinates to a rectangular grid, typically a fixed multiplier of 360x180. The netCDF files follow the CF convention for this projection with a resolution of 8640x4320.   (A separate dataset is also available for data on a sinusoidal projection)."
+      },
+      "rights" : {
+        "__prefix" : "dc",
+        "__text" : "otherRestrictions"
+      },
+      "language" : {
+        "__prefix" : "dc",
+        "__text" : "eng"
+      },
+      "source" : {
+        "__prefix" : "dc",
+        "__text" : "This data has been produced by the ESA Ocean Colour CCI project and provided to CEDA in the context of the ESA CCI Open Data Portal project"
+      },
+      "relation" : {
+        "__prefix" : "dc",
+        "__text" : "f1a4a1d1208244c682603502d554bc12"
+      },
+      "BoundingBox" : {
+        "LowerCorner" : {
+          "__prefix" : "ows",
+          "__text" : "180.0 -90.0"
+        },
+        "UpperCorner" : {
+          "__prefix" : "ows",
+          "__text" : "-180.0 90.0"
+        },
+        "_crs" : "urn:ogc:def:crs:::urn:ogc:def:crs:EPSG::27700",
+        "__prefix" : "ows"
+      },
+      "TemporalExtent" : {
+        "StartDate" : {
+          "__prefix" : "ows",
+          "__text" : "1997-09-04T00:00:00"
+        },
+        "EndDate" : {
+          "__prefix" : "ows",
+          "__text" : "2012-07-31T23:59:59"
+        },
+        "__prefix" : "ows"
+      },
+      "URI" : [{
+        "_name" : "Dataset Homepage",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://catalogue.ceda.ac.uk/uuid/70be18893edb498785e22bed288cfd54"
+      }, {
+        "_name" : "DOWNLOAD",
+        "_description" : "Download Data",
+        "_function" : "download",
+        "__prefix" : "dc",
+        "__text" : "http://browse.ceda.ac.uk/browse/neodc/esacci_oc/data/v1-release/geographic/netcdf/rrs/daily/v1.0"
+      }, {
+        "_name" : "ESA Ocean Colour CCI website",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-oceancolour-cci.org/"
+      }, {
+        "_name" : "ESA's Climate Change Initiative (CCI) website",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://cci.esa.int/"
+      }, {
+        "_name" : "Lavender, S. et al, 'The Ocean Colour Climate Change Initiative',Ocean Challenge, Vol.21, No.1, 2015",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-oceancolour-cci.org/?q=webfm_send/531"
+      }, {
+        "_name" : "ESA Ocean Colour CCI Product User Guide, Version 1.0",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://browse.ceda.ac.uk/browse/neodc/esacci_oc/docs/CCI-OC-PUG-v1.0.1.pdf"
+      }
+      ],
+      "_xmlns:geonet" : "http://www.fao.org/geonetwork",
+      "_xmlns:dc" : "http://purl.org/dc/elements/1.1/",
+      "_xmlns:dct" : "http://purl.org/dc/terms/",
+      "_xmlns:ows" : "http://www.opengis.net/ows",
+      "_xmlns:gml" : "http://www.opengis.net/gml/3.2",
+      "__prefix" : "csw",
+      "times" : [{
+        "starting_time" : 873331200000,
+        "ending_time" : 1343779199000
+      }
+      ],
+      "label" : "Dataset #9"
+    }, {
+      "identifier" : {
+        "__prefix" : "dc",
+        "__text" : "8fe6aede-61b4-4184-818f-06f563dede9b"
+      },
+      "date" : {
+        "__prefix" : "dc",
+        "__text" : "2016-01-06T01:07:17"
+      },
+      "title" : {
+        "__prefix" : "dc",
+        "__text" : "ESA Ocean Colour Climate Change Initiative (Ocean Colour CCI): Daily global chlorophyll-a data products gridded on a geographic projection, Version 1.0"
+      },
+      "type" : {
+        "__prefix" : "dc",
+        "__text" : "dataset"
+      },
+      "subject" : [{
+        "__prefix" : "dc",
+        "__text" : "CLIPC"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "ESACCI"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "orthoimagery"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "imageryBaseMapsEarthCover"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "environment"
+      }
+      ],
+      "abstract" : {
+        "__prefix" : "dct",
+        "__text" : "The ESA Ocean Colour CCI project has produced global level 3 binned multi-sensor time-series of satellite ocean-colour data with a particular focus for use in climate studies.\n\nThis dataset contains their Version 1.0 chlorophyll-a product (in mg/m3) on a geographic projection at 4 km spatial resolution and at a daily time resolution.   Note, this dataset is also included in the 'All Products' dataset.\n\nThis data product is on a geographic grid projection, which is a direct conversion of latitude and longitude coordinates to a rectangular grid, typically a fixed multiplier of 360x180. The netCDF files follow the CF convention for this projection with a resolution of 8640x4320.   (A separate dataset is also available for data on a sinusoidal projection.)"
+      },
+      "description" : {
+        "__prefix" : "dc",
+        "__text" : "The ESA Ocean Colour CCI project has produced global level 3 binned multi-sensor time-series of satellite ocean-colour data with a particular focus for use in climate studies.\n\nThis dataset contains their Version 1.0 chlorophyll-a product (in mg/m3) on a geographic projection at 4 km spatial resolution and at a daily time resolution.   Note, this dataset is also included in the 'All Products' dataset.\n\nThis data product is on a geographic grid projection, which is a direct conversion of latitude and longitude coordinates to a rectangular grid, typically a fixed multiplier of 360x180. The netCDF files follow the CF convention for this projection with a resolution of 8640x4320.   (A separate dataset is also available for data on a sinusoidal projection.)"
+      },
+      "rights" : {
+        "__prefix" : "dc",
+        "__text" : "otherRestrictions"
+      },
+      "language" : {
+        "__prefix" : "dc",
+        "__text" : "eng"
+      },
+      "source" : {
+        "__prefix" : "dc",
+        "__text" : "This data has been produced by the ESA Ocean Colour CCI project and provided to CEDA in the context of the ESA CCI Open Data Portal project"
+      },
+      "relation" : {
+        "__prefix" : "dc",
+        "__text" : "f1a4a1d1208244c682603502d554bc12"
+      },
+      "BoundingBox" : {
+        "LowerCorner" : {
+          "__prefix" : "ows",
+          "__text" : "180.0 -90.0"
+        },
+        "UpperCorner" : {
+          "__prefix" : "ows",
+          "__text" : "-180.0 90.0"
+        },
+        "_crs" : "urn:ogc:def:crs:::urn:ogc:def:crs:EPSG::27700",
+        "__prefix" : "ows"
+      },
+      "TemporalExtent" : {
+        "StartDate" : {
+          "__prefix" : "ows",
+          "__text" : "1997-09-04T00:00:00"
+        },
+        "EndDate" : {
+          "__prefix" : "ows",
+          "__text" : "2012-07-31T23:59:59"
+        },
+        "__prefix" : "ows"
+      },
+      "URI" : [{
+        "_name" : "Dataset Homepage",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://catalogue.ceda.ac.uk/uuid/a526fdfb91954f1ab4360978e86f3b2b"
+      }, {
+        "_name" : "DOWNLOAD",
+        "_description" : "Download Data",
+        "_function" : "download",
+        "__prefix" : "dc",
+        "__text" : "http://browse.ceda.ac.uk/browse/neodc/esacci_oc/data/v1-release/geographic/netcdf/chlor_a/daily/v1.0"
+      }, {
+        "_name" : "ESA Ocean Colour CCI website",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-oceancolour-cci.org/"
+      }, {
+        "_name" : "ESA Ocean Colour CCI Product User Guide, Version 1.0",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://browse.ceda.ac.uk/browse/neodc/esacci_oc/docs/CCI-OC-PUG-v1.0.1.pdf"
+      }, {
+        "_name" : "Lavender, S. et al, 'The Ocean Colour Climate Change Initiative',Ocean Challenge, Vol.21, No.1, 2015",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-oceancolour-cci.org/?q=webfm_send/531"
+      }, {
+        "_name" : "ESA's Climate Change Initiative (CCI) website",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://cci.esa.int/"
+      }
+      ],
+      "_xmlns:geonet" : "http://www.fao.org/geonetwork",
+      "_xmlns:dc" : "http://purl.org/dc/elements/1.1/",
+      "_xmlns:dct" : "http://purl.org/dc/terms/",
+      "_xmlns:ows" : "http://www.opengis.net/ows",
+      "_xmlns:gml" : "http://www.opengis.net/gml/3.2",
+      "__prefix" : "csw",
+      "times" : [{
+        "starting_time" : 873331200000,
+        "ending_time" : 1343779199000
+      }
+      ],
+      "label" : "Dataset #10"
+    }, {
+      "identifier" : {
+        "__prefix" : "dc",
+        "__text" : "f4fd3fec-8188-4d51-834e-e7afc1eff345"
+      },
+      "date" : {
+        "__prefix" : "dc",
+        "__text" : "2016-01-06T01:07:18"
+      },
+      "title" : {
+        "__prefix" : "dc",
+        "__text" : "ESA Ocean Colour Climate Change Initiative (Ocean Colour CCI): 8-day global ocean colour data products gridded on a geographic projection (All Products), Version 1.0"
+      },
+      "type" : {
+        "__prefix" : "dc",
+        "__text" : "dataset"
+      },
+      "subject" : [{
+        "__prefix" : "dc",
+        "__text" : "CLIPC"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "ESACCI"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "orthoimagery"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "imageryBaseMapsEarthCover"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "environment"
+      }
+      ],
+      "abstract" : {
+        "__prefix" : "dct",
+        "__text" : "The ESA Ocean Colour CCI project has produced global level 3 binned multi-sensor time-series of satellite ocean-colour data with a particular focus for use in climate studies.\n\nThis dataset contains all their Version 1.0 generated ocean colour products on a geographic projection at 4 km spatial resolution and at an 8-day time resolution.\n\nData products being produced include: phytoplankton chlorophyll-a concentration; remote-sensing reflectance at six wavelengths; total absorption and backscattering coefficients; phytoplankton absorption coefficient and absorption coefficients for dissolved and detrital material; and the diffuse attenuation coefficient for downwelling irradiance for light of wavelength 490nm. Information on uncertainties is also provided.\n\nThis data product is on a geographic grid projection, which is a direct conversion of latitude and longitude coordinates to a rectangular grid, typically a fixed multiplier of 360x180. The netCDF files follow the CF convention for this projection with a resolution of 8640x4320.   (A separate dataset is also available for data on a sinusoidal projection.)"
+      },
+      "description" : {
+        "__prefix" : "dc",
+        "__text" : "The ESA Ocean Colour CCI project has produced global level 3 binned multi-sensor time-series of satellite ocean-colour data with a particular focus for use in climate studies.\n\nThis dataset contains all their Version 1.0 generated ocean colour products on a geographic projection at 4 km spatial resolution and at an 8-day time resolution.\n\nData products being produced include: phytoplankton chlorophyll-a concentration; remote-sensing reflectance at six wavelengths; total absorption and backscattering coefficients; phytoplankton absorption coefficient and absorption coefficients for dissolved and detrital material; and the diffuse attenuation coefficient for downwelling irradiance for light of wavelength 490nm. Information on uncertainties is also provided.\n\nThis data product is on a geographic grid projection, which is a direct conversion of latitude and longitude coordinates to a rectangular grid, typically a fixed multiplier of 360x180. The netCDF files follow the CF convention for this projection with a resolution of 8640x4320.   (A separate dataset is also available for data on a sinusoidal projection.)"
+      },
+      "rights" : {
+        "__prefix" : "dc",
+        "__text" : "otherRestrictions"
+      },
+      "language" : {
+        "__prefix" : "dc",
+        "__text" : "eng"
+      },
+      "source" : {
+        "__prefix" : "dc",
+        "__text" : "This data has been produced by the ESA Ocean Colour CCI project and provided to CEDA in the context of the ESA CCI Open Data Portal project"
+      },
+      "relation" : {
+        "__prefix" : "dc",
+        "__text" : "f1a4a1d1208244c682603502d554bc12"
+      },
+      "BoundingBox" : {
+        "LowerCorner" : {
+          "__prefix" : "ows",
+          "__text" : "180.0 -90.0"
+        },
+        "UpperCorner" : {
+          "__prefix" : "ows",
+          "__text" : "-180.0 90.0"
+        },
+        "_crs" : "urn:ogc:def:crs:::urn:ogc:def:crs:EPSG::27700",
+        "__prefix" : "ows"
+      },
+      "TemporalExtent" : {
+        "StartDate" : {
+          "__prefix" : "ows",
+          "__text" : "1997-09-04T00:00:00"
+        },
+        "EndDate" : {
+          "__prefix" : "ows",
+          "__text" : "2012-07-31T23:59:59"
+        },
+        "__prefix" : "ows"
+      },
+      "URI" : [{
+        "_name" : "Dataset Homepage",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://catalogue.ceda.ac.uk/uuid/7f31695e4b6d4ff5af71ccae213c910b"
+      }, {
+        "_name" : "DOWNLOAD",
+        "_description" : "Download Data",
+        "_function" : "download",
+        "__prefix" : "dc",
+        "__text" : "http://browse.ceda.ac.uk/browse/neodc/esacci_oc/data/v1-release/geographic/netcdf/all_products/8day/v1.0"
+      }, {
+        "_name" : "ESA Ocean Colour CCI website",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-oceancolour-cci.org/"
+      }, {
+        "_name" : "ESA Ocean Colour CCI Product User Guide, Version 1.0",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://browse.ceda.ac.uk/browse/neodc/esacci_oc/docs/CCI-OC-PUG-v1.0.1.pdf"
+      }, {
+        "_name" : "Lavender, S. et al, 'The Ocean Colour Climate Change Initiative',Ocean Challenge, Vol.21, No.1, 2015",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-oceancolour-cci.org/?q=webfm_send/531"
+      }, {
+        "_name" : "ESA's Climate Change Initiative (CCI) website",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://cci.esa.int/"
+      }
+      ],
+      "_xmlns:geonet" : "http://www.fao.org/geonetwork",
+      "_xmlns:dc" : "http://purl.org/dc/elements/1.1/",
+      "_xmlns:dct" : "http://purl.org/dc/terms/",
+      "_xmlns:ows" : "http://www.opengis.net/ows",
+      "_xmlns:gml" : "http://www.opengis.net/gml/3.2",
+      "__prefix" : "csw",
+      "times" : [{
+        "starting_time" : 873331200000,
+        "ending_time" : 1343779199000
+      }
+      ],
+      "label" : "Dataset #11"
+    }, {
+      "identifier" : {
+        "__prefix" : "dc",
+        "__text" : "48dd0476-bb03-4964-8761-dd6d5508704a"
+      },
+      "date" : {
+        "__prefix" : "dc",
+        "__text" : "2016-01-06T01:07:05"
+      },
+      "title" : {
+        "__prefix" : "dc",
+        "__text" : "ESA Ocean Colour Climate Change Initiative (Ocean Colour CCI): Daily global ocean colour data products gridded on a geographic projection (All Products), Version 1.0"
+      },
+      "type" : {
+        "__prefix" : "dc",
+        "__text" : "dataset"
+      },
+      "subject" : [{
+        "__prefix" : "dc",
+        "__text" : "CLIPC"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "ESACCI"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "orthoimagery"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "imageryBaseMapsEarthCover"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "environment"
+      }
+      ],
+      "abstract" : {
+        "__prefix" : "dct",
+        "__text" : "The ESA Ocean Colour CCI project has produced global level 3 binned multi-sensor time-series of satellite ocean-colour data with a particular focus for use in climate studies.\n\nThis dataset contains all their Version 1.0 generated ocean colour products on a geographic projection at 4 km spatial resolution and at a daily time resolution.\n\nData products being produced include: phytoplankton chlorophyll-a concentration; remote-sensing reflectance at six wavelengths; total absorption and backscattering coefficients; phytoplankton absorption coefficient and absorption coefficients for dissolved and detrital material; and the diffuse attenuation coefficient for downwelling irradiance for light of wavelength 490nm. Information on uncertainties is also provided.\n\nThis data product is on a geographic grid projection, which is a direct conversion of latitude and longitude coordinates to a rectangular grid, typically a fixed multiplier of 360x180. The netCDF files follow the CF convention for this projection with a resolution of 8640x4320.   (A separate dataset is also available for data on a sinusoidal projection.)"
+      },
+      "description" : {
+        "__prefix" : "dc",
+        "__text" : "The ESA Ocean Colour CCI project has produced global level 3 binned multi-sensor time-series of satellite ocean-colour data with a particular focus for use in climate studies.\n\nThis dataset contains all their Version 1.0 generated ocean colour products on a geographic projection at 4 km spatial resolution and at a daily time resolution.\n\nData products being produced include: phytoplankton chlorophyll-a concentration; remote-sensing reflectance at six wavelengths; total absorption and backscattering coefficients; phytoplankton absorption coefficient and absorption coefficients for dissolved and detrital material; and the diffuse attenuation coefficient for downwelling irradiance for light of wavelength 490nm. Information on uncertainties is also provided.\n\nThis data product is on a geographic grid projection, which is a direct conversion of latitude and longitude coordinates to a rectangular grid, typically a fixed multiplier of 360x180. The netCDF files follow the CF convention for this projection with a resolution of 8640x4320.   (A separate dataset is also available for data on a sinusoidal projection.)"
+      },
+      "rights" : {
+        "__prefix" : "dc",
+        "__text" : "otherRestrictions"
+      },
+      "language" : {
+        "__prefix" : "dc",
+        "__text" : "eng"
+      },
+      "source" : {
+        "__prefix" : "dc",
+        "__text" : "This data has been produced by the ESA Ocean Colour CCI project and provided to CEDA in the context of the ESA CCI Open Data Portal project"
+      },
+      "relation" : {
+        "__prefix" : "dc",
+        "__text" : "f1a4a1d1208244c682603502d554bc12"
+      },
+      "BoundingBox" : {
+        "LowerCorner" : {
+          "__prefix" : "ows",
+          "__text" : "180.0 -90.0"
+        },
+        "UpperCorner" : {
+          "__prefix" : "ows",
+          "__text" : "-180.0 90.0"
+        },
+        "_crs" : "urn:ogc:def:crs:::urn:ogc:def:crs:EPSG::27700",
+        "__prefix" : "ows"
+      },
+      "TemporalExtent" : {
+        "StartDate" : {
+          "__prefix" : "ows",
+          "__text" : "1997-09-04T00:00:00"
+        },
+        "EndDate" : {
+          "__prefix" : "ows",
+          "__text" : "2012-07-31T23:59:59"
+        },
+        "__prefix" : "ows"
+      },
+      "URI" : [{
+        "_name" : "Dataset Homepage",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://catalogue.ceda.ac.uk/uuid/0f29b5f7ca774bd590a2ade5f94e9ddb"
+      }, {
+        "_name" : "DOWNLOAD",
+        "_description" : "Download Data",
+        "_function" : "download",
+        "__prefix" : "dc",
+        "__text" : "http://browse.ceda.ac.uk/browse/neodc/esacci_oc/data/v1-release/geographic/netcdf/all_products/daily/v1.0"
+      }, {
+        "_name" : "ESA Ocean Colour CCI website",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-oceancolour-cci.org/"
+      }, {
+        "_name" : "ESA's Climate Change Initiative (CCI) website",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://cci.esa.int/"
+      }, {
+        "_name" : "Lavender, S. et al, 'The Ocean Colour Climate Change Initiative',Ocean Challenge, Vol.21, No.1, 2015",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-oceancolour-cci.org/?q=webfm_send/531"
+      }, {
+        "_name" : "ESA Ocean Colour CCI Product User Guide, Version 1.0",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://browse.ceda.ac.uk/browse/neodc/esacci_oc/docs/CCI-OC-PUG-v1.0.1.pdf"
+      }
+      ],
+      "_xmlns:geonet" : "http://www.fao.org/geonetwork",
+      "_xmlns:dc" : "http://purl.org/dc/elements/1.1/",
+      "_xmlns:dct" : "http://purl.org/dc/terms/",
+      "_xmlns:ows" : "http://www.opengis.net/ows",
+      "_xmlns:gml" : "http://www.opengis.net/gml/3.2",
+      "__prefix" : "csw",
+      "times" : [{
+        "starting_time" : 873331200000,
+        "ending_time" : 1343779199000
+      }
+      ],
+      "label" : "Dataset #12"
+    }, {
+      "identifier" : {
+        "__prefix" : "dc",
+        "__text" : "ea638dea-aeec-43ea-9e52-f2f8d70e1706"
+      },
+      "date" : {
+        "__prefix" : "dc",
+        "__text" : "2016-01-06T01:07:09"
+      },
+      "title" : {
+        "__prefix" : "dc",
+        "__text" : "ESA Ocean Colour Climate Change Initiative (Ocean Colour CCI): Yearly global ocean colour data products gridded on a geographic projection (All Products), Version 1.0"
+      },
+      "type" : {
+        "__prefix" : "dc",
+        "__text" : "dataset"
+      },
+      "subject" : [{
+        "__prefix" : "dc",
+        "__text" : "CLIPC"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "ESACCI"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "orthoimagery"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "imageryBaseMapsEarthCover"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "environment"
+      }
+      ],
+      "abstract" : {
+        "__prefix" : "dct",
+        "__text" : "The ESA Ocean Colour CCI project has produced global level 3 binned multi-sensor time-series of satellite ocean-colour data with a particular focus for use in climate studies.\n\nThis dataset contains all their Version 1.0 generated ocean colour products on a geographic projection at 4 km spatial resolution and at a yearly time resolution.\n\nData products being produced include: phytoplankton chlorophyll-a concentration; remote-sensing reflectance at six wavelengths; total absorption and backscattering coefficients; phytoplankton absorption coefficient and absorption coefficients for dissolved and detrital material; and the diffuse attenuation coefficient for downwelling irradiance for light of wavelength 490nm. Information on uncertainties is also provided.\n\nThis data product is on a geographic grid projection, which is a direct conversion of latitude and longitude coordinates to a rectangular grid, typically a fixed multiplier of 360x180. The netCDF files follow the CF convention for this projection with a resolution of 8640x4320."
+      },
+      "description" : {
+        "__prefix" : "dc",
+        "__text" : "The ESA Ocean Colour CCI project has produced global level 3 binned multi-sensor time-series of satellite ocean-colour data with a particular focus for use in climate studies.\n\nThis dataset contains all their Version 1.0 generated ocean colour products on a geographic projection at 4 km spatial resolution and at a yearly time resolution.\n\nData products being produced include: phytoplankton chlorophyll-a concentration; remote-sensing reflectance at six wavelengths; total absorption and backscattering coefficients; phytoplankton absorption coefficient and absorption coefficients for dissolved and detrital material; and the diffuse attenuation coefficient for downwelling irradiance for light of wavelength 490nm. Information on uncertainties is also provided.\n\nThis data product is on a geographic grid projection, which is a direct conversion of latitude and longitude coordinates to a rectangular grid, typically a fixed multiplier of 360x180. The netCDF files follow the CF convention for this projection with a resolution of 8640x4320."
+      },
+      "rights" : {
+        "__prefix" : "dc",
+        "__text" : "otherRestrictions"
+      },
+      "language" : {
+        "__prefix" : "dc",
+        "__text" : "eng"
+      },
+      "source" : {
+        "__prefix" : "dc",
+        "__text" : "This data has been produced by the ESA Ocean Colour CCI project and provided to CEDA in the context of the ESA CCI Open Data Portal project"
+      },
+      "relation" : {
+        "__prefix" : "dc",
+        "__text" : "f1a4a1d1208244c682603502d554bc12"
+      },
+      "BoundingBox" : {
+        "LowerCorner" : {
+          "__prefix" : "ows",
+          "__text" : "180.0 -90.0"
+        },
+        "UpperCorner" : {
+          "__prefix" : "ows",
+          "__text" : "-180.0 90.0"
+        },
+        "_crs" : "urn:ogc:def:crs:::urn:ogc:def:crs:EPSG::27700",
+        "__prefix" : "ows"
+      },
+      "TemporalExtent" : {
+        "StartDate" : {
+          "__prefix" : "ows",
+          "__text" : "1997-09-04T00:00:00"
+        },
+        "EndDate" : {
+          "__prefix" : "ows",
+          "__text" : "2012-07-31T23:59:59"
+        },
+        "__prefix" : "ows"
+      },
+      "URI" : [{
+        "_name" : "Dataset Homepage",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://catalogue.ceda.ac.uk/uuid/22c0948d2c5b4f4dbf9606541a671274"
+      }, {
+        "_name" : "DOWNLOAD",
+        "_description" : "Download Data",
+        "_function" : "download",
+        "__prefix" : "dc",
+        "__text" : "http://browse.ceda.ac.uk/browse/neodc/esacci_oc/data/v1-release/geographic/netcdf/all_products/annual/v1.0"
+      }, {
+        "_name" : "ESA Ocean Colour CCI website",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-oceancolour-cci.org/"
+      }, {
+        "_name" : "ESA's Climate Change Initiative (CCI) website",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://cci.esa.int/"
+      }, {
+        "_name" : "Lavender, S. et al, 'The Ocean Colour Climate Change Initiative',Ocean Challenge, Vol.21, No.1, 2015",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-oceancolour-cci.org/?q=webfm_send/531"
+      }, {
+        "_name" : "ESA Ocean Colour CCI Product User Guide, Version 1.0",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://browse.ceda.ac.uk/browse/neodc/esacci_oc/docs/CCI-OC-PUG-v1.0.1.pdf"
+      }
+      ],
+      "_xmlns:geonet" : "http://www.fao.org/geonetwork",
+      "_xmlns:dc" : "http://purl.org/dc/elements/1.1/",
+      "_xmlns:dct" : "http://purl.org/dc/terms/",
+      "_xmlns:ows" : "http://www.opengis.net/ows",
+      "_xmlns:gml" : "http://www.opengis.net/gml/3.2",
+      "__prefix" : "csw",
+      "times" : [{
+        "starting_time" : 873331200000,
+        "ending_time" : 1343779199000
+      }
+      ],
+      "label" : "Dataset #13"
+    }, {
+      "identifier" : {
+        "__prefix" : "dc",
+        "__text" : "27c64fa0-5be0-4439-9d6d-a4f7ad5c791e"
+      },
+      "date" : {
+        "__prefix" : "dc",
+        "__text" : "2016-01-06T01:07:12"
+      },
+      "title" : {
+        "__prefix" : "dc",
+        "__text" : "ESA Ocean Colour Climate Change Initiative (Ocean Colour CCI): Daily global dataset of inherent optical properties (IOP) gridded on a geographic projection, Version 1.0"
+      },
+      "type" : {
+        "__prefix" : "dc",
+        "__text" : "dataset"
+      },
+      "subject" : [{
+        "__prefix" : "dc",
+        "__text" : "CLIPC"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "ESACCI"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "orthoimagery"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "imageryBaseMapsEarthCover"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "environment"
+      }
+      ],
+      "abstract" : {
+        "__prefix" : "dct",
+        "__text" : "The ESA Ocean Colour CCI project has produced global level 3 binned multi-sensor time-series of satellite ocean-colour data with a particular focus for use in climate studies.\n\nThis dataset contains their Version 1.0 inherent optical properties (IOP) product (in mg/m3) on a geographic projection at approximately 4 km spatial resolution and at a daily time resolution.   Note, this dataset is also included in the 'All Products' dataset.\n\nThe inherent optical properties (IOP) dataset consists of the total absorption and particle backscattering coefficients, and, additionally, the fraction of detrital & dissolved organic matter absorption and phytoplankton absorption. The total absorption (units m-1), the total backscattering (m-1), the absorption by detrital and coloured dissolved organic matter, the backscattering by particulate matter, and the absorption by phytoplankton share the same spatial resolution of ~4 km. The values of IOP are reported for the standard SeaWiFS wavelengths (412, 443, 490, 510, 555, 670nm). \n\nThis data product is on a geographic grid projection, which is a direct conversion of latitude and longitude coordinates to a rectangular grid, typically a fixed multiplier of 360x180. The netCDF files follow the CF convention for this projection with a resolution of 8640x4320.   (A separate dataset is also available for data on a sinusoidal projection.)"
+      },
+      "description" : {
+        "__prefix" : "dc",
+        "__text" : "The ESA Ocean Colour CCI project has produced global level 3 binned multi-sensor time-series of satellite ocean-colour data with a particular focus for use in climate studies.\n\nThis dataset contains their Version 1.0 inherent optical properties (IOP) product (in mg/m3) on a geographic projection at approximately 4 km spatial resolution and at a daily time resolution.   Note, this dataset is also included in the 'All Products' dataset.\n\nThe inherent optical properties (IOP) dataset consists of the total absorption and particle backscattering coefficients, and, additionally, the fraction of detrital & dissolved organic matter absorption and phytoplankton absorption. The total absorption (units m-1), the total backscattering (m-1), the absorption by detrital and coloured dissolved organic matter, the backscattering by particulate matter, and the absorption by phytoplankton share the same spatial resolution of ~4 km. The values of IOP are reported for the standard SeaWiFS wavelengths (412, 443, 490, 510, 555, 670nm). \n\nThis data product is on a geographic grid projection, which is a direct conversion of latitude and longitude coordinates to a rectangular grid, typically a fixed multiplier of 360x180. The netCDF files follow the CF convention for this projection with a resolution of 8640x4320.   (A separate dataset is also available for data on a sinusoidal projection.)"
+      },
+      "rights" : {
+        "__prefix" : "dc",
+        "__text" : "otherRestrictions"
+      },
+      "language" : {
+        "__prefix" : "dc",
+        "__text" : "eng"
+      },
+      "source" : {
+        "__prefix" : "dc",
+        "__text" : "This data has been produced by the ESA Ocean Colour CCI project and provided to CEDA in the context of the ESA CCI Open Data Portal project"
+      },
+      "relation" : {
+        "__prefix" : "dc",
+        "__text" : "f1a4a1d1208244c682603502d554bc12"
+      },
+      "BoundingBox" : {
+        "LowerCorner" : {
+          "__prefix" : "ows",
+          "__text" : "180.0 -90.0"
+        },
+        "UpperCorner" : {
+          "__prefix" : "ows",
+          "__text" : "-180.0 90.0"
+        },
+        "_crs" : "urn:ogc:def:crs:::urn:ogc:def:crs:EPSG::27700",
+        "__prefix" : "ows"
+      },
+      "TemporalExtent" : {
+        "StartDate" : {
+          "__prefix" : "ows",
+          "__text" : "1997-09-04T00:00:00"
+        },
+        "EndDate" : {
+          "__prefix" : "ows",
+          "__text" : "2012-07-31T23:59:59"
+        },
+        "__prefix" : "ows"
+      },
+      "URI" : [{
+        "_name" : "Dataset Homepage",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://catalogue.ceda.ac.uk/uuid/45278227a3804ab2a601fa2d3b1ec2fd"
+      }, {
+        "_name" : "DOWNLOAD",
+        "_description" : "Download Data",
+        "_function" : "download",
+        "__prefix" : "dc",
+        "__text" : "http://browse.ceda.ac.uk/browse/neodc/esacci_oc/data/v1-release/geographic/netcdf/iop/daily/v1.0"
+      }, {
+        "_name" : "ESA Ocean Colour CCI website",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-oceancolour-cci.org/"
+      }, {
+        "_name" : "ESA's Climate Change Initiative (CCI) website",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://cci.esa.int/"
+      }, {
+        "_name" : "Lavender, S. et al, 'The Ocean Colour Climate Change Initiative',Ocean Challenge, Vol.21, No.1, 2015",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-oceancolour-cci.org/?q=webfm_send/531"
+      }, {
+        "_name" : "ESA Ocean Colour CCI Product User Guide, Version 1.0",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://browse.ceda.ac.uk/browse/neodc/esacci_oc/docs/CCI-OC-PUG-v1.0.1.pdf"
+      }
+      ],
+      "_xmlns:geonet" : "http://www.fao.org/geonetwork",
+      "_xmlns:dc" : "http://purl.org/dc/elements/1.1/",
+      "_xmlns:dct" : "http://purl.org/dc/terms/",
+      "_xmlns:ows" : "http://www.opengis.net/ows",
+      "_xmlns:gml" : "http://www.opengis.net/gml/3.2",
+      "__prefix" : "csw",
+      "times" : [{
+        "starting_time" : 873331200000,
+        "ending_time" : 1343779199000
+      }
+      ],
+      "label" : "Dataset #14"
+    }
+    ],
+    "times" : [{
+      "starting_time" : 873331200000,
+      "ending_time" : 1343779199000
+    }
+    ]
+  },
+    {
+    "label" : "",
+    "project" : "SST",
+    "abstract" : "This website supports a project funded by the European Space Agency (ESA) as part of Phase 1 of the Agency’s Climate Change Initiative (CCI) Programme. The project team will focus on: 1) Analysis of scientific requirements relating to climate; 2) Development of improved scientific algorithms; 3) Inter-comparison and selection of algorithms; 4)     System prototyping and production of SST datasets; & 5) Product validation and end-user assessment. ",
+    "homepage" : "http://www.esa-sst-cci.org/",
+    "guideURL" : "http://www.esa-sst-cci.org/sites/default/files/Documents/public/SST_CCI-PUG-UKMO-001_Issue-3-signed-accepted.pdf",
+    "logoURL" : "../images/logos/soilmoisture.gif",
+    "datasets" : [{
+      "identifier" : {
+        "__prefix" : "dc",
+        "__text" : "484d8705-795c-420c-9301-1ff28caf2493"
+      },
+      "date" : {
+        "__prefix" : "dc",
+        "__text" : "2016-01-06T00:57:06"
+      },
+      "title" : {
+        "__prefix" : "dc",
+        "__text" : "ESA Sea Surface Temperature Climate Change Initiative (ESA SST CCI): Advanced Very High Resolution Radiometer (AVHRR) level 2 pre-processed (L2P) long term product version 1.0"
+      },
+      "type" : {
+        "__prefix" : "dc",
+        "__text" : "dataset"
+      },
+      "subject" : [{
+        "__prefix" : "dc",
+        "__text" : "ESACCI"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "orthoimagery"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "imageryBaseMapsEarthCover"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "environment"
+      }
+      ],
+      "abstract" : {
+        "__prefix" : "dct",
+        "__text" : "The ESA Sea Surface Temperature Climate Change Initiative (ESA SST CCI) dataset accurately maps the surface temperature of the global oceans over the period 1991 to 2010, using observations from many satellites. The data provides an independently quantified SST to a quality suitable for climate research.\n\nThe ESA SST CCI AVHRR (Advanced Very High Resolution Radiometer) Long Term Product consists of stable, low-bias sea surface temperature (SST) data covering the period 08/1991 - 12/2010.  The L2P data product provide these SST observations in the satellite swath.\n\nThis dataset is cited in: Merchant, C. J., Embury, O., Roberts-Jones, J., Fiedler, E., Bulgin, C. E., Corlett, G. K., Good, S., McLaren, A., Rayner, N., Morak-Bozzo, S. and Donlon, C. (2014), Sea surface temperature datasets for climate applications from Phase 1 of the European Space Agency Climate Change Initiative (SST CCI). Geoscience Data Journal. doi: 10.1002/gdj3.20"
+      },
+      "description" : {
+        "__prefix" : "dc",
+        "__text" : "The ESA Sea Surface Temperature Climate Change Initiative (ESA SST CCI) dataset accurately maps the surface temperature of the global oceans over the period 1991 to 2010, using observations from many satellites. The data provides an independently quantified SST to a quality suitable for climate research.\n\nThe ESA SST CCI AVHRR (Advanced Very High Resolution Radiometer) Long Term Product consists of stable, low-bias sea surface temperature (SST) data covering the period 08/1991 - 12/2010.  The L2P data product provide these SST observations in the satellite swath.\n\nThis dataset is cited in: Merchant, C. J., Embury, O., Roberts-Jones, J., Fiedler, E., Bulgin, C. E., Corlett, G. K., Good, S., McLaren, A., Rayner, N., Morak-Bozzo, S. and Donlon, C. (2014), Sea surface temperature datasets for climate applications from Phase 1 of the European Space Agency Climate Change Initiative (SST CCI). Geoscience Data Journal. doi: 10.1002/gdj3.20"
+      },
+      "rights" : {
+        "__prefix" : "dc",
+        "__text" : "otherRestrictions"
+      },
+      "language" : {
+        "__prefix" : "dc",
+        "__text" : "eng"
+      },
+      "source" : {
+        "__prefix" : "dc",
+        "__text" : "Data were processed by the ESA CCI SST project team and supplied to NEODC by the UK Met Office."
+      },
+      "relation" : {
+        "__prefix" : "dc",
+        "__text" : "1dc189bbf94209b48ed446c0e9a078af"
+      },
+      "BoundingBox" : {
+        "LowerCorner" : {
+          "__prefix" : "ows",
+          "__text" : "180.0 -90.0"
+        },
+        "UpperCorner" : {
+          "__prefix" : "ows",
+          "__text" : "-180.0 90.0"
+        },
+        "_crs" : "urn:ogc:def:crs:::urn:ogc:def:crs:EPSG::27700",
+        "__prefix" : "ows"
+      },
+      "TemporalExtent" : {
+        "StartDate" : {
+          "__prefix" : "ows",
+          "__text" : "1991-09-01T00:00:00"
+        },
+        "EndDate" : {
+          "__prefix" : "ows",
+          "__text" : "2010-12-31T00:00:00"
+        },
+        "__prefix" : "ows"
+      },
+      "URI" : [{
+        "_name" : "Dataset Homepage",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://catalogue.ceda.ac.uk/uuid/da85154480423eda8e8022d499abcc06"
+      }, {
+        "_name" : "DOWNLOAD",
+        "_description" : "Download Data",
+        "_function" : "download",
+        "__prefix" : "dc",
+        "__text" : "http://browse.ceda.ac.uk/browse/neodc/esacci_sst/data/lt/AVHRR"
+      }, {
+        "_name" : "Quick Start Guide to ESA SST CCI Products",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://cedadocs.badc.rl.ac.uk/959/1/SST_CCI-QuickStartGuide-Issue-1.pdf"
+      }, {
+        "_name" : "The ESA Climate Change Initiative: satellite data records for essential  climate variables; R. Hollmann, C.J. Merchant, R. Saunders, C. Downy, M.Buchwitz, A. Cazenave, E. Chuvieco, P. Defourny, G. de Leeuw,R. Forsberg, T.Holzer-Popp, F. Paul, S. Sandven, S. Sathyendranath, M. van Roozendael, W.Wagner; Bulletin of the American Meteorological Society. doi: http://dx.doi.org/10.1175/BAMS-D-11-00254.1",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://dx.doi.org/10.1175/BAMS-D-11-00254.1"
+      }, {
+        "_name" : "Climate Research Data Package",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-sst-cci.org/sites/default/files/Documents/public/SST_CCI-CRDP-UKMO-001_Issue-1-Signed-accepted.pdf"
+      }, {
+        "_name" : "ESA CCI SST Product User Guide and other documentation",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-sst-cci.org/PUG/documents.htm"
+      }, {
+        "_name" : "Merchant, C. J., Embury, O., Roberts-Jones, J., Fiedler, E., Bulgin, C. E., Corlett, G. K., Good, S., McLaren, A., Rayner, N., Morak-Bozzo, S. and Donlon, C. (2014), Sea surface temperature datasets for climate applications from Phase 1 of the European Space Agency Climate Change Initiative (SST CCI). Geoscience Data Journal. doi: 10.1002/gdj3.20",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://onlinelibrary.wiley.com/doi/10.1002/gdj3.20/full"
+      }, {
+        "_name" : "ESA CCI SST website",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-sst-cci.org/"
+      }, {
+        "_name" : "Creative Commons License by attribution",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://creativecommons.org/licenses/by/3.0/"
+      }
+      ],
+      "_xmlns:geonet" : "http://www.fao.org/geonetwork",
+      "_xmlns:dc" : "http://purl.org/dc/elements/1.1/",
+      "_xmlns:dct" : "http://purl.org/dc/terms/",
+      "_xmlns:ows" : "http://www.opengis.net/ows",
+      "_xmlns:gml" : "http://www.opengis.net/gml/3.2",
+      "__prefix" : "csw",
+      "times" : [{
+        "starting_time" : 683683200000,
+        "ending_time" : 1293753600000
+      }
+      ],
+      "label" : "Dataset #1"
+    }, {
+      "identifier" : {
+        "__prefix" : "dc",
+        "__text" : "3dcba876-1af0-46af-8cfc-32d03287d96e"
+      },
+      "date" : {
+        "__prefix" : "dc",
+        "__text" : "2016-01-06T00:57:09"
+      },
+      "title" : {
+        "__prefix" : "dc",
+        "__text" : "ESA Sea Surface Temperature Climate Change Initiative (ESA SST CCI): Along-Track Scanning Radiometer (ATSR) level 3 uncollated data (L3U) long-term product version 1.1"
+      },
+      "type" : {
+        "__prefix" : "dc",
+        "__text" : "dataset"
+      },
+      "subject" : [{
+        "__prefix" : "dc",
+        "__text" : "CLIPC"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "ESACCI"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "orthoimagery"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "imageryBaseMapsEarthCover"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "environment"
+      }
+      ],
+      "abstract" : {
+        "__prefix" : "dct",
+        "__text" : "The ESA Sea Surface Temperature Climate Change Initiative (ESA SST CCI) dataset accurately maps the surface temperature of the global oceans over the period 1991 to 2010 using observations from many satellites. The data provides an independently quantified SST to a quality suitable for climate research. \nThe ESA SST CCI ATSR (Along-Track Scanning Radiometer) Long Term Product version 1.1 consists of stable, low-bias sea surface temperature (SST) data covering the period 08/1991 - 04/2012.  The L3U data product provides these SST data regridded onto a global longitude-latitude grid.\n\nThe version 1.1 data is an update to the version 1.0 dataset.\n\nThis dataset is cited in: Merchant, C. J., Embury, O., Roberts-Jones, J., Fiedler, E., Bulgin, C. E., Corlett, G. K., Good, S., McLaren, A., Rayner, N., Morak-Bozzo, S. and Donlon, C. (2014), Sea surface temperature datasets for climate applications from Phase 1 of the European Space Agency Climate Change Initiative (SST CCI). Geoscience Data Journal. doi: 10.1002/gdj3.20"
+      },
+      "description" : {
+        "__prefix" : "dc",
+        "__text" : "The ESA Sea Surface Temperature Climate Change Initiative (ESA SST CCI) dataset accurately maps the surface temperature of the global oceans over the period 1991 to 2010 using observations from many satellites. The data provides an independently quantified SST to a quality suitable for climate research. \nThe ESA SST CCI ATSR (Along-Track Scanning Radiometer) Long Term Product version 1.1 consists of stable, low-bias sea surface temperature (SST) data covering the period 08/1991 - 04/2012.  The L3U data product provides these SST data regridded onto a global longitude-latitude grid.\n\nThe version 1.1 data is an update to the version 1.0 dataset.\n\nThis dataset is cited in: Merchant, C. J., Embury, O., Roberts-Jones, J., Fiedler, E., Bulgin, C. E., Corlett, G. K., Good, S., McLaren, A., Rayner, N., Morak-Bozzo, S. and Donlon, C. (2014), Sea surface temperature datasets for climate applications from Phase 1 of the European Space Agency Climate Change Initiative (SST CCI). Geoscience Data Journal. doi: 10.1002/gdj3.20"
+      },
+      "rights" : {
+        "__prefix" : "dc",
+        "__text" : "otherRestrictions"
+      },
+      "language" : {
+        "__prefix" : "dc",
+        "__text" : "eng"
+      },
+      "source" : {
+        "__prefix" : "dc",
+        "__text" : "Data were processed and supplied to the NEODC by the ESA CCI SST project team."
+      },
+      "relation" : {
+        "__prefix" : "dc",
+        "__text" : "1dc189bbf94209b48ed446c0e9a078af"
+      },
+      "BoundingBox" : {
+        "LowerCorner" : {
+          "__prefix" : "ows",
+          "__text" : "180.0 -90.0"
+        },
+        "UpperCorner" : {
+          "__prefix" : "ows",
+          "__text" : "-180.0 90.0"
+        },
+        "_crs" : "urn:ogc:def:crs:::urn:ogc:def:crs:EPSG::27700",
+        "__prefix" : "ows"
+      },
+      "TemporalExtent" : {
+        "StartDate" : {
+          "__prefix" : "ows",
+          "__text" : "1991-08-01T00:00:00"
+        },
+        "EndDate" : {
+          "__prefix" : "ows",
+          "__text" : "2012-04-08T00:00:00"
+        },
+        "__prefix" : "ows"
+      },
+      "URI" : [{
+        "_name" : "Dataset Homepage",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://catalogue.ceda.ac.uk/uuid/5a807d9ebb2d67b5472624e9639253a9"
+      }, {
+        "_name" : "DOWNLOAD",
+        "_description" : "Download Data",
+        "_function" : "download",
+        "__prefix" : "dc",
+        "__text" : "http://browse.ceda.ac.uk/browse/neodc/esacci_sst/data/lt/ATSR/L3U/v01.1"
+      }, {
+        "_name" : "Quick Start Guide to ESA CCI SST Products",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://cedadocs.badc.rl.ac.uk/959/1/SST_CCI-QuickStartGuide-Issue-1.pdf"
+      }, {
+        "_name" : "The ESA Climate Change Initiative: satellite data records for essential  climate variables</a>; R. Hollmann, C.J. Merchant, R. Saunders, C. Downy, M.Buchwitz, A. Cazenave, E. Chuvieco, P. Defourny, G. de Leeuw,R. Forsberg, T.Holzer-Popp, F. Paul, S. Sandven, S. Sathyendranath, M. van Roozendael, W.Wagner; Bulletin of the American Meteorological Society. doi: http://dx.doi.org/10.1175/BAMS-D-11-00254.1",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://dx.doi.org/10.1175/BAMS-D-11-00254.1"
+      }, {
+        "_name" : "Climate Research Data Package",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-sst-cci.org/sites/default/files/Documents/public/SST_CCI-CRDP-UKMO-001_Issue-1-Signed-accepted.pdf"
+      }, {
+        "_name" : "ESA CCI SST Product User Guide and other documentation",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-sst-cci.org/PUG/documents.htm"
+      }, {
+        "_name" : "Merchant, C. J., Embury, O., Roberts-Jones, J., Fiedler, E., Bulgin, C. E., Corlett, G. K., Good, S., McLaren, A., Rayner, N., Morak-Bozzo, S. and Donlon, C. (2014), Sea surface temperature datasets for climate applications from Phase 1 of the European Space Agency Climate Change Initiative (SST CCI). Geoscience Data Journal. doi: 10.1002/gdj3.20",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://onlinelibrary.wiley.com/doi/10.1002/gdj3.20/full"
+      }, {
+        "_name" : "ESA CCI SST website",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-sst-cci.org/"
+      }, {
+        "_name" : "Creative Commons License by Attribution",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://creativecommons.org/licenses/by/3.0/"
+      }
+      ],
+      "_xmlns:geonet" : "http://www.fao.org/geonetwork",
+      "_xmlns:dc" : "http://purl.org/dc/elements/1.1/",
+      "_xmlns:dct" : "http://purl.org/dc/terms/",
+      "_xmlns:ows" : "http://www.opengis.net/ows",
+      "_xmlns:gml" : "http://www.opengis.net/gml/3.2",
+      "__prefix" : "csw",
+      "times" : [{
+        "starting_time" : 681004800000,
+        "ending_time" : 1333843200000
+      }
+      ],
+      "label" : "Dataset #2"
+    }, {
+      "identifier" : {
+        "__prefix" : "dc",
+        "__text" : "05544d38-5c4a-4831-b543-d54f81646740"
+      },
+      "date" : {
+        "__prefix" : "dc",
+        "__text" : "2016-01-06T00:57:47"
+      },
+      "title" : {
+        "__prefix" : "dc",
+        "__text" : "ESA Sea Surface Temperature Climate Change Initiative (ESA SST CCI): Along-Track Scanning Radiometer (ATSR) level 3 uncollated data (L3U) long-term product version 1.0"
+      },
+      "type" : {
+        "__prefix" : "dc",
+        "__text" : "dataset"
+      },
+      "subject" : [{
+        "__prefix" : "dc",
+        "__text" : "CLIPC"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "ESACCI"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "orthoimagery"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "imageryBaseMapsEarthCover"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "environment"
+      }
+      ],
+      "abstract" : {
+        "__prefix" : "dct",
+        "__text" : "The ESA Sea Surface Temperature Climate Change Initiative (ESA SST CCI) dataset accurately maps the surface temperature of the global oceans over the period 1991 to 2010 using observations from many satellites. The data provides an independently quantified SST to a quality suitable for climate research. \nThe ESA SST CCI ATSR (Along-Track Scanning Radiometer) Long Term Product Version 1.0 consists of stable, low-bias sea surface temperature (SST) data covering the period 08/1991 - 12/2010.  The L3U data product provides these SST data regridded onto a global longitude-latitude grid.\n\nPlease note, the version 1.0 data described here has now been superseded by the version 1.1 data product as described in Merchant, C. J., Embury, O., Roberts-Jones, J., Fiedler, E., Bulgin, C. E., Corlett, G. K., Good, S., McLaren, A., Rayner, N., Morak-Bozzo, S. and Donlon, C. (2014), Sea surface temperature datasets for climate applications from Phase 1 of the European Space Agency Climate Change Initiative (SST CCI). Geoscience Data Journal. doi: 10.1002/gdj3.20"
+      },
+      "description" : {
+        "__prefix" : "dc",
+        "__text" : "The ESA Sea Surface Temperature Climate Change Initiative (ESA SST CCI) dataset accurately maps the surface temperature of the global oceans over the period 1991 to 2010 using observations from many satellites. The data provides an independently quantified SST to a quality suitable for climate research. \nThe ESA SST CCI ATSR (Along-Track Scanning Radiometer) Long Term Product Version 1.0 consists of stable, low-bias sea surface temperature (SST) data covering the period 08/1991 - 12/2010.  The L3U data product provides these SST data regridded onto a global longitude-latitude grid.\n\nPlease note, the version 1.0 data described here has now been superseded by the version 1.1 data product as described in Merchant, C. J., Embury, O., Roberts-Jones, J., Fiedler, E., Bulgin, C. E., Corlett, G. K., Good, S., McLaren, A., Rayner, N., Morak-Bozzo, S. and Donlon, C. (2014), Sea surface temperature datasets for climate applications from Phase 1 of the European Space Agency Climate Change Initiative (SST CCI). Geoscience Data Journal. doi: 10.1002/gdj3.20"
+      },
+      "rights" : {
+        "__prefix" : "dc",
+        "__text" : "otherRestrictions"
+      },
+      "language" : {
+        "__prefix" : "dc",
+        "__text" : "eng"
+      },
+      "source" : {
+        "__prefix" : "dc",
+        "__text" : "Data were processed by the ESA CCI SST project team and supplied to NEODC by the UK Met Office."
+      },
+      "relation" : {
+        "__prefix" : "dc",
+        "__text" : "1dc189bbf94209b48ed446c0e9a078af"
+      },
+      "BoundingBox" : {
+        "LowerCorner" : {
+          "__prefix" : "ows",
+          "__text" : "180.0 -90.0"
+        },
+        "UpperCorner" : {
+          "__prefix" : "ows",
+          "__text" : "-180.0 90.0"
+        },
+        "_crs" : "urn:ogc:def:crs:::urn:ogc:def:crs:EPSG::27700",
+        "__prefix" : "ows"
+      },
+      "TemporalExtent" : {
+        "StartDate" : {
+          "__prefix" : "ows",
+          "__text" : "1991-08-01T00:00:00"
+        },
+        "EndDate" : {
+          "__prefix" : "ows",
+          "__text" : "2010-12-31T00:00:00"
+        },
+        "__prefix" : "ows"
+      },
+      "URI" : [{
+        "_name" : "Dataset Homepage",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://catalogue.ceda.ac.uk/uuid/2608443849391d2513d903482a19f206"
+      }, {
+        "_name" : "DOWNLOAD",
+        "_description" : "Download Data",
+        "_function" : "download",
+        "__prefix" : "dc",
+        "__text" : "http://browse.ceda.ac.uk/browse/neodc/esacci_sst/data/lt/ATSR/L3U/v01.0"
+      }, {
+        "_name" : "Quick Start Guide to ESA CCI SST Products",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://cedadocs.badc.rl.ac.uk/959/1/SST_CCI-QuickStartGuide-Issue-1.pdf"
+      }, {
+        "_name" : "The ESA Climate Change Initiative: satellite data records for essential  climate variables</a>; R. Hollmann, C.J. Merchant, R. Saunders, C. Downy, M.Buchwitz, A. Cazenave, E. Chuvieco, P. Defourny, G. de Leeuw,R. Forsberg, T.Holzer-Popp, F. Paul, S. Sandven, S. Sathyendranath, M. van Roozendael, W.Wagner; Bulletin of the American Meteorological Society. doi: http://dx.doi.org/10.1175/BAMS-D-11-00254.1",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://dx.doi.org/10.1175/BAMS-D-11-00254.1"
+      }, {
+        "_name" : "Climate Research Data Package",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-sst-cci.org/sites/default/files/Documents/public/SST_CCI-CRDP-UKMO-001_Issue-1-Signed-accepted.pdf"
+      }, {
+        "_name" : "Latest version of dataset: ESA CCI SST ATSR L3U long term product version 1.1",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://catalogue.ceda.ac.uk/uuid/5a807d9ebb2d67b5472624e9639253a9"
+      }, {
+        "_name" : "ESA CCI SST Product User Guide and other documentation",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-sst-cci.org/PUG/documents.htm"
+      }, {
+        "_name" : "Merchant, C. J., Embury, O., Roberts-Jones, J., Fiedler, E., Bulgin, C. E., Corlett, G. K., Good, S., McLaren, A., Rayner, N., Morak-Bozzo, S. and Donlon, C. (2014), Sea surface temperature datasets for climate applications from Phase 1 of the European Space Agency Climate Change Initiative (SST CCI). Geoscience Data Journal. doi: 10.1002/gdj3.20",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://onlinelibrary.wiley.com/doi/10.1002/gdj3.20/full"
+      }, {
+        "_name" : "ESA CCI SST website",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-sst-cci.org/"
+      }, {
+        "_name" : "Creative Commons License by Attribution",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://creativecommons.org/licenses/by/3.0/"
+      }
+      ],
+      "_xmlns:geonet" : "http://www.fao.org/geonetwork",
+      "_xmlns:dc" : "http://purl.org/dc/elements/1.1/",
+      "_xmlns:dct" : "http://purl.org/dc/terms/",
+      "_xmlns:ows" : "http://www.opengis.net/ows",
+      "_xmlns:gml" : "http://www.opengis.net/gml/3.2",
+      "__prefix" : "csw",
+      "times" : [{
+        "starting_time" : 681004800000,
+        "ending_time" : 1293753600000
+      }
+      ],
+      "label" : "Dataset #3"
+    }, {
+      "identifier" : {
+        "__prefix" : "dc",
+        "__text" : "24e09fe5-6745-4cf5-a2b4-d8433ae7435d"
+      },
+      "date" : {
+        "__prefix" : "dc",
+        "__text" : "2016-01-06T01:06:40"
+      },
+      "title" : {
+        "__prefix" : "dc",
+        "__text" : "ESA Sea Surface Temperature Climate Change Initiative (ESA SST CCI): Analysis long term product version 1.0"
+      },
+      "type" : {
+        "__prefix" : "dc",
+        "__text" : "dataset"
+      },
+      "subject" : [{
+        "__prefix" : "dc",
+        "__text" : "CLIPC"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "ESACCI"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "orthoimagery"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "imageryBaseMapsEarthCover"
+      }, {
+        "__prefix" : "dc",
+        "__text" : "environment"
+      }
+      ],
+      "abstract" : {
+        "__prefix" : "dct",
+        "__text" : "The ESA Sea Surface Temperature Climate Change Initiative (ESA SST CCI) dataset accurately maps the surface temperature of the global oceans over the period 1991 to 2010, using observations from many satellites. The data provides an independently quantified SST to a quality suitable for climate research.\n\nThe ESA SST CCI Analysis Long Term Product consists of daily, spatially complete fields of sea surface temperature (SST), obtained by combining the orbit data from the AVHRR and ATSR ESA SST CCI Long Term Products, using optimal interpolation to provide SSTs where there were no measurements.  These data cover the period between 09/1991 and 12/2010.\n\nThis dataset is cited in: Merchant, C. J., Embury, O., Roberts-Jones, J., Fiedler, E., Bulgin, C. E., Corlett, G. K., Good, S., McLaren, A., Rayner, N., Morak-Bozzo, S. and Donlon, C. (2014), Sea surface temperature datasets for climate applications from Phase 1 of the European Space Agency Climate Change Initiative (SST CCI). Geoscience Data Journal. doi: 10.1002/gdj3.20\n\nPlease note that this dataset has now been superseded by the version 1.1 product."
+      },
+      "description" : {
+        "__prefix" : "dc",
+        "__text" : "The ESA Sea Surface Temperature Climate Change Initiative (ESA SST CCI) dataset accurately maps the surface temperature of the global oceans over the period 1991 to 2010, using observations from many satellites. The data provides an independently quantified SST to a quality suitable for climate research.\n\nThe ESA SST CCI Analysis Long Term Product consists of daily, spatially complete fields of sea surface temperature (SST), obtained by combining the orbit data from the AVHRR and ATSR ESA SST CCI Long Term Products, using optimal interpolation to provide SSTs where there were no measurements.  These data cover the period between 09/1991 and 12/2010.\n\nThis dataset is cited in: Merchant, C. J., Embury, O., Roberts-Jones, J., Fiedler, E., Bulgin, C. E., Corlett, G. K., Good, S., McLaren, A., Rayner, N., Morak-Bozzo, S. and Donlon, C. (2014), Sea surface temperature datasets for climate applications from Phase 1 of the European Space Agency Climate Change Initiative (SST CCI). Geoscience Data Journal. doi: 10.1002/gdj3.20\n\nPlease note that this dataset has now been superseded by the version 1.1 product."
+      },
+      "rights" : {
+        "__prefix" : "dc",
+        "__text" : "otherRestrictions"
+      },
+      "language" : {
+        "__prefix" : "dc",
+        "__text" : "eng"
+      },
+      "source" : {
+        "__prefix" : "dc",
+        "__text" : "Data were processed by the ESA CCI SST project team and supplied to NEODC by the UK Met Office."
+      },
+      "relation" : {
+        "__prefix" : "dc",
+        "__text" : "1dc189bbf94209b48ed446c0e9a078af"
+      },
+      "BoundingBox" : {
+        "LowerCorner" : {
+          "__prefix" : "ows",
+          "__text" : "180.0 -90.0"
+        },
+        "UpperCorner" : {
+          "__prefix" : "ows",
+          "__text" : "-180.0 90.0"
+        },
+        "_crs" : "urn:ogc:def:crs:::urn:ogc:def:crs:EPSG::27700",
+        "__prefix" : "ows"
+      },
+      "TemporalExtent" : {
+        "StartDate" : {
+          "__prefix" : "ows",
+          "__text" : "1991-09-01T00:00:00"
+        },
+        "EndDate" : {
+          "__prefix" : "ows",
+          "__text" : "2010-12-31T00:00:00"
+        },
+        "__prefix" : "ows"
+      },
+      "URI" : [{
+        "_name" : "Dataset Homepage",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://catalogue.ceda.ac.uk/uuid/916986a220e6bad55411d9407ade347c"
+      }, {
+        "_name" : "DOWNLOAD",
+        "_description" : "Download Data",
+        "_function" : "download",
+        "__prefix" : "dc",
+        "__text" : "http://browse.ceda.ac.uk/browse/neodc/esacci_sst/data/lt/Analysis"
+      }, {
+        "_name" : "Quick Start Guide to ESA SST CCI Products",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://cedadocs.badc.rl.ac.uk/959/1/SST_CCI-QuickStartGuide-Issue-1.pdf"
+      }, {
+        "_name" : "The ESA Climate Change Initiative: satellite data records for essential  climate variables</a>; R. Hollmann, C.J. Merchant, R. Saunders, C. Downy, M.Buchwitz, A. Cazenave, E. Chuvieco, P. Defourny, G. de Leeuw,R. Forsberg, T.Holzer-Popp, F. Paul, S. Sandven, S. Sathyendranath, M. van Roozendael, W.Wagner; Bulletin of the American Meteorological Society. doi: http://dx.doi.org/10.1175/BAMS-D-11-00254.1",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://dx.doi.org/10.1175/BAMS-D-11-00254.1"
+      }, {
+        "_name" : "Climate Research Data Package",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-sst-cci.org/sites/default/files/Documents/public/SST_CCI-CRDP-UKMO-001_Issue-1-Signed-accepted.pdf"
+      }, {
+        "_name" : "ESA CCI SST Product User Guide and other documentation",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-sst-cci.org/PUG/documents.htm"
+      }, {
+        "_name" : "Merchant, C. J., Embury, O., Roberts-Jones, J., Fiedler, E., Bulgin, C. E., Corlett, G. K., Good, S., McLaren, A., Rayner, N., Morak-Bozzo, S. and Donlon, C. (2014), Sea surface temperature datasets for climate applications from Phase 1 of the European Space Agency Climate Change Initiative (SST CCI). Geoscience Data Journal. doi: 10.1002/gdj3.20",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://onlinelibrary.wiley.com/doi/10.1002/gdj3.20/full"
+      }, {
+        "_name" : "ESA CCI SST website",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://www.esa-sst-cci.org/"
+      }, {
+        "_name" : "Creative Commons License by attribution",
+        "_description" : "",
+        "_function" : "information",
+        "__prefix" : "dc",
+        "__text" : "http://creativecommons.org/licenses/by/3.0/"
+      }
+      ],
+      "_xmlns:geonet" : "http://www.fao.org/geonetwork",
+      "_xmlns:dc" : "http://purl.org/dc/elements/1.1/",
+      "_xmlns:dct" : "http://purl.org/dc/terms/",
+      "_xmlns:ows" : "http://www.opengis.net/ows",
+      "_xmlns:gml" : "http://www.opengis.net/gml/3.2",
+      "__prefix" : "csw",
+      "times" : [{
+        "starting_time" : 683683200000,
+        "ending_time" : 1293753600000
+      }
+      ],
+      "label" : "Dataset #4"
+    }
+    ],
+    "times" : [{
+      "starting_time" : 681004800000,
+      "ending_time" : 1333843200000
+    }
+    ]
+  }
+  ]
+}
