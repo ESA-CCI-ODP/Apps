@@ -28,6 +28,7 @@
   color: #6595DC;
 }
 
+.test-is-antarctica,
 .aerosol {
   fill: rgba(4, 120, 176, 0.5) !important;
   stroke: rgba(4, 120, 176, 1);
@@ -91,8 +92,24 @@
 }
 
 .glaciers {
-  fill: rgba(255, 227, 131, 0.5) !important;
-  stroke: rgba(255, 227, 131, 1);
+  fill: rgba(255, 204, 128, 0.5) !important;
+  stroke: rgba(255, 204, 128, 1);
+}
+
+.biomass {
+  fill: rgba(255, 214, 153, 0.5) !important;
+  stroke: rgba(255, 214, 153, 1);
+}
+
+.permafrost {
+  fill: rgba(255, 224, 179, 0.5) !important;
+  stroke: rgba(255, 224, 179, 1);
+}
+
+.ecv-snow,
+.snow {
+  fill: rgba(255, 234, 204, 0.5) !important;
+  stroke: rgba(255, 234, 204, 1);
 }
 
 /* LIGHTER BLUE - ocean teams */
@@ -127,6 +144,16 @@
 .sst {
   fill: rgba(77, 198, 146, 0.5) !important;
   stroke: rgba(77, 198, 146, 1);
+}
+
+.sea-surface-salinity {
+  fill: rgba(118, 213, 172, 0.5) !important;
+  stroke: rgba(118, 213, 172, 1);
+}
+
+.sea-state {
+  fill: rgba(157, 225, 196, 0.5) !important;
+  stroke: rgba(157, 225, 196, 1);
 }
 
 .dashboard {

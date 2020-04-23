@@ -149,6 +149,7 @@ module.exports = function(config) {
       'bower_components/ows.js/dist/ows.min.js',
       'bower_components/lodash/lodash.js',
       'bower_components/angular-toastr/dist/angular-toastr.tpls.js',
+      'bower_components/requirejs/require.js',
       'bower_components/angular-mocks/angular-mocks.js',
       // endbower
       "test/mock/**/*.js",

@@ -6,7 +6,7 @@
       "category": "atmospheric",
       "titleName": "Aerosol",
       "abstract": "The aerosol_cci project produces a set of global aerosol ECV products from European satellite instruments with substantially different characteristics and information content. Primary products include total column Aerosol Optical Depth (AOD), stratospheric aerosol extinction profiles and further information on aerosol type 8fine mode fraction, absorption, mineral dust).",
-      "homepage": "http://www.esa-aerosol-cci.org/",
+      "homepage": "http://cci.esa.int/aerosol",
       "guideURL": "http://www.esa-aerosol-cci.org/?q=webfm_send/534",
       "partnersicon": "../images/logos/partnersLogoAerosol.png",
       "fullicon": "../images/logos/LogoAerosol.jpg",
@@ -42,7 +42,7 @@
       "category": "atmospheric",
       "titleName": "Ozone",
       "abstract": "Ozone_cci will: 1) Analyze the needs of the climate research community in terms of Ozone data; 2) Adapt the Ozone satellite measurements for their use by the climate research community; 3) Use Ozone data available in the ESA Earth observation archive, as well as Ozone data from Third Party Missions (TPM). (TPM data come from instruments owned by other parties than ESA)",
-      "homepage": "http://www.esa-ozone-cci.org/",
+      "homepage": "http://cci.esa.int/ozone",
       "guideURL": "http://www.esa-ozone-cci.org/?q=webfm_send/133",
       "partnersicon": "../images/logos/partnersLogoOzone.jpg",
       "fullicon": "../images/logos/LogoOzone.jpg",
@@ -59,7 +59,8 @@
       "partnersicon": "../images/logos/partnersLogoFire.png",
       "fullicon": "../images/logos/LogoFire.jpg",
       "icon": "../images/logos/fire.gif"
-    },{
+    },
+    {
       "label": "",
       "project": "IS Antarctica",
       "category": "land-teams",
@@ -86,9 +87,9 @@
 
     {
       "label": "",
-      "project": "Land cover",
+      "project": "Land Cover",
       "category": "land-teams",
-      "titleName": "Land cover",
+      "titleName": "Land Cover",
       "abstract": "The overall Land_Cover_cci objective is to critically revisit all algorithms required for the generation of a global land product in the light of GCOS requirements, and to design and demonstrate a prototype system delivering in a consistent way over years and from various EO instruments global land cover information matching the needs of key users’ belonging to the climate change community.",
       "homepage": "http://www.esa-landcover-cci.org/",
       "guideURL": "http://www.esa-landcover-cci.org/?q=webfm_send/84",
@@ -120,12 +121,48 @@
       "fullicon": "../images/logos/LogoGlaciers.jpg",
       "icon": "../images/logos/glaciers.gif"
     },
+    {
+      "label": "",
+      "project": "Biomass",
+      "category": "land-teams",
+      "titleName": "Biomass",
+      "abstract": "The primary science objective ESA’s Climate Change Initiative Biomass project (Biomass_cci) is to provide global maps of above-ground biomass (Mg ha-1) for four epochs (mid 1990s, 2007-2010, 2017/2018 and 2018/2019), with these being capable of supporting quantification of biomass change.",
+      "homepage": "http://cci.esa.int/biomass",
+      "guideURL": "",
+      "partnersicon": "../images/logos/partnersLogoBiomass.png",
+      "fullicon": "../images/logos/LogoBiomass.png",
+      "icon": "../images/logos/biomass.gif"
+    },
+    {
+      "label": "",
+      "project": "Permafrost",
+      "category": "land-teams",
+      "titleName": "Permafrost",
+      "abstract": "The ultimate objective of Permafrost_cci is to develop and deliver permafrost maps as ECV products primarily derived from satellite measurements. The required associated parameters by GCOS for the ECV Permafrost are 'Depth of active layer (m)' and 'Permafrost temperature (K)'. ",
+      "homepage": "http://cci.esa.int/Permafrost",
+      "guideURL": "",
+      "partnersicon": "../images/logos/partnersLogoPermafrost.png",
+      "fullicon": "../images/logos/LogoPermafrost.png",
+      "icon": "../images/logos/permafrost.gif"
+    },
+    {
+      "label": "",
+      "project": "Snow",
+      "category": "land-teams",
+      "titleName": "Snow",
+      "abstract": "The ultimate objective of Snow CCI is to generate homogenized long-time series of daily global snow extent maps from optical satellite data and daily global snow water equivalent products from passive microwave satellite data. ",
+      "homepage": "http://cci.esa.int/snow",
+      "guideURL": "",
+      "partnersicon": "../images/logos/partnersLogoSnow.png",
+      "fullicon": "../images/logos/LogoSnow.png",
+      "icon": "../images/logos/snow.gif"
+    },
 
     {
       "label": "",
-      "project": "Ocean colour",
+      "project": "Ocean Colour",
       "category": "ocean-teams",
-      "titleName": "Ocean colour",
+      "titleName": "Ocean Colour",
       "abstract": "The Ocean Colour CCI (OC_CCI) project focuses on the Ocean Colour ECV encompassing water-leaving radiance in the visible domain, derived chlorophyll and inherent optical properties and will utilise data archives of from ESA’s MERIS and NASA’s SeaWiFS, MODIS and possibly CZCS (after careful evaluation) sensors archives. It is also looking at the feasibility of using OCM-2 and VIIRS data as a \"gap filler\" before the launch of Sentinel-3.",
       "homepage": "http://www.esa-oceancolour-cci.org/",
       "guideURL": "http://www.esa-oceancolour-cci.org/?q=webfm_send/496",
@@ -168,6 +205,79 @@
       "partnersicon": "../images/logos/partnersLogoSST.jpg",
       "fullicon": "../images/logos/LogoSST.jpg",
       "icon": "../images/logos/sst.gif"
+    },
+    {
+      "label": "",
+      "project": "Sea Surface Salinity",
+      "category": "ocean-teams",
+      "titleName": "Sea Surface Salinity",
+      "abstract": "Sea Surface Salinity (SSS) is an Essential Climate Variable (ECV) that plays a fundamental role in the density-driven global ocean circulation, the water cycle, and climate.The CCI Sea Surface Salinity project aims at generating improved calibrated global SSS fields over 10 years period (2010-2019) from all available satellite L-band radiometer measurements, extended at regional scale to 2002-2019 from C-band radiometer measurements. ",
+      "homepage": "http://cci.esa.int/salinity",
+      "guideURL": "",
+      "partnersicon": "../images/logos/partnersLogoSSS.png",
+      "fullicon": "../images/logos/LogoSSS.png",
+      "icon": "../images/logos/sss.gif"
+    },
+   {
+      "label": "",
+      "project": "Sea State",
+      "category": "ocean-teams",
+      "titleName": "Sea State",
+      "abstract": "The ultimate objective of SeaState_cci is to develop an initial 18-year data set (2002- 2020) capitalising on the rich satellite altimeter, SAR imager, in situ and other data holdings available during that period. The focus will be on the development, testing and improvement of dedicated sea state retrieval algorithms with respect to climate users' requirements, as compiled at high level by GCOS.",
+      "homepage": "http://cci.esa.int/seastate",
+      "guideURL": "",
+      "partnersicon": "../images/logos/partnersLogoSeaState.png",
+      "fullicon": "../images/logos/LogoSeaState.png",
+      "icon": "../images/logos/seastate.gif"
+    },
+    {
+      "label": "",
+      "project": "High Resolution Land Cover",
+      "category": "land-teams",
+      "titleName": "High Resolution Land Cover ",
+      "abstract": "The primary objective of High Resolution Land Cover CCI is to study and investigate the role of the spatial resolution of land cover and land cover change in supporting climate modelling research at regional scale.  It aims at improving the understanding of the interaction between climate and land cover while increasing the spatial resolution of 1 order of magnitude (from 300m to 10-30m) with respect to the Land Cover CCI",
+      "homepage": "http://cci.esa.int/hrlandcover",
+      "guideURL": "",
+      "partnersicon": "",
+      "fullicon": "",
+      "icon": ""
+    },
+    {
+      "label": "",
+      "project": "Lakes",
+      "category": "land-teams",
+      "titleName": "Lakes",
+      "abstract": "The overarching objective of the Lakes_cci project is to produce and validate a consistent data set of the variables grouped under the Lakes Essential Climate Variable. This includes aiming for the longest period of combined satellite observations by designing and operating processing chains, designed to be ultimately feature in a sustainable production system. The Lakes project covers multiple variables (Lake Water Level, Lake Water Extent, Lake Surface Water temperature, Lake Ice Cover and Thickness, and Lake Surface Reflectance). ",
+      "homepage": "http://cci.esa.int/lakes",
+      "guideURL": "",
+      "partnersicon": "",
+      "fullicon": "",
+      "icon": ""
+    },
+   {
+      "label": "",
+      "project": "LST",
+      "category": "land-teams",
+      "titleName": "LST",
+      "abstract": "The Land Surface Temperature CCI aims to provide an accurate view of temperatures across land surfaces globally over the past 20 to 25 years and meet the requirements of Global Climate Observing System (GCOS)  for climate applications by developing techniques to merge archived data from a variety of satellites into a combined long-term satellite record for climate. ",
+      "homepage": "http://cci.esa.int/lst",
+      "guideURL": "",
+      "partnersicon": "",
+      "fullicon": "",
+      "icon": ""
+    },
+
+    {
+      "label": "",
+      "project": "water vapour",
+      "category": "atmospheric",
+      "titleName": "water vapour",
+      "abstract": "The ultimate objective of the Water_Vapour_cci is to generate new global high-quality climate data records of both total column and vertically resolved water vapour, which are homogeneous in space and time, work towards fulfilling GCOS requirements, and respond to the user needs of the climate research community in the best possible way.",
+      "homepage": "http://cci.esa.int/watervapour",
+      "guideURL": "",
+      "partnersicon": "",
+      "fullicon": "",
+      "icon": ""
     }
   ]
 }

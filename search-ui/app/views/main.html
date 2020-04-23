@@ -9,7 +9,7 @@
                         ng-model="search.selectedFacetName" ng-change="facetChanged()">
                     <option value="" id="facetCatPlaceholder">Select facet category (optional)</option>
                     <option title="{{item.definition}}" value="{{item.name}}" ng-repeat="item in facets" 
-                            ng-if="item.count && item.prefLabel !== 'Sensor'">{{item.prefLabel}} ({{item.count | number: 0}})
+                            ng-if="item.count">{{item.prefLabel}} ({{item.count | number: 0}})
                     </option>
                 </select>
             </div>

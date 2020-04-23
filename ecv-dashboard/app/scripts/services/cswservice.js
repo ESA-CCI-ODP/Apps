@@ -49,14 +49,14 @@ angular.module('ecvDashboardApp')
 
     //var csw = new Ows4js.Csw('http://csw1.cems.rl.ac.uk/geonetwork-CEDA/srv/eng/csw-CEDA-CCI', cswConfig);
     //var csw = new Ows4js.Csw('https://csw.ceda.ac.uk/geonetwork/srv/eng/csw-CEDA-CCI', cswConfig);
-    //var csw = new Ows4js.Csw('https://csw-test.ceda.ac.uk/geonetwork/srv/eng/csw-CEDA-CCI', cswConfig);
+    // var csw = new Ows4js.Csw('https://csw-test.ceda.ac.uk/geonetwork/srv/eng/csw-CEDA-CCI', cswConfig);
+    //var csw = new Ows4js.Csw('https://csw-test2.ceda.ac.uk/geonetwork/srv/eng/csw-CEDA-CCI', cswConfig); // New test CSW 25/02/2020
     var csw = new Ows4js.Csw('https://csw-cci.ceda.ac.uk/geonetwork/srv/eng/csw-CEDA-CCI', cswConfig);
 
     api.getRecords = function (term) {
       var filter = new Ows4js.Filter().PropertyName(['AnyText']).isEqualTo('%' + term + '%');
       return getRecordsJSON(1, 300, filter, 'http://www.isotc211.org/2005/gmd');
     };
-
 
     /**
      * TODO: use the Ows4js GetRecords function, and resolve unmarshalling issue
