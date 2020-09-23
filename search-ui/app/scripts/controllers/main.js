@@ -121,7 +121,8 @@ angular.module('searchUiApp')
          * Import the facets
          */
         //importJSONfile('http://vocab-test.ceda.ac.uk/ontology/cci/cci-content/cci-ontology.json').success(function(data) {
-        importJSONfile('http://vocab.ceda.ac.uk/ontology/cci/cci-content/cci-ontology.json').success(function(data) {
+        //importJSONfile('https://vocab.ceda.ac.uk/ontology/cci/cci-content/cci-ontology.json').success(function(data) {
+        importJSONfile('https://cors-anywhere.herokuapp.com/https://vocab.ceda.ac.uk/ontology/cci/cci-content/cci-ontology.json').success(function(data) {
             vocabData = data;
             //extract the collections from vocab data
             var collections = _.filter(vocabData, function(data) {
@@ -206,7 +207,8 @@ angular.module('searchUiApp')
          * Import the esgf facet mapping
          */
         //importJSONfile('http://vocab-test.ceda.ac.uk/ontology/cci/cci-content/esgf_mapping.json').success(function(data) {
-        importJSONfile('http://vocab.ceda.ac.uk/ontology/cci/cci-content/esgf_mapping.json').success(function(data) {
+        //importJSONfile('https://vocab.ceda.ac.uk/ontology/cci/cci-content/esgf_mapping.json').success(function(data) {
+        importJSONfile('https://cors-anywhere.herokuapp.com/https://vocab.ceda.ac.uk/ontology/cci/cci-content/esgf_mapping.json').success(function(data) {
             $scope.esgfMapping = data;
         });
 
